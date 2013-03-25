@@ -1,4 +1,5 @@
 class IwillController < ApplicationController
+
   layout "iwill"
 
   def index

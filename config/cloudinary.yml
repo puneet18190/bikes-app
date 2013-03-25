@@ -1,0 +1,13 @@
+development:
+  cloud_name: "iwill"
+  api_key: "954324183695149"
+  api_secret: "4eOlKJ4KMwvHoIZdRm0crdGQ9dI"
+  enhance_image_tag: true
+  static_image_support: true
+
+production:
+  cloud_name: "iwill"
+  api_key: "954324183695149"
+  api_secret: "4eOlKJ4KMwvHoIZdRm0crdGQ9dI"
+  enhance_image_tag: true
+  static_image_support: true

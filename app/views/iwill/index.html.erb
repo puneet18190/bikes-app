@@ -1,41 +1,261 @@
-<%- model_class = Bike -%>
 
-<!-- Subhead
-================================================== -->
-<header class="jumbotron subhead" id="overview">
+
+<div id="hero">
   <div class="container">
-    <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
-    <p class="lead">Contact Phil on 0798 4412879</p>
-    <p class="lead">Bike stock.</p>
-  </div>
-</header>
+    <!-- starts carousel -->
+    <div class="row animated fadeInDown">
+      <div class="span12">
+        <div id="myCarousel" class="carousel slide">
+          <!-- carousel items -->
+          <div class="carousel-inner">
+            <!-- slide -->
+            <div class="active item slide1">
+              <div class="row">
+                <div class="span6">
+                  <%=cl_image_tag("/assets/VT750.png", :width => 4000, :height => 5500, :crop => :fill)%>
 
-<div class="container">
-  <!-- Main hero unit for a primary marketing message or call to action -->
-  <div class="leaderboard">
-    <h1>w3resource Web Store</h1>
-    <p>Try and purchase HTML5, JS, Ruby, PHP-MySQL based web apps to enhance your productivity at affordable price.</p>
-    <p><a class="btn btn-success btn-large">Sign Up for a 30 day free trial</a></p>
+                </div>
+                <div class="span4">
+                  <h1>
+                    1. Want to turn your motorcycle in cash ?
+                  </h1>
+                  <p>
+                    We buy any used motorcycle, motorbike. All makes and models bought for cash. We collect direct from your door.
+                  </p>
+                  <a href="https://wrapbootstrap.com/theme/measure-responsive-business-theme-WB0D95984" class="btn btn-success btn-large">
+                    Yes!
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- slide -->
+            <div class="item slide2">
+              <div class="row">
+                <div class="span4 animated fadeInUpBig">
+                  <h1>2. Submit your details for a valuation.</h1>
+                  <p>
+                    Fill out our simple valuation form or call Phil direct NOW on 0798 4412879
+                  </p>
+                  <a href="blog.html" class="btn btn-success btn-large">
+                    Valuation now!
+                  </a>
+                </div>
+                <div class="span6 animated fadeInDownBig">
+                  <img src="/assets/slide2.png" alt="slide2" />
+                </div>
+              </div>
+            </div>
+            <!-- slide -->
+            <div class="item slide3 animated fadeInUpBig">
+              <img src="/assets/slide3.png" alt="slide3" />
+            </div>
+          </div>
+          <!-- Carousel nav -->
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+      </div>
+    </div>
   </div>
-  <!-- Example row of columns -->
-  <div class="row">
-    <div class="span4">
-      <h2>HTML5 and JS Apps</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-success btn-large" href="#">View apps</a></p>
-    </div>
-    <div class="span4">
-      <h2>Ruby Apps</h2>
-      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-      <p><a class="btn btn-success btn-large" href="#">View apps</a></p>
-    </div>
-    <div class="span4">
-      <h2>PHP MySQL Apps</h2>
-      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-      <p><a class="btn btn-success btn-large" href="#">View apps</a></p>
-    </div>
+</div>
+<div id="intro">
+  <div class="container">
+    <h1>We also have quality used Motorcycles for sale.</h1>
   </div>
-  <hr>
+</div>
 
-  <h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
+<!-- features -->
+<div id="featured">
+  <div class="container">
+    <!-- header -->
+    <h2 class="section_header">
+      <hr class="left visible-desktop">
+      <span>Featured Bikes</span>
+      <hr class="right visible-desktop">
+    </h2>
+
+    <!-- feature list -->
+    <div class="row">
+      <div class="span4 feature">
+        <img src="/assets/feature1.jpg" alt="feature1" class="thumb" />
+        <h3>
+          <i class="i_cloud"></i> Responsive clean theme
+        </h3>
+        <p class="description">
+          There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form, by injected humour, or randomised
+          words which don't look even slightly believable.
+        </p>
+        <a href="#" class="btn btn-default">more</a>
+      </div>
+      <div class="span4 feature">
+        <img src="/assets/feature2.jpg" alt="feature2" class="thumb" />
+        <h3>
+          <i class="i_chart"></i> Responsive clean theme
+        </h3>
+        <p class="description">
+          There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form, by injected humour, or randomised
+          words which don't look even slightly believable.
+        </p>
+        <a href="#" class="btn btn-default">more</a>
+      </div>
+      <div class="span4 feature">
+        <img src="img/feature3.jpg" alt="feature3" class="thumb" />
+        <h3>
+          <i class="i_movil"></i> Responsive clean theme
+        </h3>
+        <p class="description">
+          There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form, by injected humour, or randomised
+          words which don't look even slightly believable.
+        </p>
+        <a href="#" class="btn btn-default">more</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- starts pricing -->
+<div id="pricing">
+  <div class="container">
+    <!-- header -->
+    <h2 class="section_header">
+      <hr class="left visible-desktop">
+                <span>
+                    Pricing
+                    <small>
+                      See all plan details here</small>
+                </span>
+      <hr class="right visible-desktop">
+    </h2>
+
+    <!-- pricing charts -->
+    <div class="row">
+      <div class="span4">
+        <div class="price_wrapper lite regular">
+          <div class="header">
+            <span>Lite</span>
+            <div class="price">
+              <span>$ 35</span>
+              Per Month
+            </div>
+          </div>
+          <div class="section">
+            <h3>Passages of Lorem randomised
+              words which look slightly.</h3>
+            <ul class="perks">
+              <li>
+                <i class="i_shuffle"></i>
+                Cross-browser
+              </li>
+              <li>
+                <i class="i_loading"></i>
+                Fast-loading
+              </li>
+            </ul>
+            <a href="#" class="btn">Order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="span4">
+        <div class="price_wrapper pro">
+          <div class="header">
+            <span>Pro</span>
+            <div class="price">
+              <span>$ 99</span>
+              Per Month
+            </div>
+          </div>
+          <div class="section">
+            <h3>Passages of Lorem randomised
+              words which look slightly.</h3>
+            <ul class="perks">
+              <li>
+                <i class="i_shuffle"></i>
+                Cross-browser
+              </li>
+              <li>
+                <i class="i_loading"></i>
+                Fast-loading
+              </li>
+              <li>
+                <i class="i_bookmark"></i>
+                Bookmarkable URLs
+              </li>
+              <li>
+                <i class="i_bars"></i>
+                W3C Standards
+              </li>
+            </ul>
+            <a href="#" class="btn">Order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="span4">
+        <div class="price_wrapper standard regular">
+          <div class="header">
+            <span>Standard</span>
+            <div class="price">
+              <span>$ 65</span>
+              Per Month
+            </div>
+          </div>
+          <div class="section">
+            <h3>Passages of Lorem randomised
+              words which look slightly.</h3>
+            <ul class="perks">
+              <li>
+                <i class="i_shuffle"></i>
+                Cross-browser
+              </li>
+              <li>
+                <i class="i_loading"></i>
+                Fast-loading
+              </li>
+              <li>
+                <i class="i_bookmark"></i>
+                Bookmarkable URLs
+              </li>
+            </ul>
+            <a href="#" class="btn">Order now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- starts testimonial -->
+<div id="testimonials">
+  <div class="container">
+    <div class="controls">
+      <hr>
+    </div>
+    <div class="phrases_wrapper">
+      <div class="phrase">
+        <div class="row">
+          <div class="span7">
+            <p class="testimony">
+              There are many variations of passages words which don't look even slightly passage of anything embarrassing hidden in the middle.
+              <span>"</span>
+            </p>
+          </div>
+          <div class="span3 offset1">
+            <div class="pic">
+              <img src="/assets/pic1.jpg" alt="author" class="img-circle" />
+              <span class="name">Alejandra Galvan Castillo</span>
+              <span class="position">Bootstrap wizard</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+

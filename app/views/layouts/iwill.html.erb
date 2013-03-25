@@ -1,94 +1,159 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <title>I will buy any bike</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= content_for?(:title) ? yield(:title) : "Teststrap" %></title>
-  <%= csrf_meta_tags %>
+  <!-- Bootstrap -->
+  <%= stylesheet_link_tag "wrapbootstrap"%>
+  <%= stylesheet_link_tag "wrapanimate"%>
+  <%= stylesheet_link_tag "wraptheme"%>
 
-  <%#= Le HTML5 shim, for IE6-8 support of HTML elements %>
-  <!-- [if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
-    <![endif] --!>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<a href="#" class="scrolltop">
+  <span>up</span>
+</a>
 
-    <%= stylesheet_link_tag "application", :media => "all" %>
-    <%= javascript_include_tag "application" %>
-
-    <%#= For third-generation iPad with high-resolution Retina display: %>
-    <%#= Size should be 144 x 144 pixels %>
-    <%= favicon_link_tag 'apple-touch-icon-144x144-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '144x144' %>
-
-    <%#= For iPhone with high-resolution Retina display: %>
-    <%#= Size should be 114 x 114 pixels %>
-    <%= favicon_link_tag 'apple-touch-icon-114x114-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '114x114' %>
-
-    <%#= For first- and second-generation iPad: %>
-    <%#= Size should be 72 x 72 pixels %>
-    <%= favicon_link_tag 'apple-touch-icon-72x72-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '72x72' %>
-
-    <%#= For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: %>
-    <%#= Size should be 57 x 57 pixels %>
-    <%= favicon_link_tag 'apple-touch-icon-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png' %>
-
-    <%#= For all other devices %>
-    <%#= Size should be 32 x 32 pixels %>
-    <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
-  </head>
-  <body data-spy="scroll" data-target=".bs-docs-sidebar">
-
-    <!-- Navbar ================================================== -->
-<div class="navbar navbar-inverse navbar-fixed-top">
+<!-- begins navbar -->
+<div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">
-      <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
-      </button>
-      <a class="brand" href="./index.html">Bootstrap</a>
+      </a>
+
+      <a class="brand scroller" data-section="body" href="index.html">
+
+        <img src="/assets/wraplogo.png" alt="logo" />
+      </a>
 
       <div class="nav-collapse collapse">
-        <ul class="nav">
-          <li class="active">
-            <%= link_to "Index", root_path %>
+        <ul class="nav pull-right">
+          <li><a href="#" class="scroller" data-section="#featured">Features</a></li>
+          <li><a href="#" class="scroller" data-section="#pricing">Pricing</a></li>
+          <li><a href="#" class="scroller" data-section="#footer">Contact us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              External Pages
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="features.html">Features</a></li>
+              <li><a href="pricing.html">Pricing</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="coming-soon.html">Coming Soon</a></li>
+              <li><a href="aboutus.html">About us</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
           </li>
-
+          <li>
+            <a class="btn-header" href="signup.html">Sign up</a>
+          </li>
+          <li><a class="btn-header" href="signin.html">Sign in</a></li>
         </ul>
+   /*     <p class="navbar-text pull-right">Phil 0798 441879</p>  */
       </div>
 
     </div>
-  </div>
+   </div>
 </div>
+<!-- ends navbar -->
+
+
 
 <%= yield %>
 
 
-<!-- Footer
-================================================== -->
-<footer class="footer">
+<!-- starts footer -->
+<div id="footer">
   <div class="container">
-    <p class="pull-right"><a href="#">Back to top</a></p>
-    <p>Designed2 and built with all the love in the world <a href="http://twitter.com/twitter" target="_blank">@twitter</a> by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-    <p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-    <p>Icons from <a href="http://glyphicons.com">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-    <ul class="footer-links">
-      <li><a href="http://blog.getbootstrap.com">Read the blog</a></li>
-      <li><a href="https://github.com/twitter/bootstrap/issues?state=open">Submit issues</a></li>
-      <li><a href="https://github.com/twitter/bootstrap/wiki">Roadmap and changelog</a></li>
-    </ul>
+    <div class="row">
+      <div class="span8">
+        <h3>From the Blog</h3>
+        <div class="blog_post">
+          <div class="row">
+            <div class="span2">
+              <a href="blog.html">
+                <img src="/assets/pic_blog.png" alt="post image" class="img-circle" />
+              </a>
+            </div>
+            <div class="span4">
+              <a href="blog.html" class="title">
+                Lorem Ipsum is simply dummy
+              </a>
+              <div class="intro">
+                There are many variations of passages of Lorem alteration in some form by injected look even slightly believable.
+              </div>
+              <div class="date">
+                Oct 22. 2012
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="span4 contact_us">
+        <h3>Contact Us</h3>
+        <form class="form-horizontal">
+          <div class="field">
+            <div class="label_field">
+              <label for="inputName">Name</label>
+            </div>
+            <input type="text" id="inputName" />
+          </div>
+
+          <div class="field">
+            <div class="label_field">
+              <label for="inputEmail">Email</label>
+            </div>
+            <input type="text" id="inputEmail" />
+          </div>
+
+          <div class="field">
+            <div class="label_field">
+              <label for="inputCity">City</label>
+            </div>
+            <input type="text" id="inputCity" />
+          </div>
+
+          <div class="field">
+            <div class="label_field">
+              <label for="inputComment">Comments</label>
+            </div>
+            <textarea name="comments"></textarea>
+          </div>
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </div>
+    <hr>
+    <div class="row copyright">
+      <div class="span5">
+        <h3>Social</h3>
+        <a href="#" class="social fb">
+          <i class="i_facebook"></i>
+        </a>
+        <a href="#" class="social tw">
+          <i class="i_twitter"></i>
+        </a>
+        <a href="#" class="social yt">
+          <i class="i_youtube"></i>
+        </a>
+      </div>
+      <div class="span2 offset5 copy">
+        <p>2013 - Bovswebdesign</p>
+      </div>
+    </div>
   </div>
-</footer>
+</div>
 
-<!-- Javascripts ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<%= javascript_include_tag "application" %>
-
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="/assets/bootstrap.min.js"></script>
+<script src="/assets/theme.js"></script>
 </body>
 </html>
-
-
-
-
 
