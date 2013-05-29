@@ -1,4 +1,4 @@
-
+<%= domain_suff %>
 
 <div id="hero">
   <div class="container">
@@ -17,10 +17,10 @@
                 </div>
                 <div class="span4">
                   <h1>
-                    1. Want to turn your motorcycle in cash ?
+                    1. Want to turn your <%= domain_suff %> motorcycle in cash ?
                   </h1>
                   <p>
-                    We buy any used motorcycle, motorbike. All makes and models bought for cash. We collect direct from your door.
+                    We buy any used <%= domain_suff %> motorcycle, motorbike. All makes and models bought for cash. We collect direct from your door.
                   </p>
                   <a href="https://wrapbootstrap.com/theme/measure-responsive-business-theme-WB0D95984" class="btn btn-success btn-large">
                     Yes!
@@ -46,10 +46,23 @@
               </div>
             </div>
             <!-- slide -->
-            <div class="item slide3 animated fadeInUpBig">
-              <img src="/assets/slide3.png" alt="slide3" />
+            <div class="item slide3">
+              <div class="row">
+                <div class="span4 animated fadeInUpBig">
+                  <h1>3. Accept our offer.</h1>
+                  <p>
+                    We collect your <%= domain_suff %> bike and leave you with CASH
+                  </p>
+                  <a href="blog.html" class="btn btn-success btn-large">
+                    What are you waiting for!
+                  </a>
+                </div>
+                <div class="span6 animated fadeInUpBig">
+                  <img src="/assets/wallet.jpg" alt="slide3" />
+                </div>
+              </div>
             </div>
-          </div>
+           </div>
           <!-- Carousel nav -->
           <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
           <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
@@ -60,7 +73,7 @@
 </div>
 <div id="intro">
   <div class="container">
-    <h1>We also have quality used Motorcycles for sale.</h1>
+    <h1>We also have quality used <%= domain_suff %> Motorcycles for sale.</h1>
   </div>
 </div>
 
@@ -70,26 +83,27 @@
     <!-- header -->
     <h2 class="section_header">
       <hr class="left visible-desktop">
-      <span>Featured Bikes</span>
+      <span>Featured <%= domain_suff %> Bikes</span>
       <hr class="right visible-desktop">
     </h2>
 
     <!-- feature list -->
     <div class="row">
       <div class="span4 feature">
-        <img src="/assets/feature1.jpg" alt="feature1" class="thumb" />
+        <%=cl_image_tag("/assets/busa002.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
         <h3>
-          <i class="i_cloud"></i> Responsive clean theme
+          <i class="i_cloud"></i> Suzuki Hyabusa bla bla
         </h3>
         <p class="description">
-          There are many variations of passages of Lorem Ipsum available, but the
+          An excellent example of the infamous........
           majority have suffered alteration in some form, by injected humour, or randomised
           words which don't look even slightly believable.
         </p>
         <a href="#" class="btn btn-default">more</a>
       </div>
       <div class="span4 feature">
-        <img src="/assets/feature2.jpg" alt="feature2" class="thumb" />
+        <%=cl_image_tag("/assets/apriliarsv006.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
+
         <h3>
           <i class="i_chart"></i> Responsive clean theme
         </h3>
@@ -101,7 +115,8 @@
         <a href="#" class="btn btn-default">more</a>
       </div>
       <div class="span4 feature">
-        <img src="img/feature3.jpg" alt="feature3" class="thumb" />
+        <%=cl_image_tag("/assets/tl1000_001.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
+
         <h3>
           <i class="i_movil"></i> Responsive clean theme
         </h3>
@@ -117,112 +132,62 @@
 </div>
 
 <!-- starts pricing -->
-<div id="pricing">
+<div id="random">
   <div class="container">
     <!-- header -->
     <h2 class="section_header">
       <hr class="left visible-desktop">
                 <span>
-                    Pricing
+                    Random selection
                     <small>
-                      See all plan details here</small>
+                      Lots more available</small>
                 </span>
       <hr class="right visible-desktop">
     </h2>
 
-    <!-- pricing charts -->
+    <!-- feature list -->
     <div class="row">
-      <div class="span4">
-        <div class="price_wrapper lite regular">
-          <div class="header">
-            <span>Lite</span>
-            <div class="price">
-              <span>$ 35</span>
-              Per Month
-            </div>
-          </div>
-          <div class="section">
-            <h3>Passages of Lorem randomised
-              words which look slightly.</h3>
-            <ul class="perks">
-              <li>
-                <i class="i_shuffle"></i>
-                Cross-browser
-              </li>
-              <li>
-                <i class="i_loading"></i>
-                Fast-loading
-              </li>
-            </ul>
-            <a href="#" class="btn">Order now</a>
-          </div>
-        </div>
+      <div class="span4 feature">
+        <%=cl_image_tag("/assets/busa002.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
+        <h3>
+          <i class="i_cloud"></i> Suzuki Hyabusa bla bla
+        </h3>
+        <p class="description">
+          An excellent example of the infamous........
+          majority have suffered alteration in some form, by injected humour, or randomised
+          words which don't look even slightly believable.
+        </p>
+        <a href="#" class="btn btn-default">more</a>
       </div>
-      <div class="span4">
-        <div class="price_wrapper pro">
-          <div class="header">
-            <span>Pro</span>
-            <div class="price">
-              <span>$ 99</span>
-              Per Month
-            </div>
-          </div>
-          <div class="section">
-            <h3>Passages of Lorem randomised
-              words which look slightly.</h3>
-            <ul class="perks">
-              <li>
-                <i class="i_shuffle"></i>
-                Cross-browser
-              </li>
-              <li>
-                <i class="i_loading"></i>
-                Fast-loading
-              </li>
-              <li>
-                <i class="i_bookmark"></i>
-                Bookmarkable URLs
-              </li>
-              <li>
-                <i class="i_bars"></i>
-                W3C Standards
-              </li>
-            </ul>
-            <a href="#" class="btn">Order now</a>
-          </div>
-        </div>
+      <div class="span4 feature">
+        <%=cl_image_tag("/assets/apriliarsv006.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
+
+        <h3>
+          <i class="i_chart"></i> Responsive clean theme
+        </h3>
+        <p class="description">
+          There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form, by injected humour, or randomised
+          words which don't look even slightly believable.
+        </p>
+        <a href="#" class="btn btn-default">more</a>
       </div>
-      <div class="span4">
-        <div class="price_wrapper standard regular">
-          <div class="header">
-            <span>Standard</span>
-            <div class="price">
-              <span>$ 65</span>
-              Per Month
-            </div>
-          </div>
-          <div class="section">
-            <h3>Passages of Lorem randomised
-              words which look slightly.</h3>
-            <ul class="perks">
-              <li>
-                <i class="i_shuffle"></i>
-                Cross-browser
-              </li>
-              <li>
-                <i class="i_loading"></i>
-                Fast-loading
-              </li>
-              <li>
-                <i class="i_bookmark"></i>
-                Bookmarkable URLs
-              </li>
-            </ul>
-            <a href="#" class="btn">Order now</a>
-          </div>
-        </div>
+      <div class="span4 feature">
+        <%=cl_image_tag("/assets/tl1000_001.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
+
+        <h3>
+          <i class="i_movil"></i> Responsive clean theme
+        </h3>
+        <p class="description">
+          There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form, by injected humour, or randomised
+          words which don't look even slightly believable.
+        </p>
+        <a href="#" class="btn btn-default">more</a>
       </div>
     </div>
+
+
   </div>
 </div>
 
