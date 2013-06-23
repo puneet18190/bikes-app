@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+</head>
+<body>
+<h1>Valuation submission from <%= @inurl %></h1>
+<p>
+  Valuation request from <%= @submission.first_name %> <%= @submission.last_name %>
+</p>
+<p>Email: <%= @submission.email %></p>
+<p>Jelly Bone: <%= @submission.phone %><hr></p>
+
+<p>The rust bucket, chicken chaser, chinese shite is:-</P>
+
+  Make: <%= @submission.make %></br>
+  Model: <%= @submission.model %></br>
+  Regis: <%= @submission.registration %></p>
+
+<p>
+  Mileage: <%= @submission.mileage %></br>
+  Postcode: <%= @submission.postcode %></p>
+
+<p>  Information: <%= @submission.other %></br>
+  Value: <%= @submission.value_wanted %></p>
+
+<p>  Created: <%= @submission.created_at %></p>
+
+<p>  Get it bought!
+</p>
+<hr>
+</body>
+</html>

@@ -9,8 +9,8 @@
 #  updated_at      :datetime         not null
 #
 
-class Transactions < ActiveRecord::Base
-  belongs_to :tranactions
-  belongs_to :machines
+class Transaction < ActiveRecord::Base
+  belongs_to :submission
+  belongs_to :machine
   # To change this template use File | Settings | File Templates.
 end

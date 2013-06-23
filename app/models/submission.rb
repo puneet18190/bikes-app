@@ -12,13 +12,12 @@
 #
 
 class Submission < ActiveRecord::Base
-    attr_accessible :first_name, :last_name
+    attr_accessible :first_name, :last_name,     :email, :phone, :make, :model, :registration, :mileage, :postcode, :other, :value_wanted
 
     has_attachment  :avatar
     has_attachments :photos, :maximum => 3
-  has_many :transactions
-  has_many :machine, :through => :transactions
-  accepts_nested_attributes_for :machine
+
+
 end
 
 
