@@ -22,12 +22,12 @@ role :db,  "192.168.3.12", :primary => true # This is where Rails migrations wil
 
 
 
-set :default_environment, {
-    'PATH' => '/home/deployer/bin:/home/deployer/ruby/gems/bin:/usr/local/bin:/bin:/usr/bin',
-    'RUBYOPT' => '-I/home/deployer/rubygems/inst/lib',
-    'GEM_PATH' => '/home/deployer/ruby/gems:/usr/lib/ruby/gems/1.9',
-    'GEM_HOME' => '/home/deployer/ruby/gems'
-}
+#set :default_environment, {
+#    'PATH' => '/home/deployer/bin:/home/deployer/ruby/gems/bin:/usr/local/bin:/bin:/usr/bin',
+#    'RUBYOPT' => '-I/home/deployer/rubygems/inst/lib',
+#    'GEM_PATH' => '/home/deployer/ruby/gems:/usr/lib/ruby/gems/1.9',
+#    'GEM_HOME' => '/home/deployer/ruby/gems'
+#}
 
 # Source repository taken for deployments
 # set :local_repository,  'ssh://myuser@mysite.com:1234/home/myuser/myapp.git'
@@ -38,7 +38,18 @@ set :scm, 'git' # You can set :scm explicitly or Capistrano will make an intelli
 set :scm_verbose, true
 set :bundle_flags, ''
 
+set :default_environment, {
+    'PATH' => "#{deploy_to}/bin:$PATH",
+    'GEM_HOME' => "#{deploy_to}/gems"
+}
 
+namespace :gems do
+  task :bundle, :roles => :app do
+    run "cd #{release_path} && bundle install  --deployment --without development test"
+  end
+end
+
+after "deploy:update_code", "gems:bundle"
 
 
 # if you want to clean up old releases on each deploy uncomment this:
