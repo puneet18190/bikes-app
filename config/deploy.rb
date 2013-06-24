@@ -1,5 +1,7 @@
 require 'bundler/capistrano'
 
+set :rails_env, "production"
+
 set :application, "Backend"
 #set :repository,  "localhost"
 
@@ -9,6 +11,7 @@ set :application, "Backend"
 
 set :user, 'deployer'
 set :password, "sb1234"
+set :scm_passphrase, "sb1234"
 ssh_options[:port] = 22
 set :use_sudo, false
 default_run_options[:pty] = true
@@ -37,6 +40,8 @@ set :scm, 'git' # You can set :scm explicitly or Capistrano will make an intelli
                # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 set :scm_verbose, true
 set :bundle_flags, ''
+set :deploy_via, :copy
+set :keep_releases, 5
 
 set :default_environment, {
     'PATH' => "#{deploy_to}/bin:$PATH",
