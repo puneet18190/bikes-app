@@ -32,12 +32,13 @@ set :default_environment, {
 # Source repository taken for deployments
 # set :local_repository,  'ssh://myuser@mysite.com:1234/home/myuser/myapp.git'
 set :repository, 'ssh://deployer@192.168.3.11/home/deployer/gitrepository/myrepo.git'
-set :scm, :git # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
+set :deploy_to, '/home/deployer/backend'
+set :scm, 'git' # You can set :scm explicitly or Capistrano will make an intelligent guess based on known version control directory names
                # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 set :scm_verbose, true
 set :bundle_flags, ''
 
-set :deploy_to, '/home/deployer/backend'
+
 
 
 # if you want to clean up old releases on each deploy uncomment this:
