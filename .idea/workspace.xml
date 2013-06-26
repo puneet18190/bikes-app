@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fab4689c-f5e0-4481-8707-8b3c85fd30ae" name="Default" comment="" />
+    <list default="true" id="fab4689c-f5e0-4481-8707-8b3c85fd30ae" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/backend.iml" afterPath="$PROJECT_DIR$/.idea/backend.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/database.yml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1361056267885" ignored="false" />
@@ -12,7 +16,7 @@
     <file path="/bike.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1361051544578" ignored="false" />
     <file path="/_form.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1361051067124" ignored="false" />
     <file path="/show.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1361050768549" ignored="false" />
-    <file path="/Gemfile" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372265159611" ignored="false" />
+    <file path="/Gemfile" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372269951165" ignored="false" />
     <file path="/application.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1363263456489" ignored="false" />
     <file path="/routes.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1368531059190" ignored="false" />
     <file path="/doc.css.less" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1361302972687" ignored="false" />
@@ -126,7 +130,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="178" selection-end="178" vertical-scroll-proportion="0.28195488">
+            <state line="9" column="14" selection-start="181" selection-end="181" vertical-scroll-proportion="0.25375938">
               <folding />
             </state>
           </provider>
@@ -1368,9 +1372,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="80" width="1855" height="1027" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914287" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914287" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294509" sideWeight="0.6514286" order="3" side_tool="false" content_ui="tabs" />
@@ -1576,7 +1580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="178" selection-end="178" vertical-scroll-proportion="0.28195488">
+        <state line="9" column="14" selection-start="181" selection-end="181" vertical-scroll-proportion="0.25375938">
           <folding />
         </state>
       </provider>
