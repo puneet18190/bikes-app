@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fab4689c-f5e0-4481-8707-8b3c85fd30ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/backend.iml" afterPath="$PROJECT_DIR$/.idea/backend.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="backend.iws" />
@@ -21,7 +19,7 @@
     <file path="/routes.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1368531059190" ignored="false" />
     <file path="/doc.css.less" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1361302972687" ignored="false" />
     <file path="/index.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1368480158795" ignored="false" />
-    <file path="/Dummy.txt" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372266287892" ignored="false" />
+    <file path="/Dummy.txt" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372269969147" ignored="false" />
     <file path="/application.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1370299879318" ignored="false" />
     <file path="/domain_constraint.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1362496824007" ignored="false" />
     <file path="/iwill_controller.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1371453215362" ignored="false" />
@@ -1367,7 +1365,11 @@
       <created>1372266292368</created>
       <updated>1372266292368</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="heroku">
+      <created>1372269974868</created>
+      <updated>1372269974868</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
