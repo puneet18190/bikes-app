@@ -6,7 +6,7 @@
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/database.yml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372279191320" ignored="false" />
+    <file path="/database.yml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372280033571" ignored="false" />
     <file path="/schema.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1360946306851" ignored="false" />
     <file path="/20130216204026_add_attach_paperclip.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1361048050298" ignored="false" />
     <file path="/a.dummy" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1361047955833" ignored="false" />
@@ -56,7 +56,7 @@
     <file path="/sub_ack.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1371452352588" ignored="false" />
     <file path="/.gitignore" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372076943260" ignored="false" />
     <file path="/deploy.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372103641968" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372279125007" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372280038559" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,15 +85,6 @@
         <entry file="file://$PROJECT_DIR$/Capfile">
           <provider selected="true" editor-type-id="text-editor">
             <state line="2" column="4" selection-start="69" selection-end="69" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,7 +120,16 @@
       <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="9" selection-start="918" selection-end="918" vertical-scroll-proportion="0.83082706">
+            <state line="37" column="19" selection-start="904" selection-end="904" vertical-scroll-proportion="0.7744361">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bikes_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/bikes_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1472,21 +1472,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/notifier/sub_received.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="31" selection-start="0" selection-end="809" vertical-scroll-proportion="-19.208334">
-          <folding>
-            <marker date="1371394033771" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371394033771" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371394033771" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371394033771" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371394033771" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371394033771" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1371394033771" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/notifier/sub_ack.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="16" selection-start="362" selection-end="362" vertical-scroll-proportion="-8.125">
@@ -1589,9 +1574,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/bikes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="9" selection-start="918" selection-end="918" vertical-scroll-proportion="0.83082706">
+        <state line="37" column="19" selection-start="904" selection-end="904" vertical-scroll-proportion="0.7744361">
           <folding />
         </state>
       </provider>
