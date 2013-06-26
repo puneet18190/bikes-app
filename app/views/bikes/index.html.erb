@@ -1,0 +1,70 @@
+<%- model_class = Bike -%>
+
+<!-- Subhead
+================================================== -->
+<header class="jumbotron subhead" id="overview">
+  <div class="container">
+    <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
+       <p class="lead">Bike stock.</p>
+  </div>
+</header>
+
+
+
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th><%= model_class.human_attribute_name(:id) %></th>
+      <th><%= model_class.human_attribute_name(:make) %></th>
+      <th><%= model_class.human_attribute_name(:model) %></th>
+      <th><%= model_class.human_attribute_name(:mileage) %></th>
+      <th><%= model_class.human_attribute_name(:location) %></th>
+      <th><%= model_class.human_attribute_name(:sales) %></th>
+      <th><%= model_class.human_attribute_name(:attach_file_name) %></th>
+      <th><%= model_class.human_attribute_name(:attach_content_type) %></th>
+      <th><%= model_class.human_attribute_name(:attach_file_size) %></th>
+      <th><%= model_class.human_attribute_name(:attach_updated_at) %></th>
+      <th><%= model_class.human_attribute_name(:pic_file_name) %></th>
+      <th><%= model_class.human_attribute_name(:pic_content_type) %></th>
+      <th><%= model_class.human_attribute_name(:pic_file_size) %></th>
+      <th><%= model_class.human_attribute_name(:pic_updated_at) %></th>
+      <th><%= model_class.human_attribute_name(:created_at) %></th>
+      <th><%=t '.actions', :default => t("helpers.actions") %></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @bikes.each do |bike| %>
+      <tr>
+        <td><%= link_to bike.id, bike_path(bike) %></td>
+        <td><%= bike.make %></td>
+        <td><%= bike.model %></td>
+        <td><%= bike.mileage %></td>
+        <td><%= bike.location %></td>
+        <td><%= bike.sales %></td>
+        <td><%= bike.attach_file_name %></td>
+        <td><%= bike.attach_content_type %></td>
+        <td><%= bike.attach_file_size %></td>
+        <td><%= bike.attach_updated_at %></td>
+        <td><%= bike.pic_file_name %></td>
+        <td><%= bike.pic_content_type %></td>
+        <td><%= bike.pic_file_size %></td>
+        <td><%= bike.pic_updated_at %></td>
+        <td><%=l bike.created_at %></td>
+        <td>
+          <%= link_to t('.edit', :default => t("helpers.links.edit")),
+                      edit_bike_path(bike), :class => 'btn btn-mini' %>
+          <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
+                      bike_path(bike),
+                      :method => :delete,
+                      :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
+                      :class => 'btn btn-mini btn-danger' %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_bike_path,
+            :class => 'btn btn-primary' %>

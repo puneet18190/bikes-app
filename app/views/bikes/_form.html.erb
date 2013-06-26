@@ -1,0 +1,86 @@
+<%= form_for @bike, :html => { :class => 'form-horizontal' } do |f| %>
+  <div class="control-group">
+    <%= f.label :make, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :make, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :model, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :model, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :mileage, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :mileage, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :location, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :location, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :sales, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :sales, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :attach_file_name, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :attach_file_name, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :attach_content_type, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :attach_content_type, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :attach_file_size, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :attach_file_size, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :attach_updated_at, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.datetime_select :attach_updated_at, :class => 'datetime_select' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :pic_file_name, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :pic_file_name, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :pic_content_type, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.text_field :pic_content_type, :class => 'text_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :pic_file_size, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.number_field :pic_file_size, :class => 'number_field' %>
+    </div>
+  </div>
+  <div class="control-group">
+    <%= f.label :pic_updated_at, :class => 'control-label' %>
+    <div class="controls">
+      <%= f.datetime_select :pic_updated_at, :class => 'datetime_select' %>
+    </div>
+  </div>
+
+  <div class="form-actions">
+    <%= f.submit nil, :class => 'btn btn-primary' %>
+    <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
+                bikes_path, :class => 'btn' %>
+  </div>
+<% end %>
