@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fab4689c-f5e0-4481-8707-8b3c85fd30ae" name="Default" comment="">
+    <list default="true" id="fab4689c-f5e0-4481-8707-8b3c85fd30ae" name="Default" comment="heroku">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="backend.iws" />
@@ -19,7 +20,7 @@
     <file path="/routes.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1368531059190" ignored="false" />
     <file path="/doc.css.less" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1361302972687" ignored="false" />
     <file path="/index.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1368480158795" ignored="false" />
-    <file path="/Dummy.txt" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372269969147" ignored="false" />
+    <file path="/Dummy.txt" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372273522541" ignored="false" />
     <file path="/application.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1370299879318" ignored="false" />
     <file path="/domain_constraint.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1362496824007" ignored="false" />
     <file path="/iwill_controller.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1371453215362" ignored="false" />
@@ -128,7 +129,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="14" selection-start="181" selection-end="181" vertical-scroll-proportion="0.25375938">
+            <state line="9" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="0.25375938">
               <folding />
             </state>
           </provider>
@@ -138,7 +139,9 @@
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="50" column="1" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <marker date="1372103645258" expanded="true" signature="907:1032" placeholder="#..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1555,7 +1558,9 @@
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="50" column="1" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1372103645258" expanded="true" signature="907:1032" placeholder="#..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1582,7 +1587,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="14" selection-start="181" selection-end="181" vertical-scroll-proportion="0.25375938">
+        <state line="9" column="0" selection-start="168" selection-end="168" vertical-scroll-proportion="0.25375938">
           <folding />
         </state>
       </provider>
