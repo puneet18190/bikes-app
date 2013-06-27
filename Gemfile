@@ -16,6 +16,7 @@ gem 'simple_form'
 gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 gem "twitter-bootstrap-rails"
+gem 'font-awesome-rails'
 
 # Cloudinary CDN to manage images
 # and carrierwave for uploading/downloading and dbase integration active records
@@ -39,6 +40,8 @@ group :assets do
   # for twitter-bootstrap-rails
   gem "therubyracer"
   gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+  gem "twitter-bootstrap-rails"
+  gem 'font-awesome-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
