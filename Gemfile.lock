@@ -83,7 +83,7 @@ GEM
       debugger-linecache (~> 1.2.0)
       debugger-ruby_core_source (~> 1.2.1)
     debugger-linecache (1.2.0)
-    debugger-ruby_core_source (1.2.2)
+    debugger-ruby_core_source (1.2.3)
     diff-lcs (1.2.4)
     erubis (2.7.0)
     esendex (0.3.2)
@@ -224,6 +224,7 @@ DEPENDENCIES
   mail
   multimap
   mysql2
+  nokogiri
   paperclip (~> 3.0)
   pg
   rails (= 3.2.12)
