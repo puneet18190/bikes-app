@@ -27,8 +27,8 @@ gem 'attachinary'
 
 group :development do
   # Capistrano stuff
-  gem 'capistrano'
-  gem 'capistrano-unicorn', :git => 'https://github.com/sosedoff/capistrano-unicorn.git', :branch => 'master', :require => false
+#  gem 'capistrano'
+#  gem 'capistrano-unicorn', :git => 'https://github.com/sosedoff/capistrano-unicorn.git', :branch => 'master', :require => false
 end
 
 
