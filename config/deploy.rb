@@ -1,4 +1,4 @@
-require 'bundler/capistrano'
+quire 'bundler/capistrano'
 
 set :rails_env, "production"
 
