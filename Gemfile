@@ -2,12 +2,13 @@ source 'https://rubygems.org'
 ruby "1.9.3"
 
 gem 'rails', '3.2.12'
+gem 'rake', '10.1.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2'
-gem 'nokogiri'
+# gem 'nokogiri'
 gem 'pg'
 
 gem "paperclip", "~> 3.0"
@@ -64,7 +65,7 @@ gem 'jquery-rails'
 
 group :production do
 # Use unicorn as the app server
- gem 'unicorn'
+# gem 'unicorn'
 
 end
 
@@ -93,4 +94,4 @@ gem "actionmailer"
 gem 'rest-client'
 gem 'multimap'
 
-gem 'esendex'
+# gem 'esendex'
