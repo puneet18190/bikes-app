@@ -129,8 +129,8 @@ wraplogo.png: wraplogo-506b6bf5689da4393ead9a22b7bc7593.png
 wraplogo/index.png: wraplogo-506b6bf5689da4393ead9a22b7bc7593.png
 application.js: application-e60c875f6a137d463e10fc331b2d3e86.js
 application/index.js: application-e60c875f6a137d463e10fc331b2d3e86.js
-application.css: application-2762cfa9b62d91651acbe1d621bca66c.css
-application/index.css: application-2762cfa9b62d91651acbe1d621bca66c.css
+application.css: application-afce258c0faa091a33304fc6eb3cad4d.css
+application/index.css: application-afce258c0faa091a33304fc6eb3cad4d.css
 jquery.min.map: jquery.min-1c0cf7b6a3425fbd9a3bfccab0a99a4e.map
 jquery/index.min.map: jquery.min-1c0cf7b6a3425fbd9a3bfccab0a99a4e.map
 cloudinary_cors.html: cloudinary_cors-05f2af4874bd3914c79b03b8d9acd6d1.html
