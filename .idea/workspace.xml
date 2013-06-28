@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fab4689c-f5e0-4481-8707-8b3c85fd30ae" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/iwill/index.html.erb" afterPath="$PROJECT_DIR$/app/views/iwill/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,7 +57,7 @@
     <file path="/.gitignore" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372076943260" ignored="false" />
     <file path="/deploy.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372103641968" ignored="false" />
     <file path="/production.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372413038846" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372425968489" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372426324067" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +91,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="1" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.5825243">
               <folding />
             </state>
           </provider>
@@ -129,10 +129,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -212,12 +212,12 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/wraptheme.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/wrapbootstrap.css" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
         <option value="$PROJECT_DIR$/app/views/iwill/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       </list>
     </option>
   </component>
@@ -1537,13 +1537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="1" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
@@ -1577,6 +1570,13 @@
     <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="587" selection-end="587" vertical-scroll-proportion="0.5825243">
           <folding />
         </state>
       </provider>
