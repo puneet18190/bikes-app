@@ -53,7 +53,7 @@ class IwillController < ApplicationController
 
       Notifier.sub_received(request.host,@submission).deliver
       logger.info "Valuation submission sent to Phil"
-      Notifier.sub_ack(request.host,@submission).deliver
+     # Notifier.sub_ack(request.host,@submission).deliver
       logger.info "Acknowledgement sent to #{@submission.email}"
     end
     logger.debug "New post: #{@submission.attributes.inspect}"
