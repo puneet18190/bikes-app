@@ -28,12 +28,15 @@ test:
   database: backend_test
   pool: 5
   username: root
-  password:
+  password: sb1234
   socket: /var/run/mysqld/mysqld.sock
 
 production:
-adapter: postgresql
+  adapter: postgresql
   host: localhost
   username: user
   database: app_dev
 
+  encoding: unicode
+  pool: 5
+  password:
