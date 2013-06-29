@@ -36,7 +36,7 @@
     <file path="/20130421160953_add_submission_table.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1366577649089" ignored="false" />
     <file path="/submission.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369939850559" ignored="false" />
     <file path="/Ruby Console" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369509594661" ignored="false" />
-    <file path="/domain_helper.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372512045462" ignored="false" />
+    <file path="/domain_helper.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372512322844" ignored="false" />
     <file path="/20130526130715_filloutsubfields.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369593861717" ignored="false" />
     <file path="/transactions.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369935681787" ignored="false" />
     <file path="/machines.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369860013591" ignored="false" />
@@ -61,7 +61,7 @@
     <file path="/bootstrap_and_overrides.css.less" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372427158815" ignored="false" />
     <file path="/wraptheme.css" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372444131883" ignored="false" />
     <file path="/wrapbootstrap.css" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372446946234" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372511954237" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372512050548" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +125,7 @@
       <file leaf-file-name="domain_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="23" selection-start="896" selection-end="896" vertical-scroll-proportion="0.6407767">
+            <state line="24" column="33" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.69902915">
               <folding />
             </state>
           </provider>
@@ -1547,7 +1547,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="23" selection-start="896" selection-end="896" vertical-scroll-proportion="0.6407767">
+        <state line="24" column="33" selection-start="1078" selection-end="1078" vertical-scroll-proportion="0.69902915">
           <folding />
         </state>
       </provider>
