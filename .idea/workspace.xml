@@ -61,7 +61,7 @@
     <file path="/bootstrap_and_overrides.css.less" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372427158815" ignored="false" />
     <file path="/wraptheme.css" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372444131883" ignored="false" />
     <file path="/wrapbootstrap.css" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372446946234" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372535041874" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372535125897" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloudinary.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="cloudinary.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/cloudinary.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -131,10 +131,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="domain_helper.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="domain_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.0">
+            <state line="25" column="127" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.5631068">
               <folding />
             </state>
           </provider>
@@ -1552,16 +1552,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
+    <entry file="file://$PROJECT_DIR$/config/cloudinary.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="2421" selection-end="2421" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/cloudinary.yml">
+    <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="25" column="127" selection-start="1195" selection-end="1195" vertical-scroll-proportion="0.5631068">
           <folding />
         </state>
       </provider>
