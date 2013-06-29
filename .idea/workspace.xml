@@ -4,6 +4,7 @@
     <list default="true" id="fab4689c-f5e0-4481-8707-8b3c85fd30ae" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/Capfile" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/domain_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="backend.iws" />
@@ -26,7 +27,7 @@
     <file path="/domain_constraint.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1362496824007" ignored="false" />
     <file path="/iwill_controller.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372444259416" ignored="false" />
     <file path="/development.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1371214599886" ignored="false" />
-    <file path="/iwill.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372511487712" ignored="false" />
+    <file path="/iwill.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372525409370" ignored="false" />
     <file path="/application.css" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1362911304397" ignored="false" />
     <file path="/cloudinary.yml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1363876467086" ignored="false" />
     <file path="/menu_helper.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1364485042053" ignored="false" />
@@ -37,7 +38,7 @@
     <file path="/20130421160953_add_submission_table.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1366577649089" ignored="false" />
     <file path="/submission.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369939850559" ignored="false" />
     <file path="/Ruby Console" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369509594661" ignored="false" />
-    <file path="/domain_helper.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372524164029" ignored="false" />
+    <file path="/domain_helper.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372526731789" ignored="false" />
     <file path="/20130526130715_filloutsubfields.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369593861717" ignored="false" />
     <file path="/transactions.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369935681787" ignored="false" />
     <file path="/machines.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369860013591" ignored="false" />
@@ -86,42 +87,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mail_settings.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/mail_settings.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mime_types.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/mime_types.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="secret_token.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/secret_token.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="session_store.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/session_store.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="simple_form.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/simple_form.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -170,7 +135,43 @@
       <file leaf-file-name="domain_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="42" selection-start="2316" selection-end="2316" vertical-scroll-proportion="0.79611653">
+            <state line="34" column="5" selection-start="2426" selection-end="2426" vertical-scroll-proportion="0.88349515">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iwill.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="176" column="0" selection-start="5691" selection-end="5691" vertical-scroll-proportion="-18.666666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="29" selection-start="475" selection-end="475" vertical-scroll-proportion="-8.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap_and_overrides.css.less" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap_and_overrides.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -217,8 +218,8 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/wrapbootstrap.css" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/iwill/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/wraptheme.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
       </list>
     </option>
@@ -1454,34 +1455,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="51" selection-start="160" selection-end="160" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/iwill_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="6" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/backtrace_silencers.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1559,9 +1532,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="176" column="0" selection-start="5691" selection-end="5691" vertical-scroll-proportion="-18.666666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="29" selection-start="475" selection-end="475" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="42" selection-start="2316" selection-end="2316" vertical-scroll-proportion="0.79611653">
+        <state line="34" column="5" selection-start="2426" selection-end="2426" vertical-scroll-proportion="0.88349515">
           <folding />
         </state>
       </provider>
