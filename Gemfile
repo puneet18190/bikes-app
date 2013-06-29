@@ -4,6 +4,11 @@ ruby "1.9.3"
 gem 'rails', '3.2.12'
 gem 'rake', '10.1.0'
 
+# SEO
+gem 'meta-tags', :require => 'meta_tags'
+gem 'sitemap_generator'
+
+
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 

@@ -96,6 +96,8 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    meta-tags (1.5.0)
+      actionpack
     mime-types (1.23)
     multi_json (1.7.7)
     multimap (1.1.2)
@@ -144,6 +146,8 @@ GEM
     simple_form (2.1.0)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
+    sitemap_generator (4.1.0)
+      builder
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -185,6 +189,7 @@ DEPENDENCIES
   less-rails
   less-rails-fontawesome
   mail
+  meta-tags
   multimap
   mysql2
   paperclip (~> 3.0)
@@ -194,6 +199,7 @@ DEPENDENCIES
   rest-client
   sass-rails (~> 3.2.3)
   simple_form
+  sitemap_generator
   therubyracer
   twitter-bootstrap-rails
   uglifier (>= 1.0.3)

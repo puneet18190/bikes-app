@@ -2,13 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fab4689c-f5e0-4481-8707-8b3c85fd30ae" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/0808_hbkp_03_z+Harley-Davidson_Night_Rod_Special+Black.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/122_0609_02_z+2007_kawasaki_ninja_zx_6r+black_static1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/Bmw-s1000rr-motorsport-motorcycle-motors-motorsport-motorcycle.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/ducati-1199-panigale-black.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/honda_cbr_600rr_black_wide.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/matt-black-triumph.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/suzuki_hayabusa_pure_black-normal.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/vespa_s_50_black_scooter.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/yamaha_r6_black-HD.jpg" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Capfile" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css.gz" afterPath="$PROJECT_DIR$/public/assets/application.css.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/application.css" afterPath="$PROJECT_DIR$/public/assets/application.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/manifest.yml" afterPath="$PROJECT_DIR$/public/assets/manifest.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/wrapbootstrap.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/wrapbootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/wraptheme.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/wraptheme.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.cloudinary.static.trash" afterPath="$PROJECT_DIR$/.cloudinary.static.trash" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.cloudinary.static" afterPath="$PROJECT_DIR$/.cloudinary.static" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/backend.iml" afterPath="$PROJECT_DIR$/.idea/backend.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/domain_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/iwill/index.html.erb" afterPath="$PROJECT_DIR$/app/views/iwill/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,13 +37,13 @@
     <file path="/application.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1363263456489" ignored="false" />
     <file path="/routes.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1368531059190" ignored="false" />
     <file path="/doc.css.less" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372419136165" ignored="false" />
-    <file path="/index.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1368480158795" ignored="false" />
+    <file path="/index.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372508583005" ignored="false" />
     <file path="/Dummy.txt" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372428448099" ignored="false" />
     <file path="/application.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1370299879318" ignored="false" />
     <file path="/domain_constraint.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1362496824007" ignored="false" />
     <file path="/iwill_controller.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372444259416" ignored="false" />
     <file path="/development.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1371214599886" ignored="false" />
-    <file path="/iwill.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1364485220117" ignored="false" />
+    <file path="/iwill.html.erb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372508272917" ignored="false" />
     <file path="/application.css" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1362911304397" ignored="false" />
     <file path="/cloudinary.yml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1363876467086" ignored="false" />
     <file path="/menu_helper.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1364485042053" ignored="false" />
@@ -41,7 +54,7 @@
     <file path="/20130421160953_add_submission_table.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1366577649089" ignored="false" />
     <file path="/submission.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369939850559" ignored="false" />
     <file path="/Ruby Console" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369509594661" ignored="false" />
-    <file path="/domain_helper.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1368545168025" ignored="false" />
+    <file path="/domain_helper.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372498486827" ignored="false" />
     <file path="/20130526130715_filloutsubfields.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369593861717" ignored="false" />
     <file path="/transactions.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369935681787" ignored="false" />
     <file path="/machines.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369860013591" ignored="false" />
@@ -65,7 +78,6 @@
     <file path="/production.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372413038846" ignored="false" />
     <file path="/bootstrap_and_overrides.css.less" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372427158815" ignored="false" />
     <file path="/wraptheme.css" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372444131883" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372447190259" ignored="false" />
     <file path="/wrapbootstrap.css" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372446946234" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,53 +139,53 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="wraptheme.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/wraptheme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="925" column="0" selection-start="20808" selection-end="20808" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="domain_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="67" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="14" column="31" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="iwill.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="2" selection-start="30" selection-end="30" vertical-scroll-proportion="-1.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="123.291664">
+            <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wraptheme.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/wraptheme.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="925" column="3" selection-start="20808" selection-end="20808" vertical-scroll-proportion="0.7669903">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wrapbootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/wrapbootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6103" column="35" selection-start="143439" selection-end="143439" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wrapanimate.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/wrapanimate.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="doc.css.less" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/doc.css.less">
+      <file leaf-file-name="application_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -209,22 +221,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Capfile" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/capistrano-2.15.4/lib/capistrano/recipes/deploy.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/app/views/iwill/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
         <option value="$PROJECT_DIR$/app/controllers/iwill_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/wrapbootstrap.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/wraptheme.css" />
+        <option value="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/iwill/index.html.erb" />
       </list>
     </option>
   </component>
@@ -824,35 +836,7 @@
       <recent name="$PROJECT_DIR$/app/assets/javascripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Rake.assets:precompile">
-    <configuration default="false" name="db:rollback" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="backend" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="development" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:rollback" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Rake.cloudinary:sync_static">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="backend" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -940,6 +924,32 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="assets:precompile" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="cloudinary:sync_static" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="backend" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="cloudinary:sync_static" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -1258,18 +1268,18 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: backend" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: backend" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:rollback" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="6" class="java.lang.String" itemvalue="Ruby.machine" />
-      <item index="7" class="java.lang.String" itemvalue="Ruby.deploy" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="5" class="java.lang.String" itemvalue="Ruby.machine" />
+      <item index="6" class="java.lang.String" itemvalue="Ruby.deploy" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.cloudinary:sync_static" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Rake.assets:precompile" />
-        <item index="1" class="java.lang.String" itemvalue="Ruby.deploy" />
-        <item index="2" class="java.lang.String" itemvalue="Ruby.machine" />
-        <item index="3" class="java.lang.String" itemvalue="Rake.db:migrate" />
+        <item index="0" class="java.lang.String" itemvalue="Rake.cloudinary:sync_static" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.assets:precompile" />
+        <item index="2" class="java.lang.String" itemvalue="Ruby.deploy" />
+        <item index="3" class="java.lang.String" itemvalue="Ruby.machine" />
         <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
       </list>
     </recent_temporary>
@@ -1367,7 +1377,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39885715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34857142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34857142" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1447,27 +1457,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/css/signup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1485,20 +1474,6 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/iwill_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="6" selection-start="1130" selection-end="1130" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="123.291664">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1554,7 +1529,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/wraptheme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="925" column="3" selection-start="20808" selection-end="20808" vertical-scroll-proportion="0.7669903">
+        <state line="925" column="0" selection-start="20808" selection-end="20808" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/application_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="67" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="30" selection-end="30" vertical-scroll-proportion="-1.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="2" selection-start="2" selection-end="2" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
