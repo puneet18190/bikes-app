@@ -36,7 +36,6 @@ production:
   host: localhost
   username: user
   database: app_dev
-
   encoding: unicode
   pool: 5
-  password:
+  #password:

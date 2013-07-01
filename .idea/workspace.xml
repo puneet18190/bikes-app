@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fab4689c-f5e0-4481-8707-8b3c85fd30ae" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/Capfile" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/domain_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/database.yml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372403716551" ignored="false" />
+    <file path="/database.yml" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372658123160" ignored="false" />
     <file path="/schema.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1360946306851" ignored="false" />
     <file path="/20130216204026_add_attach_paperclip.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1361048050298" ignored="false" />
     <file path="/a.dummy" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1361047955833" ignored="false" />
@@ -105,15 +103,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap_and_overrides.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="iwill.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -168,10 +157,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="3" selection-start="568" selection-end="568" vertical-scroll-proportion="0.3109756">
+            <state line="17" column="3" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="12" selection-start="956" selection-end="956" vertical-scroll-proportion="0.73170733">
               <folding />
             </state>
           </provider>
@@ -206,7 +204,6 @@
     <option name="changedFiles">
       <list>
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p385/gems/capistrano-2.15.4/lib/capistrano/recipes/deploy.rb" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
@@ -221,6 +218,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -1433,13 +1431,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/initializers/session_store.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/simple_form.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1540,7 +1531,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="3" selection-start="568" selection-end="568" vertical-scroll-proportion="0.3109756">
+        <state line="17" column="3" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="12" selection-start="956" selection-end="956" vertical-scroll-proportion="0.73170733">
           <folding />
         </state>
       </provider>
