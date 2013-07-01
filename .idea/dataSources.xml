@@ -3,7 +3,7 @@
   <component name="DataSourceManagerImpl" format="xml" hash="2740788016">
     <data-source source="LOCAL" name="Rails backend: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="03364897-8ef5-4829-b29e-37150f64b31e">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/app_dev</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/app-dev</jdbc-url>
       <user-name>user</user-name>
       <libraries>
         <library>
