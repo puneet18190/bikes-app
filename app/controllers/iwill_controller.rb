@@ -40,7 +40,7 @@ class IwillController < ApplicationController
     #@product = @event.product.build(params[:product])
 
 
-      @submission.save!
+     # @submission.save!
 
     if @submission.save
       logger.info "Valuation data stored in database"
