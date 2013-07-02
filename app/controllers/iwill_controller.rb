@@ -16,22 +16,27 @@ class IwillController < ApplicationController
   end
 
   def valuation
+    @submission = Submission.new
+
+  end
+
+  def create
 
     Rails.logger.info "My info message"
     Rails.logger.debug "My info message"
     Rails.logger.warn "My info message"
 
-    @submission = Submission.new
+   # @submission = Submission.new
 
 
-    respond_to do |format|
-      format.html # new.html.erb
-      format.json { render json: @submission }
+    #respond_to do |format|
+    #  format.html # new.html.erb
+    #  format.json { render json: @submission }
 
 
 
 
-    end
+
      @submission = Submission.new(params[:submission])
 
     logger.debug "New post: #{@submission.attributes.inspect}"
