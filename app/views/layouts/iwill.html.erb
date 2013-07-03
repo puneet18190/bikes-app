@@ -14,6 +14,7 @@
   <%= stylesheet_link_tag "wrapbootstrap"%>
   <%= stylesheet_link_tag "wrapanimate"%>
   <%= stylesheet_link_tag "wraptheme"%>
+  <%= bootstrap_flash %>
 
   <%= cloudinary_js_config %>
 
@@ -36,7 +37,7 @@
 
       <a class="brand scroller" data-section="body" href="index.html">
 
-        <img src="/assets/BMW.png" alt="logo" />
+        <%= make_logo %>
 
       </a>
 

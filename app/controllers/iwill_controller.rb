@@ -60,6 +60,7 @@ class IwillController < ApplicationController
       logger.info "Valuation submission sent to Phil"
      # Notifier.sub_ack(request.host,@submission).deliver
       logger.info "Acknowledgement sent to #{@submission.email}"
+      redirect_to root_url, notice: "Thank you for signing up!"
     end
     logger.debug "New post: #{@submission.attributes.inspect}"
 
