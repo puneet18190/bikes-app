@@ -27,9 +27,9 @@ module DomainHelper
   def make_image
     domain_suff1 = request.host
     logger.info "Image Make #{domain_suff1}"
-
+   return cl_image_tag("/assets/VT750.png", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'bike'
    return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'honda'
-   cl_image_tag("/assets/VT750.png", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'bike'
+
 #    if domain_suff.include? 'honda' then cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill)
 
  #    if domain_suff.include? 'honda' then cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill)

@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fab4689c-f5e0-4481-8707-8b3c85fd30ae" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/Capfile" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.cloudinary.static" afterPath="$PROJECT_DIR$/.cloudinary.static" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/iwill/_vform.html.erb" afterPath="$PROJECT_DIR$/app/views/iwill/_vform.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/domain_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/iwill/index.html.erb" afterPath="$PROJECT_DIR$/app/views/iwill/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/iwill_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/iwill_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,7 +36,7 @@
     <file path="/20130421160953_add_submission_table.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1366577649089" ignored="false" />
     <file path="/submission.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369939850559" ignored="false" />
     <file path="/Ruby Console" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369509594661" ignored="false" />
-    <file path="/domain_helper.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372880236225" ignored="false" />
+    <file path="/domain_helper.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1372882192073" ignored="false" />
     <file path="/20130526130715_filloutsubfields.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369593861717" ignored="false" />
     <file path="/transactions.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369935681787" ignored="false" />
     <file path="/machines.rb" changelist="fab4689c-f5e0-4481-8707-8b3c85fd30ae" time="1369860013591" ignored="false" />
@@ -212,7 +205,7 @@
       <file leaf-file-name="domain_helper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="4" selection-start="2897" selection-end="2897" vertical-scroll-proportion="1.6247582">
+            <state line="31" column="3" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.7253385">
               <folding />
             </state>
           </provider>
@@ -1649,7 +1642,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="4" selection-start="2897" selection-end="2897" vertical-scroll-proportion="1.6247582">
+        <state line="31" column="3" selection-start="1188" selection-end="1188" vertical-scroll-proportion="0.7253385">
           <folding />
         </state>
       </provider>
