@@ -83,5 +83,6 @@ Backend::Application.configure do
       :user_name => "postmaster@2wheels4cash.mailgun.org",
       :password => "9e32p1ny8bx3"
   }
-
+ # replace this with your production tracker code
+  GA.tracker = "UA-42269146-1"
 end

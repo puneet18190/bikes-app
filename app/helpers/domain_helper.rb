@@ -4,12 +4,8 @@ module DomainHelper
   def domain_suff
     domain_suff = request.host
       logger.info "Domain #{domain_suff}"
-    if domain_suff.include? 'bike'
-    then domain_suff = ''
-    end
-    if domain_suff.include? 'honda'
-    then domain_suff = 'Honda'
-    end
+    if domain_suff.include? 'bike' then domain_suff = '' end
+    if domain_suff.include? 'honda' then domain_suff = 'Honda' end
   #  if domain_suff.include? 'honda' then domain_suff = 'Honda'
   #  if domain_suff.include? 'honda' then domain_suff = 'Honda'
   #  if domain_suff.include? 'honda' then domain_suff = 'Honda'
@@ -48,6 +44,7 @@ module DomainHelper
   def make_logo
     domain_suff1 = request.host
     logger.info "Logo Make #{domain_suff1}"
+
     return image_tag("/assets/HONDAnew.png", :alt => "logo") if domain_suff1.include? 'honda'
    #s= '<% image_tag("/assets/HONDAnew.png", :alt => "logo" ) %>'
    #s= '<img alt="Rails" src="/assets/HONDAnew.png" />'

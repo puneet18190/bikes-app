@@ -23,7 +23,8 @@ Backend::Application.routes.draw do
      match 'contact' => 'iwill#contact'
      match 'valuation' => 'iwill#valuation'
      match 'featured' => 'iwill#featured'
-     match 'create' => 'iwill#create'
+     match 'create' => 'iwill#create' #controller only no page
+     match 'faq' => 'iwill#faq'
 
  #   constraints (DomainConstraint.new(['site.com', 'www.site.com'])) do
  #     root to: 'desktop#index'

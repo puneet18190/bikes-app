@@ -8,6 +8,10 @@ gem 'rake', '10.1.0'
 gem 'meta-tags', :require => 'meta_tags'
 gem 'sitemap_generator'
 
+# analyptics
+gem 'mixpanel'
+gem 'google-analytics-rails'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
