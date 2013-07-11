@@ -3,7 +3,7 @@ require 'domain_constraint.rb'
 Backend::Application.routes.draw do
 
      constraints (DomainConstraint.new('www.iwillbuyanybike.co.uk')) do
-      root to: 'iwill#index'
+    get '/', to: 'iwill#index'
 
 
 
@@ -11,7 +11,7 @@ Backend::Application.routes.draw do
      end
 
      constraints (DomainConstraint.new('www.iwillbuyanyhonda.co.uk')) do
-       root to: 'iwill#index'
+     get '/', to: 'iwill#index'
 
 
 
@@ -19,12 +19,12 @@ Backend::Application.routes.draw do
      end
      resources :submission
      resources :iwill
-     match 'index' => 'iwill#index'
-     match 'contact' => 'iwill#contact'
-     match 'valuation' => 'iwill#valuation'
-     match 'featured' => 'iwill#featured'
-     match 'create' => 'iwill#create' #controller only no page
-     match 'faq' => 'iwill#faq'
+     get 'index' => 'iwill#index'
+     get 'contact' => 'iwill#contact'
+     get 'valuation' => 'iwill#valuation'
+     get 'featured' => 'iwill#featured'
+     get 'create' => 'iwill#create' #controller only no page
+     get 'faq' => 'iwill#faq'
 
  #   constraints (DomainConstraint.new(['site.com', 'www.site.com'])) do
  #     root to: 'desktop#index'
@@ -89,7 +89,7 @@ Backend::Application.routes.draw do
   # just remember to delete public/index.html.
   # root :to => 'welcome#index'
 
-  root :to => 'bikes#index'
+  #root :to => 'bikes#index'   rails 4 didnt like
 
 
 

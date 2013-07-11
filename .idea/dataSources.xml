@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="2740788016">
-    <data-source source="LOCAL" name="Rails backend: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="03364897-8ef5-4829-b29e-37150f64b31e">
+  <component name="DataSourceManagerImpl" format="xml" hash="1331930927">
+    <data-source source="LOCAL" name="Rails backend: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="e2972727-798e-45e1-a89e-a03da63a340c">
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://127.0.0.1/app_dev</jdbc-url>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/app-dev</jdbc-url>
       <user-name>user</user-name>
       <libraries>
         <library>
           <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
         </library>
         <library>
-          <url>jar://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar!/</url>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar</url>
         </library>
       </libraries>
     </data-source>

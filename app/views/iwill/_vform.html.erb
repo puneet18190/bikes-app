@@ -3,7 +3,7 @@
 
 
 
-
+    <%= submission_form.error_notification %>
 
 
     <div class="row form">
@@ -18,6 +18,7 @@
         <%= submission_form.input :last_name  %>
         <%= submission_form.input :email  %>
         <%= submission_form.input :phone  %>
+        <%= recaptcha_tags %>
        </div>
 
       <div class="span5">

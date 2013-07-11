@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby "1.9.3"
 
-gem 'rails', '3.2.12'
+gem 'rails', '>= 4.0.0'
 gem 'rake', '10.1.0'
 
 # SEO
@@ -11,6 +11,17 @@ gem 'sitemap_generator'
 # analyptics
 gem 'mixpanel'
 gem 'google-analytics-rails'
+
+# Email validation
+gem 'validates_email_format_of'
+gem "recaptcha", :require => "recaptcha/rails"
+
+# 3.2 to 4 upgrade fixers
+gem 'protected_attributes'
+gem 'rails-observers'
+gem 'actionpack-page_caching'
+gem 'actionpack-action_caching'
+gem 'activerecord-deprecated_finders'
 
 
 # Bundle edge Rails instead:
@@ -22,7 +33,7 @@ gem 'pg'
 
 gem "paperclip", "~> 3.0"
 
-gem 'simple_form'
+gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
 
 gem 'therubyracer'
 gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
@@ -34,7 +45,7 @@ gem 'less-rails-fontawesome'
 # and carrierwave for uploading/downloading and dbase integration active records
 gem 'cloudinary'
 gem 'carrierwave'
-gem 'attachinary'
+gem 'attachinary', git: 'git://github.com/rochers/attachinary.git', branch: 'rails4'
 
 group :development do
   # Capistrano stuff
@@ -46,8 +57,8 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails'
+  gem 'coffee-rails'
 
   # for twitter-bootstrap-rails
   gem 'therubyracer'
