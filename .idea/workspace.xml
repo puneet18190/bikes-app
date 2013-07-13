@@ -4,20 +4,27 @@
     <list default="true" id="99a7ae94-1980-4195-acc7-b08df639e9fb" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/steve.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Capfile" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373551833469" ignored="false" />
-    <file path="/Gemfile" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373749919698" ignored="false" />
-    <file path="/development.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373558586828" ignored="false" />
+    <file path="/Gemfile" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373751942601" ignored="false" />
+    <file path="/development.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373752402709" ignored="false" />
     <file path="/test.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373558460733" ignored="false" />
     <file path="/production.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373747132509" ignored="false" />
     <file path="/routes.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373729916425" ignored="false" />
     <file path="/iwill_controller.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373735559474" ignored="false" />
     <file path="/submission.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373729799683" ignored="false" />
     <file path="/application.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373746807824" ignored="false" />
+    <file path="/doc.css.less" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373751675991" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +44,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="2" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.509434">
+            <state line="73" column="2" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="development.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="51" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -58,7 +74,7 @@
       <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="52" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
+            <state line="21" column="2" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,16 +83,25 @@
       <file leaf-file-name="bootstrap_and_overrides.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="5" column="4" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap_and_overrides.css.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap_and_overrides.css.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.0">
+            <state line="28" column="0" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.7924528">
               <folding />
             </state>
           </provider>
@@ -85,28 +110,8 @@
       <file leaf-file-name="doc.css.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/doc.css.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="796" column="30" selection-start="17058" selection-end="17062" vertical-scroll-proportion="-5.354839">
+            <state line="796" column="63" selection-start="17095" selection-end="17095" vertical-scroll-proportion="-5.451613">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bikes.js.coffee" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bikes.js.coffee">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -148,15 +153,18 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
-        <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/submission.rb" />
         <option value="$PROJECT_DIR$/app/controllers/iwill_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/wraptheme.css" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/doc.css.less" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
       </list>
     </option>
   </component>
@@ -800,23 +808,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/submission.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="78" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/iwill_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="66" column="31" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -881,35 +875,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="52" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/doc.css.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="796" column="30" selection-start="17058" selection-end="17062" vertical-scroll-proportion="-5.354839">
+        <state line="21" column="2" selection-start="695" selection-end="695" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="5" column="4" selection-start="203" selection-end="203" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/doc.css.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1462" selection-end="1462" vertical-scroll-proportion="0.0">
+        <state line="796" column="63" selection-start="17095" selection-end="17095" vertical-scroll-proportion="-5.451613">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="2" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.509434">
+        <state line="73" column="2" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="51" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1380" selection-end="1380" vertical-scroll-proportion="0.7924528">
           <folding />
         </state>
       </provider>
