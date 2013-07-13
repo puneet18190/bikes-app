@@ -10,7 +10,7 @@
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373551833469" ignored="false" />
-    <file path="/Gemfile" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373739266213" ignored="false" />
+    <file path="/Gemfile" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373739550950" ignored="false" />
     <file path="/development.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373558586828" ignored="false" />
     <file path="/test.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373558460733" ignored="false" />
     <file path="/production.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373558484531" ignored="false" />
@@ -39,7 +39,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="35" selection-start="212" selection-end="212" vertical-scroll-proportion="-1.018868">
+            <state line="77" column="1" selection-start="1874" selection-end="1874" vertical-scroll-proportion="0.8207547">
               <folding />
             </state>
           </provider>
@@ -880,7 +880,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="212" selection-end="212" vertical-scroll-proportion="-1.018868">
+        <state line="77" column="1" selection-start="1874" selection-end="1874" vertical-scroll-proportion="0.8207547">
           <folding />
         </state>
       </provider>
