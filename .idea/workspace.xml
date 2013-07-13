@@ -4,7 +4,7 @@
     <list default="true" id="99a7ae94-1980-4195-acc7-b08df639e9fb" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/steve.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Capfile" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -12,7 +12,7 @@
     <file path="/Gemfile" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373745849246" ignored="false" />
     <file path="/development.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373558586828" ignored="false" />
     <file path="/test.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373558460733" ignored="false" />
-    <file path="/production.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373745206599" ignored="false" />
+    <file path="/production.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373747132509" ignored="false" />
     <file path="/routes.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373729916425" ignored="false" />
     <file path="/iwill_controller.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373735559474" ignored="false" />
     <file path="/submission.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373729799683" ignored="false" />
@@ -45,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="10" selection-start="3469" selection-end="3469" vertical-scroll-proportion="0.8867925">
+            <state line="79" column="10" selection-start="3469" selection-end="3469" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="38" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
+            <state line="21" column="3" selection-start="655" selection-end="655" vertical-scroll-proportion="-1.018868">
               <folding />
             </state>
           </provider>
@@ -152,9 +152,9 @@
         <option value="$PROJECT_DIR$/app/models/submission.rb" />
         <option value="$PROJECT_DIR$/app/controllers/iwill_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/wraptheme.css" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -861,13 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="38" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bikes.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -907,7 +900,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="10" selection-start="3469" selection-end="3469" vertical-scroll-proportion="0.8867925">
+        <state line="79" column="10" selection-start="3469" selection-end="3469" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="3" selection-start="655" selection-end="655" vertical-scroll-proportion="-1.018868">
           <folding />
         </state>
       </provider>
