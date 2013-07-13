@@ -199,6 +199,9 @@ GEM
       rails (>= 3.1)
       railties (>= 3.1)
     tzinfo (0.3.37)
+    uglifier (2.1.1)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
     validates_email_format_of (1.5.3)
 
 PLATFORMS
@@ -214,7 +217,7 @@ DEPENDENCIES
   better_errors
   carrierwave
   cloudinary
-  coffee-rails
+  coffee-rails (~> 4.0.0)
   cucumber
   debugger
   google-analytics-rails
@@ -237,10 +240,11 @@ DEPENDENCIES
   rake (= 10.1.0)
   recaptcha
   rest-client
-  sass-rails
+  sass-rails (~> 4.0.0.rc1)
   simple_form!
   sitemap_generator
   sprockets-rails
   therubyracer
   twitter-bootstrap-rails
+  uglifier (>= 1.0.3)
   validates_email_format_of
