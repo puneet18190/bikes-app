@@ -4,6 +4,9 @@ ruby "1.9.3"
 gem 'rails', '>= 4.0.0'
 gem 'rake', '10.1.0'
 
+# heroku
+gem 'rails_12factor', group: :production
+
 # SEO
 gem 'meta-tags', :require => 'meta_tags'
 gem 'sitemap_generator'
