@@ -44,7 +44,7 @@ gem 'simple_form', :git => 'git://github.com/plataformatec/simple_form.git'
 
 gem 'therubyracer'
 gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
-gem 'twitter-bootstrap-rails'
+gem 'twitter-bootstrap-rails', github: 'seyhunak/twitter-bootstrap-rails', branch: 'master'
 #gem 'font-awesome-rails'
 gem 'less-rails-fontawesome'
 
