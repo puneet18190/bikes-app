@@ -36,6 +36,9 @@
     <orderEntry type="library" scope="PROVIDED" name="cloudinary (v1.0.60, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="cocaine (v0.5.1, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.0.9, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v4.0.0, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.3, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="columnize (v0.3.6, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="commonjs (v0.2.6, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="cucumber (v1.3.3, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
@@ -81,6 +84,8 @@
     <orderEntry type="library" scope="PROVIDED" name="recaptcha (v0.3.5, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ref (v1.0.5, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rest-client (v1.6.7, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.9, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.0, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simple_form (v3.0.0.rc@3ea322, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sitemap_generator (v4.1.0, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.10.0, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
