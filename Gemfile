@@ -5,6 +5,7 @@ gem 'rails', '>= 4.0.0'
 gem 'rake', '10.1.0'
 
 # heroku
+gem 'rails_on_heroku'
 gem 'rails_12factor', group: :production
 
 # SEO
