@@ -75,7 +75,7 @@
       <file leaf-file-name="bootstrap_and_overrides.css.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="2" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.6509434">
+            <state line="4" column="2" selection-start="161" selection-end="161" vertical-scroll-proportion="0.11320755">
               <folding />
             </state>
           </provider>
@@ -908,7 +908,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="2" selection-start="1250" selection-end="1250" vertical-scroll-proportion="0.6509434">
+        <state line="4" column="2" selection-start="161" selection-end="161" vertical-scroll-proportion="0.11320755">
           <folding />
         </state>
       </provider>
