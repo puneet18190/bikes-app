@@ -73,7 +73,7 @@ end
 
   gem 'less'
 
-  gem 'less-rails-fontawesome'
+ # gem 'less-rails-fontawesome'
 
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
