@@ -12,10 +12,11 @@
 #
 
 class Submission < ActiveRecord::Base
+  attr_accessible :avatar, :photos
     attr_accessible :first_name, :last_name,     :email, :phone, :make, :model, :registration, :mileage, :postcode, :other, :value_wanted
 
     validates :first_name, :last_name, :email, :make, :model, :registration, :mileage, :postcode, :presence => true
-    validates :email, email_format: { message: "doesn't look like an email address" }
+    validates :email, email_format: { message: "doesn't look like an email address" }  ,     :on => :create
 
     has_attachment  :avatar
     has_attachments :photos, :maximum => 3

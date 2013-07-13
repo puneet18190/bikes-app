@@ -37,7 +37,7 @@ class IwillController < ApplicationController
 
 
 
-     @submission = Submission.new(params[:submission])
+     @submission = Submission.create(params[:submission])
 
     logger.debug "New post: #{@submission.attributes.inspect}"
 
@@ -60,13 +60,20 @@ class IwillController < ApplicationController
       logger.info "Valuation submission sent to Phil"
      # Notifier.sub_ack(request.host,@submission).deliver
       logger.info "Acknowledgement sent to #{@submission.email}"
-      redirect_to root_url, notice: "Thank you for signing up!"
+      redirect_to :index, notice: "Thank you for signing up!"
+     # redirect_to(root_path, :notice => "Sent.")
+
+    else
+
+      flash[:alert] = 'Errors'
+      render :action => 'valuation'  ,   notice: "Its all fucked"
+
     end
-    logger.debug "New post: #{@submission.attributes.inspect}"
+    #logger.debug "New post: #{@submission.attributes.inspect}"
 
 
 
-    flash[:notice] = 'saved!'
+    #flash[:notice] = 'saved!'
 
 
 

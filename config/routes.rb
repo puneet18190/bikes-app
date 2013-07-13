@@ -23,7 +23,8 @@ Backend::Application.routes.draw do
      get 'contact' => 'iwill#contact'
      get 'valuation' => 'iwill#valuation'
      get 'featured' => 'iwill#featured'
-     get 'create' => 'iwill#create' #controller only no page
+     get 'create' => 'iwill#create'
+     post 'create' => 'iwill#create' #controller only no page
      get 'faq' => 'iwill#faq'
 
  #   constraints (DomainConstraint.new(['site.com', 'www.site.com'])) do
