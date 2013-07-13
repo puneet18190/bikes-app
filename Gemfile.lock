@@ -219,6 +219,7 @@ DEPENDENCIES
   debugger
   google-analytics-rails
   jquery-rails
+  less
   less-rails
   less-rails-fontawesome
   mail

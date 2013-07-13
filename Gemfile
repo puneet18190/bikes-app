@@ -66,11 +66,11 @@ end
 
   # for twitter-bootstrap-rails
 #  gem 'therubyracer'
-#  gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+  gem 'less-rails' #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
 
-#  gem 'less'
+  gem 'less'
 
-#  gem 'less-rails-fontawesome'
+  gem 'less-rails-fontawesome'
 
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
