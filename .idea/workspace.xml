@@ -4,8 +4,8 @@
     <list default="true" id="99a7ae94-1980-4195-acc7-b08df639e9fb" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/steve.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Capfile" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -13,7 +13,7 @@
     <file path="/Gemfile" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373739550950" ignored="false" />
     <file path="/development.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373558586828" ignored="false" />
     <file path="/test.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373558460733" ignored="false" />
-    <file path="/production.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373558484531" ignored="false" />
+    <file path="/production.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373741028854" ignored="false" />
     <file path="/routes.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373729916425" ignored="false" />
     <file path="/iwill_controller.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373735559474" ignored="false" />
     <file path="/submission.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373729799683" ignored="false" />
@@ -36,10 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="0" selection-start="1731" selection-end="1731" vertical-scroll-proportion="0.7641509">
+            <state line="67" column="0" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="production.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="81" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
+            <state line="14" column="3" selection-start="478" selection-end="478" vertical-scroll-proportion="0.3207547">
               <folding />
             </state>
           </provider>
@@ -145,13 +145,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/models/submission.rb" />
         <option value="$PROJECT_DIR$/app/controllers/iwill_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/wraptheme.css" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -829,20 +829,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="81" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -880,7 +866,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="0" selection-start="1731" selection-end="1731" vertical-scroll-proportion="0.7641509">
+        <state line="67" column="0" selection-start="1605" selection-end="1605" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="3" selection-start="478" selection-end="478" vertical-scroll-proportion="0.3207547">
           <folding />
         </state>
       </provider>
