@@ -3,6 +3,7 @@ Backend::Application.configure do
 
   # rails 4
   config.eager_load = true
+  config.assets.precompile += ['parser.js']
 
   # Code is not reloaded between requests
   config.cache_classes = true
