@@ -240,6 +240,7 @@ DEPENDENCIES
   sass-rails
   simple_form!
   sitemap_generator
+  sprockets-rails
   therubyracer
   twitter-bootstrap-rails
   validates_email_format_of

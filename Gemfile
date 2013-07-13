@@ -4,6 +4,9 @@ ruby "1.9.3"
 gem 'rails', '>= 4.0.0'
 gem 'rake', '10.1.0'
 
+# Rails 4
+gem 'sprockets-rails', :require => 'sprockets/railtie'
+
 # heroku
 gem 'rails_on_heroku'
 gem 'rails_12factor', group: :production
