@@ -41,7 +41,6 @@
     <orderEntry type="library" scope="PROVIDED" name="coffee-script-source (v1.6.3, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="columnize (v0.3.6, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="commonjs (v0.2.6, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="cucumber (v1.3.3, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debugger (v1.6.1, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debugger-linecache (v1.2.0, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debugger-ruby_core_source (v1.2.3, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
@@ -88,7 +87,6 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.9, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.0, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simple_form (v3.0.0.rc@3ea322, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="sitemap_generator (v4.1.0, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.10.0, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.0.0, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="therubyracer (v0.11.4, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
@@ -98,7 +96,6 @@
     <orderEntry type="library" scope="PROVIDED" name="treetop (v1.4.14, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="twitter-bootstrap-rails (v2.2.7@cdda8d, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="tzinfo (v0.3.37, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.1.1, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="validates_email_format_of (v1.5.3, RVM: ruby-1.9.3-p385 [global]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">

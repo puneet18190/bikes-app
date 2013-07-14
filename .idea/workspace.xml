@@ -4,12 +4,12 @@
     <list default="true" id="99a7ae94-1980-4195-acc7-b08df639e9fb" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/steve.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/Capfile" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/secret_token.rb" afterPath="$PROJECT_DIR$/config/initializers/secret_token.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373551833469" ignored="false" />
-    <file path="/Gemfile" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373751942601" ignored="false" />
+    <file path="/Gemfile" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373791887397" ignored="false" />
     <file path="/development.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373752402709" ignored="false" />
     <file path="/test.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373558460733" ignored="false" />
     <file path="/production.rb" changelist="99a7ae94-1980-4195-acc7-b08df639e9fb" time="1373747132509" ignored="false" />
@@ -39,10 +39,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="2" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.0">
+            <state line="1" column="1" selection-start="31" selection-end="31" vertical-scroll-proportion="0.028301887">
               <folding />
             </state>
           </provider>
@@ -102,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="secret_token.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="secret_token.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/secret_token.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="48" selection-start="859" selection-end="859" vertical-scroll-proportion="0.34816247">
+            <state line="12" column="48" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -156,11 +156,11 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/doc.css.less" />
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
         <option value="$PROJECT_DIR$/config/initializers/secret_token.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
   </component>
@@ -901,13 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="2" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="51" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.0">
@@ -931,7 +924,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/secret_token.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="48" selection-start="859" selection-end="859" vertical-scroll-proportion="0.34816247">
+        <state line="12" column="48" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="1" selection-start="31" selection-end="31" vertical-scroll-proportion="0.028301887">
           <folding />
         </state>
       </provider>
