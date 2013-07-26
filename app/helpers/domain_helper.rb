@@ -45,6 +45,7 @@ module DomainHelper
     domain_suff1 = request.host
     logger.info "Logo Make #{domain_suff1}"
 
+    return image_tag("/assets/BIKEORIGINAL.png", :alt => "logo") if domain_suff1.include? 'bike'
     return image_tag("/assets/HONDAnew.png", :alt => "logo") if domain_suff1.include? 'honda'
    #s= '<% image_tag("/assets/HONDAnew.png", :alt => "logo" ) %>'
    #s= '<img alt="Rails" src="/assets/HONDAnew.png" />'

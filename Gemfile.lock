@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/plataformatec/simple_form.git
-  revision: 3ea3226e2f5eb83c6723639fc10480a721347f7e
+  revision: b54c1100226280e763506017e1edee4692cc349a
   specs:
     simple_form (3.0.0.rc)
       actionpack (>= 4.0.0, < 4.1)
@@ -72,7 +72,7 @@ GEM
       json (>= 1.7)
     climate_control (0.0.3)
       activesupport (>= 3.0)
-    cloudinary (1.0.60)
+    cloudinary (1.0.61)
       aws_cf_signer
       rest-client
     cocaine (0.5.1)
@@ -118,7 +118,7 @@ GEM
     less-rails (2.3.3)
       actionpack (>= 3.1)
       less (~> 2.3.1)
-    less-rails-fontawesome (0.5.0)
+    less-rails-fontawesome (0.5.1)
       less-rails (>= 2.1.7)
       railties (>= 3.1.1)
     libv8 (3.11.8.17)
@@ -136,7 +136,7 @@ GEM
     multi_json (1.7.7)
     multi_test (0.0.1)
     multimap (1.1.2)
-    mysql2 (0.3.11)
+    mysql2 (0.3.13)
     paperclip (3.4.2)
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
@@ -228,6 +228,7 @@ DEPENDENCIES
   debugger
   google-analytics-rails
   jquery-rails
+  json
   less-rails
   less-rails-fontawesome
   mail

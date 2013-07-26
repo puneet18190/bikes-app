@@ -1,6 +1,9 @@
 require 'domain_constraint.rb'
 
 Backend::Application.routes.draw do
+  # added for attachinary
+
+  mount Attachinary::Engine => "/attachinary"
 
      constraints (DomainConstraint.new('www.iwillbuyanybike.co.uk')) do
     get '/', to: 'iwill#index'
@@ -35,9 +38,7 @@ Backend::Application.routes.draw do
   resources :bikes
 
 
-     # added for attachinary
 
-     mount Attachinary::Engine => "/attachinary"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

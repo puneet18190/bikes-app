@@ -1,10 +1,11 @@
 class IwillController < ApplicationController
-
+    require 'json'
   layout "iwill"
  # resources :notifier
  # resources :submission
 
   def index
+    #flash[:notice] = 'Under development'
   end
 
   def contact
@@ -16,7 +17,7 @@ class IwillController < ApplicationController
   end
 
   def valuation
-    @submission = Submission.new
+    #@submission = Submission.new(submission_params)
 
   end
 
@@ -26,7 +27,7 @@ class IwillController < ApplicationController
     Rails.logger.debug "My info message"
     Rails.logger.warn "My info message"
 
-   # @submission = Submission.new
+    #@submission = Submission.new
 
 
     #respond_to do |format|
@@ -37,7 +38,8 @@ class IwillController < ApplicationController
 
 
 
-     @submission = Submission.create(params[:submission])
+     @submission = Submission.new(submission_params)
+
 
     logger.debug "New post: #{@submission.attributes.inspect}"
 
@@ -45,7 +47,7 @@ class IwillController < ApplicationController
     #@product = @event.product.build(params[:product])
 
 
-     # @submission.save!
+      #@submission.save!
 
     if @submission.save
       logger.info "Valuation data stored in database"
@@ -101,4 +103,13 @@ class IwillController < ApplicationController
 
   def help
   end
+
+
+
+    def submission_params
+      params.require(:email).permit(:first_name, :last_name, :email, :phone, :make, :model, :registration, :mileage, :postcode, :other, :value_wanted)
+
+    end
+
+
 end

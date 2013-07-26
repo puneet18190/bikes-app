@@ -30,6 +30,7 @@ gem 'actionpack-page_caching'
 gem 'actionpack-action_caching'
 gem 'activerecord-deprecated_finders'
 
+gem 'json'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -50,8 +51,10 @@ gem 'less-rails-fontawesome'
 
 # Cloudinary CDN to manage images
 # and carrierwave for uploading/downloading and dbase integration active records
-gem 'cloudinary'
+
 gem 'carrierwave'
+gem 'cloudinary'
+
 gem 'attachinary', git: 'git://github.com/rochers/attachinary.git', branch: 'rails4'
 
 group :development do
