@@ -1,0 +1,25 @@
+<% recaptcha ||= false %>
+<%= simple_form_for :contact, url: '/contact_us' do |contact_form|%>
+    <%= contact_form.error_notification %>
+
+      <div class="span6">
+        <%= contact_form.input :name , :required=> false %>
+        <%= contact_form.input :email, :required=> false  %>
+        <%= contact_form.input :phone , :required=> false %>
+        <%= contact_form.input :city , :required=> false %>
+        <%= contact_form.input :comment, as: :text, :required=> false ,input_html: {rows: '5', class: 'span4'} %>
+        
+        
+       </div>
+       <div class="span6"> 
+       <div class="span2"> </div>
+        <div class="span4 pull-right"> <%= recaptcha_tags %></div>
+        </div>
+       <br/>
+    <div class="control-group">
+           <div class="controls action">
+        <br/>
+          <%= contact_form.submit 'Submit' ,:class =>"btn btn-primary" ,:label => "" %>
+        </div>
+    </div>
+<% end %>

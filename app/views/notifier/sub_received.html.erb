@@ -26,6 +26,15 @@
 
 <p>  Created: <%= @submission.created_at %></p>
 
+<p> Photos: </p>
+<% if @submission.photos %>
+<% @s = @submission.photos.each do |s| %>
+<%= link_to "#{@submission.model}" ,"http://res.cloudinary.com/iwill/image/upload/#{s.path}" %>
+<% end %>
+<% else %>
+<p> No Photos Uploaded. </p>
+<% end %>
+
 <p>  Get it bought!
 </p>
 <hr>

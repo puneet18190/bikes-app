@@ -1,11 +1,7 @@
+
+<% recaptcha ||= false %>
 <%= simple_form_for :submission, url: '/create' do |submission_form|%>
-
-
-
-
     <%= submission_form.error_notification %>
-
-
     <div class="row form">
       <div class="span6">
         <div class="leftform">
@@ -27,7 +23,6 @@
           <p>
             Details of you motorcycle to be valued.
           </p>
-
           <%= submission_form.input :make %>
           <%= submission_form.input :model  %>
           <%= submission_form.input :registration  %>
@@ -35,18 +30,19 @@
           <%= submission_form.input :postcode %>
           <%= submission_form.input :other  %>
           <%= submission_form.input :value_wanted %>
-
-
           <hr>
           <h3>Pictures</h3>
           <div class="social">
-            <%= attachinary_file_field_tag 'submission[avatar]', @submission, :avatar      %>
+            <%#= attachinary_file_field_tag 'submission[avatar]', @submission, :avatar      %>
+            <%#= submission_form.input :avatar, as: :attachinary  %>
+            <%#= submission_form.input :photos, as: :attachinary, input_html: { multiple: true } %>
+            <%= submission_form.input :photos, as: :file, input_html: { multiple: true } %>
+            <%= submission_form.input :photos, as: :file, input_html: { multiple: true } %>
+            <%= submission_form.input :photos, as: :file, input_html: { multiple: true } %>
 
           </div>
         </div>
       </div>
     </div>
-
-    <%= submission_form.submit 'Submit' %>
-
+    <%= submission_form.submit 'Submit' ,:class =>"btn btn-primary" %>
 <% end %>

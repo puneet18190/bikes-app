@@ -11,7 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130714150011) do
+ActiveRecord::Schema.define(version: 20140722095804) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "attachinary_files", force: true do |t|
     t.integer  "attachinariable_id"
@@ -29,22 +32,14 @@ ActiveRecord::Schema.define(version: 20130714150011) do
 
   add_index "attachinary_files", ["attachinariable_type", "attachinariable_id", "scope"], name: "by_scoped_parent", using: :btree
 
-  create_table "bikes", force: true do |t|
-    t.string   "make"
-    t.string   "model"
-    t.string   "mileage"
-    t.string   "location"
-    t.string   "sales"
-    t.datetime "created_at",          null: false
-    t.datetime "updated_at",          null: false
-    t.string   "attach_file_name"
-    t.string   "attach_content_type"
-    t.integer  "attach_file_size"
-    t.datetime "attach_updated_at"
-    t.string   "pic_file_name"
-    t.string   "pic_content_type"
-    t.integer  "pic_file_size"
-    t.datetime "pic_updated_at"
+  create_table "contacts", force: true do |t|
+    t.string   "name"
+    t.string   "email"
+    t.string   "phone"
+    t.string   "city"
+    t.text     "comment"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "submissions", force: true do |t|
@@ -59,8 +54,10 @@ ActiveRecord::Schema.define(version: 20130714150011) do
     t.string   "postcode"
     t.text     "other"
     t.string   "value_wanted"
-    t.datetime "created_at",   null: false
-    t.datetime "updated_at",   null: false
+    t.string   "photos",       array: true
+    t.string   "avatar"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
 end

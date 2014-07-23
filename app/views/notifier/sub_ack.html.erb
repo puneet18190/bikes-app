@@ -9,11 +9,18 @@
   We have received from <%= @submission.first_name %> <%= @submission.last_name %>
 </p>
 <p>a valuation request for your: <%= @submission.make %> <%= @submission.model %><hr></p>
-
+<p> Photos: </p>
+<% if @submission.photos %>
+<% @s = @submission.photos.each do |s| %>
+<%= link_to "#{@submission.model}" ,"http://res.cloudinary.com/iwill/image/upload/#{s.path}" %>
+<% end %>
+<% else %>
+<p> No Photos Uploaded. </p>
+<% end %>
 
 <p>If this is of interest to us we will contact you soon</p>
 
 
 <hr>
 </body>
-</html>
+</html> 

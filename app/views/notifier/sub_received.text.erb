@@ -19,7 +19,14 @@ Information: <%= @submission.other %>
 Value: <%= @submission.value_wanted %>
 
 Created: <%= @submission.created_at %>
-
+Photos:
+<% if @submission.photos %>
+<% @s = @submission.photos.each do |s| %>
+<%= link_to "#{@submission.model}" ,"http://res.cloudinary.com/iwill/image/upload/#{s.path}" %>
+<% end %>
+<% else %>
+No Photos Uploaded.
+<% end %>
 Get it bought!
 
 

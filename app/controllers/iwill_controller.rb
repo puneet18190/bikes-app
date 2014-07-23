@@ -1,5 +1,5 @@
 class IwillController < ApplicationController
-    require 'json'
+  require 'json'
   layout "iwill"
  # resources :notifier
  # resources :submission
@@ -12,13 +12,35 @@ class IwillController < ApplicationController
 
   end
 
+  def contact_us
+    @contact_us  = Contact.new(contact_params)
+    logger.debug "New post: #{@contact_us.attributes.inspect}"
+    if !Rails.env.test?
+      captcha = verify_recaptcha
+      flash[:error] = "Incorrect captcha" unless captcha
+    else
+      captcha = true
+    end
+    if captcha && @contact_us.save
+      logger.info "Contact data stored in database"
+      # index
+      flash[:notice] = "Your feedack was sent.We will contact you soon."
+      Notifier.feedback_received(request.host,@contact_us).deliver     
+      Notifier.feedback_ack(request.host,@contact_us).deliver
+      redirect_to :index, notice: "Thank you for your feedback. We will contact you soon !"
+    else
+      flash[:alert] = 'Errors'
+      render :action => 'contact'  ,   notice: "Its all fucked"
+    end
+
+  end
+
   def random
 
   end
 
   def valuation
     #@submission = Submission.new(submission_params)
-
   end
 
   def create
@@ -33,14 +55,7 @@ class IwillController < ApplicationController
     #respond_to do |format|
     #  format.html # new.html.erb
     #  format.json { render json: @submission }
-
-
-
-
-
      @submission = Submission.new(submission_params)
-
-
     logger.debug "New post: #{@submission.attributes.inspect}"
 
       # @submission = @machine.submission.build(params[:submission])
@@ -48,8 +63,14 @@ class IwillController < ApplicationController
 
 
       #@submission.save!
-
-    if @submission.save
+    if !Rails.env.test?
+      captcha = verify_recaptcha
+      flash[:error] = "Incorrect captcha" unless captcha
+    else
+      captcha = true
+    end
+    
+    if captcha && @submission.save
       logger.info "Valuation data stored in database"
       # index
       flash[:notice] = "Successfully updated feature."
@@ -58,11 +79,13 @@ class IwillController < ApplicationController
       # redirect_to :action => :index and return
       # return
 
-      Notifier.sub_received(request.host,@submission).deliver
+      #Notifier.sub_received(request.host,@submission).deliver
       logger.info "Valuation submission sent to Phil"
-     # Notifier.sub_ack(request.host,@submission).deliver
+      Notifier.sub_received(request.host,@submission).deliver
+      Notifier.sub_ack(request.host,@submission).deliver
       logger.info "Acknowledgement sent to #{@submission.email}"
-      redirect_to :index, notice: "Thank you for signing up!"
+
+      redirect_to :index, notice: "Thank you for valuating !"
      # redirect_to(root_path, :notice => "Sent.")
 
     else
@@ -104,12 +127,16 @@ class IwillController < ApplicationController
   def help
   end
 
-
+private
 
     def submission_params
-      params.require(:email).permit(:first_name, :last_name, :email, :phone, :make, :model, :registration, :mileage, :postcode, :other, :value_wanted)
+      params.require(:submission).permit(:first_name, :last_name, :email, :phone, :make, :model, :registration, :mileage, :postcode, :other, :value_wanted,:avatar ,photos:[])
 
     end
+
+    def contact_params
+      params.require(:contact).permit(:name, :email, :city,:phone, :comment)
+    end 
 
 
 end

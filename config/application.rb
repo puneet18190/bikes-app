@@ -5,6 +5,7 @@ require 'rails/all'
 #if defined?(Bundler)
   # If you precompile assets before deploying to production, use this line
   Bundler.require(*Rails.groups(:assets => %w(development test)))
+  require "attachinary/orm/active_record"
   # If you want your assets lazily compiled in production, use this line
   # Bundler.require(:default, :assets, Rails.env)
 #end
@@ -65,7 +66,7 @@ module Backend
     config.active_record.whitelist_attributes = false
 
     # added for attachinary
-              require "attachinary/orm/active_record" # active_record or mongoid
+               # active_record or mongoid
 
     # Enable the asset pipeline
    # config.assets.enabled = true

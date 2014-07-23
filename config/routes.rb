@@ -15,15 +15,13 @@ Backend::Application.routes.draw do
 
      constraints (DomainConstraint.new('www.iwillbuyanyhonda.co.uk')) do
      get '/', to: 'iwill#index'
-
-
-
-
      end
      resources :submission
      resources :iwill
      get 'index' => 'iwill#index'
      get 'contact' => 'iwill#contact'
+     post 'contact' => 'iwill#contact'
+     post 'contact_us' => 'iwill#contact_us'
      get 'valuation' => 'iwill#valuation'
      get 'featured' => 'iwill#featured'
      get 'create' => 'iwill#create'
@@ -92,6 +90,7 @@ Backend::Application.routes.draw do
   # root :to => 'welcome#index'
 
   #root :to => 'bikes#index'   rails 4 didnt like
+  root :to => 'iwill#index'
 
 
 
