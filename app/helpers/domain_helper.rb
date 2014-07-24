@@ -33,13 +33,13 @@ module DomainHelper
     logger.info "Image Make #{domain_suff1}"
    return cl_image_tag("/assets/VT750.png", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'bike'
    return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'honda'
-   return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'ducati'
-   return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'hareley'
-   return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'kawasaki'
-   return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'scooter'
-   return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'suzuki'
-   return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'triumph'
-   return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'yamaha'
+   return cl_image_tag("/assets/ducati-1199-panigale-black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'ducati'
+   return cl_image_tag("/assets/0808_hbkp_03_z+Harley-Davidson_Night_Rod_Special+Black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'hareley'
+   return cl_image_tag("/assets/122_0609_02_z+2007_kawasaki_ninja_zx_6r+black_static1.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'kawasaki'
+   return cl_image_tag("/assets/vespa_s_50_black_scooter.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'scooter'
+   return cl_image_tag("/assets/suzuki_hayabusa_pure_black-normal.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'suzuki'
+   return cl_image_tag("/assets/matt-black-triumph.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'triumph'
+   return cl_image_tag("/assets/yamaha_r6_black-HD.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'yamaha'
 
 #    if domain_suff.include? 'honda' then cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill)
 
