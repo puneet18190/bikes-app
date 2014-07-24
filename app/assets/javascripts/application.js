@@ -21,6 +21,8 @@
 //= require attachinary
 //= require_tree .
 
-$( document ).ready(function() {
-   $('.attachinary-input').attachinary()
-});
+
+
+// $( document ).ready(function() {
+//    $('.attachinary-input').attachinary()
+// });
