@@ -79,6 +79,7 @@ Backend::Application.configure do
       false
     end
   }
+  
 
   # Log the query plan for queries taking more than this (works
   # with SQLite, MySQL, and PostgreSQL)
