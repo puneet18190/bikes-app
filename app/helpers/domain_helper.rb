@@ -164,5 +164,6 @@ module DomainHelper
    return cl_image_tag("/assets/matt-black-triumph.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_right.include? 'triumph'
    return cl_image_tag("/assets/yamaha_r6_black-HD.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_right.include? 'yamaha'
   end 
+  
 
 end
