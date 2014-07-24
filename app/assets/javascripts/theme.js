@@ -19,7 +19,7 @@ $(function () {
 
     // scroll back to top btn
     $('.scrolltop').click(function(){
-        $("html, body").animate({ scrollTop: 0 }, 700);
+        $("html, body").animate({ scrollTop: 0 }, 1700);
         return false;
     });
     
@@ -27,7 +27,7 @@ $(function () {
     $('.scroller').click(function(){
     	var section = $($(this).data("section"));
     	var top = section.offset().top;
-        $("html, body").animate({ scrollTop: top }, 700);
+        $("html, body").animate({ scrollTop: top }, 1700);
         return false;
     });
 
