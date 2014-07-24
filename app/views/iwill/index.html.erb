@@ -95,7 +95,12 @@
         <%=  featured_image_left %>
         <%#=cl_image_tag("/assets/busa002.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
         <h3>
-          <i class="i_cloud"></i> <%= domain_suff %>
+          <i class="i_cloud"></i> 
+          <% if request.host.include? 'bike' %>
+          Bike
+          <% else %>
+          <%= domain_suff %>
+          <% end %>
         </h3>
         <p class="description">
           Call Phil direct NOW on 0798 4412879 to check stock.
@@ -119,7 +124,12 @@
         <%#=cl_image_tag("/assets/tl1000_001.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
 
         <h3>
-          <i class="i_movil"></i> <%= domain_suff %>
+          <i class="i_movil"></i> 
+          <% if request.host.include? 'bike' %>
+          Bike
+          <% else %>
+          <%= domain_suff %>
+          <% end %>
         </h3>
         <p class="description">
           Call Phil direct NOW on 0798 4412879 to check stock.
@@ -150,7 +160,12 @@
       <%=  random_image_left %>
         <%#=cl_image_tag("/assets/busa002.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
         <h3>
-          <i class="i_cloud"></i> <%= domain_suff %>
+          <i class="i_cloud"></i> 
+          <% if request.host.include? 'bike' %>
+          Bike
+          <% else %>
+          <%= domain_suff %>
+          <% end %>
         </h3>
         <p class="description">
           Call Phil direct NOW on 0798 4412879 to check stock.
@@ -174,7 +189,12 @@
         <%#=cl_image_tag("/assets/tl1000_001.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
 
         <h3>
-          <i class="i_movil"></i> <%= domain_suff %>
+          <i class="i_movil"></i> 
+          <% if request.host.include? 'bike' %>
+          Bike
+          <% else %>
+          <%= domain_suff %>
+          <% end %>
         </h3>
         <p class="description">
           Call Phil direct NOW on 0798 4412879 to check stock.
