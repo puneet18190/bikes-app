@@ -93,7 +93,7 @@ module DomainHelper
 
   def featured_image_left
     domain_featured_left = request.host
-    return cl_image_tag("/assets/VT750.png", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_left.include? 'bike'
+    return cl_image_tag("/assets/vt7501.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_left.include? 'bike'
    return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_left.include? 'honda'
    return cl_image_tag("/assets/ducati-1199-panigale-black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_left.include? 'ducati'
    return cl_image_tag("/assets/0808_hbkp_03_z+Harley-Davidson_Night_Rod_Special+Black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_left.include? 'harley'
@@ -105,7 +105,7 @@ module DomainHelper
   end 
   def featured_image_middle
     domain_featured_middle = request.host
-    return cl_image_tag("/assets/VT750.png", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_middle.include? 'bike'
+    return cl_image_tag("/assets/vt7502.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_middle.include? 'bike'
    return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_middle.include? 'honda'
    return cl_image_tag("/assets/ducati-1199-panigale-black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_middle.include? 'ducati'
    return cl_image_tag("/assets/0808_hbkp_03_z+Harley-Davidson_Night_Rod_Special+Black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_middle.include? 'harley'
@@ -117,7 +117,7 @@ module DomainHelper
   end 
   def featured_image_right
     domain_featured_right = request.host
-    return cl_image_tag("/assets/VT750.png", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_right.include? 'bike'
+    return cl_image_tag("/assets/vt7503.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_right.include? 'bike'
    return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_right.include? 'honda'
    return cl_image_tag("/assets/ducati-1199-panigale-black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_right.include? 'ducati'
    return cl_image_tag("/assets/0808_hbkp_03_z+Harley-Davidson_Night_Rod_Special+Black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_featured_right.include? 'harley'
@@ -130,7 +130,7 @@ module DomainHelper
 
   def random_image_left
     domain_random_left = request.host
-    return cl_image_tag("/assets/VT750.png", :width => 4000, :height => 5500, :crop => :fill) if domain_random_left.include? 'bike'
+    return cl_image_tag("/assets/vt7501.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_left.include? 'bike'
    return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_left.include? 'honda'
    return cl_image_tag("/assets/ducati-1199-panigale-black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_left.include? 'ducati'
    return cl_image_tag("/assets/0808_hbkp_03_z+Harley-Davidson_Night_Rod_Special+Black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_left.include? 'harley'
@@ -142,7 +142,7 @@ module DomainHelper
   end 
   def random_image_middle
     domain_random_middle = request.host
-    return cl_image_tag("/assets/VT750.png", :width => 4000, :height => 5500, :crop => :fill) if domain_random_middle.include? 'bike'
+    return cl_image_tag("/assets/vt7502.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_middle.include? 'bike'
    return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_middle.include? 'honda'
    return cl_image_tag("/assets/ducati-1199-panigale-black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_middle.include? 'ducati'
    return cl_image_tag("/assets/0808_hbkp_03_z+Harley-Davidson_Night_Rod_Special+Black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_middle.include? 'harley'
@@ -154,7 +154,7 @@ module DomainHelper
   end 
   def random_image_right
     domain_random_right = request.host
-    return cl_image_tag("/assets/VT750.png", :width => 4000, :height => 5500, :crop => :fill) if domain_random_right.include? 'bike'
+    return cl_image_tag("/assets/vt7503.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_right.include? 'bike'
    return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_right.include? 'honda'
    return cl_image_tag("/assets/ducati-1199-panigale-black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_right.include? 'ducati'
    return cl_image_tag("/assets/0808_hbkp_03_z+Harley-Davidson_Night_Rod_Special+Black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_random_right.include? 'harley'
