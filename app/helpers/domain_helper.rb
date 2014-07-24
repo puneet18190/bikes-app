@@ -58,7 +58,7 @@ module DomainHelper
 
   def make_logo
     domain_suff_logo = request.host
-    logger.info "Logo Make #{domain_suff1}"
+    logger.info "Logo Make #{domain_suff_logo}"
     return image_tag("/assets/BIKEORIGINAL.png", :alt => "logo") if domain_suff_logo.include? 'bike'
     return image_tag("/assets/HONDAnew.png", :alt => " honda logo") if domain_suff_logo.include? 'honda'
     return image_tag("/assets/DUCATInew.png", :alt => "ducati logo") if domain_suff_logo.include? 'ducati'
