@@ -1,7 +1,8 @@
 
 <% recaptcha ||= false %>
-<%= simple_form_for :submission, url: '/create' do |submission_form|%>
+<%= simple_form_for :submission, url: '/create' ,:html=>{:multipart => true, class: 'form-horizontal' } do |submission_form|%>
     <%= submission_form.error_notification %>
+
     <div class="row form">
       <div class="span6">
         <div class="leftform">
@@ -10,11 +11,14 @@
           contact you
           </p>
         </div>
+        <div class="form-inputs">
         <%= submission_form.input :first_name  %>
         <%= submission_form.input :last_name  %>
         <%= submission_form.input :email  %>
         <%= submission_form.input :phone  %>
+        
         <%= recaptcha_tags %>
+        </div>
        </div>
 
       <div class="span5">
@@ -23,7 +27,13 @@
           <p>
             Details of you motorcycle to be valued.
           </p>
-          <%= submission_form.input :make %>
+          <%#= submission_form.input :make %>
+          <div class="form-inputs">
+          <% if request.host.include? 'bike' %>
+          <%= submission_form.input :make, :collection => BIKE_MAKERS, :prompt => "Choose a Bike Make" %>
+          <% else %>
+          <%= submission_form.input :make, :input_html => {:value => "#{domain_suff}" ,:readonly => true} %>
+          <% end %>
           <%= submission_form.input :model  %>
           <%= submission_form.input :registration  %>
           <%= submission_form.input :mileage  %>
@@ -39,10 +49,12 @@
             <%= submission_form.input :photos, as: :file, input_html: { multiple: true } %>
             <%= submission_form.input :photos, as: :file, input_html: { multiple: true } %>
             <%= submission_form.input :photos, as: :file, input_html: { multiple: true } %>
-
+          </div>
           </div>
         </div>
       </div>
     </div>
-    <%= submission_form.submit 'Submit' ,:class =>"btn btn-primary" %>
+    <div class="form-actions">
+    <center><%= submission_form.submit 'Submit' ,:class =>"btn btn-primary" %></center>
+    </div>
 <% end %>

@@ -1,0 +1,53 @@
+  
+    <div class="row">
+      <div class="span4 feature">
+        <%=  featured_image_left %>
+      </div>
+      <div class="span4 feature">
+      <%=  featured_image_middle %>
+      </div>
+      <div class="span4 feature">
+      <%=  featured_image_right %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span4 feature">
+        <h3>
+          <i class="i_cloud"></i> 
+          <% if request.host.include? 'bike' %>
+          Bike
+          <% else %>
+          <%= domain_suff %>
+          <% end %>
+        </h3>
+        <p class="description">
+          Call Phil direct NOW on 0798 4412879 to check stock.
+                  </p>
+        <a href="#" class="btn btn-default">more</a>
+      </div>
+      <div class="span4 feature">
+
+        <h3>
+          <i class="i_chart"></i> All makes.
+        </h3>
+        <p class="description">
+          Call Phil direct NOW on 0798 4412879 to check stock.
+                  </p>
+        <a href="#" class="btn btn-default">more</a>
+      </div>
+      <div class="span4 feature">
+        <h3>
+          <i class="i_movil"></i> 
+          <% if request.host.include? 'bike' %>
+          Bike
+          <% else %>
+          <%= domain_suff %>
+          <% end %>
+        </h3>
+        <p class="description">
+          Call Phil direct NOW on 0798 4412879 to check stock.
+                  </p>
+        <a href="#" class="btn btn-default">more</a>
+      </div>
+    </div>
+    

@@ -24,6 +24,7 @@ class Submission < ActiveRecord::Base
     #validates :email, email_format: { message: "doesn't look like an email address" }  ,     :on => :create
 
   has_many :attachinary_files, as: :attachinariable,foreign_key: :attachinariable_id, primary_key: :sku,conditions: { scope: 'photos' }
+  has_one :bike
 
 
 

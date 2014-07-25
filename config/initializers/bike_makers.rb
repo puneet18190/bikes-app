@@ -1,0 +1,2 @@
+BIKE_MAKERS = ['Ducati','Harley','Honda','Kawasaki','Scooter','Suzuki','Triumph','Yamaha']
+ALL_SITES = ['www.iwillbuyanybike.co.uk','www.iwillbuyanyducati.co.uk','www.iwillbuyanyharley.co.uk','www.iwillbuyanyhonda.co.uk','www.iwillbuyanykawasaki.co.uk','www.iwillbuyanyscooter.co.uk','www.iwillbuyanysuzuki.co.uk','www.iwillbuyanytriumph.co.uk','www.iwillbuyanyyamaha.co.uk']

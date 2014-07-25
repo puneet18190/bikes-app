@@ -21,10 +21,13 @@
 #
 
 class Bike < ActiveRecord::Base
-  attr_accessible :make, :model, :pic, :attach
   #validates :name, :presence => true
   #3   validates :email, :presence => true
-  has_attached_file :pic, :styles =>
-           { :medium => "300x300>", :thumb => "100x100>" }
-  has_attached_file :attach
+
+  attr_accessible :make, :model,:registration, :mileage, :postcode, :other, :value_wanted,:submission_id
+  belongs_to :submission
+  # attr_accessible :make, :model, :pic, :attach
+  # has_attached_file :pic, :styles =>
+  #          { :medium => "300x300>", :thumb => "100x100>" }
+  # has_attached_file :attach
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140722095804) do
+ActiveRecord::Schema.define(version: 20140725095133) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,6 +31,17 @@ ActiveRecord::Schema.define(version: 20140722095804) do
   end
 
   add_index "attachinary_files", ["attachinariable_type", "attachinariable_id", "scope"], name: "by_scoped_parent", using: :btree
+
+  create_table "bikes", force: true do |t|
+    t.string  "make"
+    t.string  "model"
+    t.string  "registration"
+    t.string  "mileage"
+    t.string  "postcode"
+    t.text    "other"
+    t.string  "value_wanted"
+    t.integer "submission_id"
+  end
 
   create_table "contacts", force: true do |t|
     t.string   "name"

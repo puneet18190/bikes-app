@@ -25,8 +25,8 @@ class IwillController < ApplicationController
       logger.info "Contact data stored in database"
       # index
       flash[:notice] = "Your feedack was sent.We will contact you soon."
-      Notifier.feedback_received(request.host,@contact_us).deliver     
-      Notifier.feedback_ack(request.host,@contact_us).deliver
+      #Notifier.feedback_received(request.host,@contact_us).deliver     
+      #Notifier.feedback_ack(request.host,@contact_us).deliver
       redirect_to :index, notice: "Thank you for your feedback. We will contact you soon !"
     else
       flash[:alert] = 'Errors'
@@ -81,8 +81,12 @@ class IwillController < ApplicationController
 
       #Notifier.sub_received(request.host,@submission).deliver
       logger.info "Valuation submission sent to Phil"
-      Notifier.sub_received(request.host,@submission).deliver
-      Notifier.sub_ack(request.host,@submission).deliver
+
+      Bike.create(:make => @submission.make,:model=> @submission.model,:registration=> @submission.registration, :mileage=> @submission.mileage, :postcode=> @submission.postcode, :other=> @submission.other, :value_wanted=> @submission.value_wanted,:submission_id=>@submission.id)
+
+      #Notifier.sub_received(request.host,@submission).deliver
+      #Notifier.sub_ack(request.host,@submission).deliver
+
       logger.info "Acknowledgement sent to #{@submission.email}"
 
       redirect_to :index, notice: "Thank you for valuating !"
@@ -90,8 +94,8 @@ class IwillController < ApplicationController
 
     else
 
-      flash[:alert] = 'Errors'
-      render :action => 'valuation'  ,   notice: "Its all fucked"
+     # flash[:alert] = 'Errors'
+      render :action => 'valuation' # ,   notice: "Its all fucked"
 
     end
     #logger.debug "New post: #{@submission.attributes.inspect}"

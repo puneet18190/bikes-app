@@ -1,9 +1,14 @@
 class BikesController < ApplicationController
   # GET /bikes
   # GET /bikes.json
+  layout 'iwill'
   def index
-    @bikes = Bike.all
-
+    if request.host.include? 'bike'
+      @bikes = Bike.all
+    else
+      @bike_make = get_bike_make
+      @bikes = Bike.where(:make => @bike_make)
+    end 
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @bikes }
@@ -79,5 +84,18 @@ class BikesController < ApplicationController
       format.html { redirect_to bikes_url }
       format.json { head :no_content }
     end
+  end
+  private
+  def get_bike_make
+    domain_suff = request.host
+    if domain_suff.include? 'honda' then domain_suff = 'Honda' end
+    if domain_suff.include? 'ducati' then domain_suff = 'Ducati' end
+    if domain_suff.include? 'harley' then domain_suff = 'Harley' end
+    if domain_suff.include? 'kawasaki' then domain_suff = 'Kawasaki' end
+    if domain_suff.include? 'scooter' then domain_suff = 'Scooter' end
+    if domain_suff.include? 'suzuki' then domain_suff = 'Suzuki' end
+    if domain_suff.include? 'triumph' then domain_suff = 'Triumph' end
+    if domain_suff.include? 'yamaha' then domain_suff = 'Yamaha' end   
+    return domain_suff
   end
 end
