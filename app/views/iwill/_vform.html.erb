@@ -38,7 +38,7 @@
           <%= submission_form.input :registration  %>
           <%= submission_form.input :mileage  %>
           <%= submission_form.input :postcode %>
-          <%= submission_form.input :other  %>
+          <%= submission_form.input :other , as: :text, input_html: { rows: "4" }, :prompt => "Choose a Bike Make" %>
           <%= submission_form.input :value_wanted %>
           <hr>
           <h3>Pictures</h3>
@@ -55,6 +55,6 @@
       </div>
     </div>
     <div class="form-actions">
-    <center><%= submission_form.submit 'Submit' ,:class =>"btn btn-primary" %></center>
+    <center><%= submission_form.submit 'Submit' ,:class =>"btn btn-success btn-large" %></center>
     </div>
 <% end %>
