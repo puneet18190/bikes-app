@@ -135,7 +135,7 @@ $.noConflict();
         <% @sites.each do  |k| %>
         <%if request.host == k %>
         <% else %>
-        <%= link_to k , k ,:target => "blank" ,:style => "color:white;" %><br/>
+        <%= link_to k , "http://#{k}" ,:target => "blank" ,:style => "color:white;" %><br/>
         <% end %>
         <% end %>
         <br/>

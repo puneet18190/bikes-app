@@ -25,8 +25,8 @@ class IwillController < ApplicationController
       logger.info "Contact data stored in database"
       # index
       flash[:notice] = "Your feedack was sent.We will contact you soon."
-      #Notifier.feedback_received(request.host,@contact_us).deliver     
-      #Notifier.feedback_ack(request.host,@contact_us).deliver
+      Notifier.feedback_received(request.host,@contact_us).deliver     
+      Notifier.feedback_ack(request.host,@contact_us).deliver
       redirect_to :index, notice: "Thank you for your feedback. We will contact you soon !"
     else
       flash[:alert] = 'Errors'
