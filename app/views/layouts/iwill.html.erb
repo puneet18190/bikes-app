@@ -45,11 +45,13 @@ $.noConflict();
         <span class="icon-bar"></span>
       </a>
 
-      <a class="brand scroller" data-section="body" href="index">
+      <!-- <a class="brand scroller" data-section="body" href="index"> -->
 
-        <%= make_logo %>
+       <%= link_to "/index" ,:class=>"brand scroller" do %>
+         <%= make_logo %>
+       <% end %>
 
-      </a>
+      <!-- </a> -->
 
       <div class="nav-collapse collapse">
         <ul class="nav pull-right">
