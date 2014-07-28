@@ -12,60 +12,7 @@ class IwillController < ApplicationController
 
   end
 
-  def contact_us
-    @contact_us  = Contact.new(contact_params)
-    logger.debug "New post: #{@contact_us.attributes.inspect}"
-    if !Rails.env.test?
-      captcha = verify_recaptcha
-      flash[:error] = "Incorrect captcha" unless captcha
-    else
-      captcha = true
-    end
-    if captcha && @contact_us.save
-      logger.info "Contact data stored in database"
-      # index
-      flash[:notice] = "Your feedack was sent.We will contact you soon."
-      Notifier.feedback_received(request.host,@contact_us).deliver     
-      Notifier.feedback_ack(request.host,@contact_us).deliver
-      redirect_to :index, notice: "Thank you for your feedback. We will contact you soon !"
-    else
-      flash[:alert] = 'Errors'
-      render :action => 'contact'  ,   notice: "Its all fucked"
-    end
-
-  end
-
-  def random
-  end
-
-  def featured
-	if request.host.include? 'bike'
-      @bikes = Bike.order('RANDOM()')
-    else
-      @bike_make = get_bike_make
-      @bikes = Bike.where(:make => @bike_make).order('RANDOM()')
-    end
-  end
-
- private
-  def get_bike_make
-    domain_suff = request.host
-    if domain_suff.include? 'honda' then domain_suff = 'Honda' end
-    if domain_suff.include? 'ducati' then domain_suff = 'Ducati' end
-    if domain_suff.include? 'harley' then domain_suff = 'Harley' end
-    if domain_suff.include? 'kawasaki' then domain_suff = 'Kawasaki' end
-    if domain_suff.include? 'scooter' then domain_suff = 'Scooter' end
-    if domain_suff.include? 'suzuki' then domain_suff = 'Suzuki' end
-    if domain_suff.include? 'triumph' then domain_suff = 'Triumph' end
-    if domain_suff.include? 'yamaha' then domain_suff = 'Yamaha' end   
-    return domain_suff
-  end
-
-  def valuation
-    #@submission = Submission.new(submission_params)
-  end
-
-  def create
+def create
 
     Rails.logger.info "My info message"
     Rails.logger.debug "My info message"
@@ -147,6 +94,61 @@ class IwillController < ApplicationController
 #
     end
 
+
+  def contact_us
+    @contact_us  = Contact.new(contact_params)
+    logger.debug "New post: #{@contact_us.attributes.inspect}"
+    if !Rails.env.test?
+      captcha = verify_recaptcha
+      flash[:error] = "Incorrect captcha" unless captcha
+    else
+      captcha = true
+    end
+    if captcha && @contact_us.save
+      logger.info "Contact data stored in database"
+      # index
+      flash[:notice] = "Your feedack was sent.We will contact you soon."
+      Notifier.feedback_received(request.host,@contact_us).deliver     
+      Notifier.feedback_ack(request.host,@contact_us).deliver
+      redirect_to :index, notice: "Thank you for your feedback. We will contact you soon !"
+    else
+      flash[:alert] = 'Errors'
+      render :action => 'contact'  ,   notice: "Its all fucked"
+    end
+
+  end
+
+  def random
+  end
+
+  def featured
+	if request.host.include? 'bike'
+      @bikes = Bike.order('RANDOM()')
+    else
+      @bike_make = get_bike_make
+      @bikes = Bike.where(:make => @bike_make).order('RANDOM()')
+    end
+  end
+
+ private
+  def get_bike_make
+    domain_suff = request.host
+    if domain_suff.include? 'honda' then domain_suff = 'Honda' end
+    if domain_suff.include? 'ducati' then domain_suff = 'Ducati' end
+    if domain_suff.include? 'harley' then domain_suff = 'Harley' end
+    if domain_suff.include? 'kawasaki' then domain_suff = 'Kawasaki' end
+    if domain_suff.include? 'scooter' then domain_suff = 'Scooter' end
+    if domain_suff.include? 'suzuki' then domain_suff = 'Suzuki' end
+    if domain_suff.include? 'triumph' then domain_suff = 'Triumph' end
+    if domain_suff.include? 'yamaha' then domain_suff = 'Yamaha' end   
+    return domain_suff
+  end
+
+  def valuation
+    #@submission = Submission.new(submission_params)
+  end
+
+  
 
 
 
