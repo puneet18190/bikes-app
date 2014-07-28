@@ -11,6 +11,7 @@ $.noConflict();
 
 </script>
   <%= cloudinary_js_config %>
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <%
      set_meta_tags :site => 'I will buy any bike - motorcycles bought for cash - webuyanybike',
@@ -18,6 +19,7 @@ $.noConflict();
                    :keywords => 'Motorcycle, motorbike, bike, 4, for, cash, bought, webuyanybike, buy, sell, harley davidson, triumph, suzuki, kawasaki,bmw, ducati, honda, yamaha, scooters, mopeds'
 
   %>
+<%= javascript_include_tag "jquery_ujs" %>
   <%= display_meta_tags %>
   <!-- Bootstrap -->
   <%= stylesheet_link_tag "wrapbootstrap"%>
@@ -55,9 +57,9 @@ $.noConflict();
 
       <div class="nav-collapse collapse">
         <ul class="nav pull-right">
-          <% if @page_menu == "contact" %>
-          <li><a href="#">Featured</a></li>
-           <li><a href="#">Random</a></li> 
+          <% if controller.action_name != "index" || request.url.include?('bikes')  %>
+          <li><a href="/featured">Featured</a></li>
+           <li><%= link_to "Random", random_path %></a></li> 
           <li><a href="/contact">Contact us</a></li>
           <li><a href="/valuation">Valuation</a></li>
           <% else %>

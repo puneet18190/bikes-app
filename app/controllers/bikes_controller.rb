@@ -49,7 +49,7 @@ class BikesController < ApplicationController
 
     respond_to do |format|
       if @bike.save
-        format.html { redirect_to @bike, notice: 'Bike was successfully created.' }
+        format.html { redirect_to bikes_path, notice: 'Bike was successfully created.' }
         format.json { render json: @bike, status: :created, location: @bike }
       else
         format.html { render action: "new" }
@@ -62,10 +62,11 @@ class BikesController < ApplicationController
   # PUT /bikes/1.json
   def update
     @bike = Bike.find(params[:id])
-
+    
+puts params.inspect
     respond_to do |format|
       if @bike.update_attributes(params[:bike])
-        format.html { redirect_to @bike, notice: 'Bike was successfully updated.' }
+        format.html { redirect_to  bikes_path, notice: 'Bike was successfully updated.' }
         format.json { head :no_content }
       else
         format.html { render action: "edit" }
@@ -85,6 +86,7 @@ class BikesController < ApplicationController
       format.json { head :no_content }
     end
   end
+
   private
   def get_bike_make
     domain_suff = request.host
@@ -98,4 +100,11 @@ class BikesController < ApplicationController
     if domain_suff.include? 'yamaha' then domain_suff = 'Yamaha' end   
     return domain_suff
   end
+
+private
+
+    def bike_params
+      params.require(:bike).permit(:make, :model,:registration, :mileage, :postcode, :other, :value_wanted, :submission_id, :stock, :actual_purchase_price, :amend_description, :selling_price, :avatar, photos:[])
+
+    end
 end

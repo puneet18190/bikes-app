@@ -83,11 +83,6 @@
 <div id="featured">
   <div class="container">
     <!-- header -->
-    <h2 class="section_header">
-      <hr class="left visible-desktop">
-      <span>Featured <%= domain_suff %> Bikes</span>
-      <hr class="right visible-desktop">
-    </h2>
 
     <!-- feature list -->
  <%= render :partial => "feature_block" %>
@@ -101,65 +96,7 @@
 <div id="random">
   <div class="container">
     <!-- header -->
-    <h2 class="section_header">
-      <hr class="left visible-desktop">
-                <span>
-                    Random selection
-                    <small>
-                      Lots more available</small>
-                </span>
-      <hr class="right visible-desktop">
-    </h2>
-
-    <!-- feature list -->
-    <div class="row">
-      <div class="span4 feature">
-      <%=  random_image_left %>
-        <%#=cl_image_tag("/assets/busa002.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
-        <h3>
-          <i class="i_cloud"></i> 
-          <% if request.host.include? 'bike' %>
-          Bike
-          <% else %>
-          <%= domain_suff %>
-          <% end %>
-        </h3>
-        <p class="description">
-          Call Phil direct NOW on 0798 4412879 to check stock.
-                  </p>
-        <a href="#" class="btn btn-default">more</a>
-      </div>
-      <div class="span4 feature">
-      <%=  random_image_middle %>
-        <%#=cl_image_tag("/assets/apriliarsv006.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
-
-        <h3>
-          <i class="i_chart"></i> All Makes.
-        </h3>
-        <p class="description">
-          Call Phil direct NOW on 0798 4412879 to check stock.
-        </p>
-        <a href="#" class="btn btn-default">more</a>
-      </div>
-      <div class="span4 feature">
-      <%= random_image_right %>
-        <%#=cl_image_tag("/assets/tl1000_001.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
-
-        <h3>
-          <i class="i_movil"></i> 
-          <% if request.host.include? 'bike' %>
-          Bike
-          <% else %>
-          <%= domain_suff %>
-          <% end %>
-        </h3>
-        <p class="description">
-          Call Phil direct NOW on 0798 4412879 to check stock.
-
-        </p>
-        <a href="#" class="btn btn-default">more</a>
-      </div>
-    </div>
+    <%= render :partial => "random_block" %>
 
 
   </div>

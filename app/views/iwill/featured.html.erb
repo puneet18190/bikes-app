@@ -1,40 +1,63 @@
 <!-- feature list -->
 <div class="container">
 <div class="row">
-  <div class="span4 feature">
-    <img src="assets/img/feature1.jpg" alt="feature1" class="thumb" />
-    <h3>
-      <i class="i_cloud"></i> Responsive clean theme
-    </h3>
-    <p class="description">
-      There are many variations of passages of Lorem Ipsum available, but the
-      majority have suffered alteration in some form, by injected humour, or randomised
-      words which don't look even slightly believable.
-    </p>
-  </div>
-  <div class="span4 feature">
-    <img src="assets/img/feature2.jpg" alt="feature2" class="thumb" />
-    <h3>
-      <i class="i_chart"></i> Responsive clean theme
-    </h3>
-    <p class="description">
-      There are many variations of passages of Lorem Ipsum available, but the
-      majority have suffered alteration in some form, by injected humour, or randomised
-      words which don't look even slightly believable.
-    </p>
-  </div>
-  <div class="span4 feature">
-    <img src="assets/img/feature3.jpg" alt="feature3" class="thumb" />
-    <h3>
-      <i class="i_movil"></i> Responsive clean theme
-    </h3>
-    <p class="description">
-      There are many variations of passages of Lorem Ipsum available, but the
-      majority have suffered alteration in some form, by injected humour, or randomised
-      words which don't look even slightly believable.
-    </p>
-  </div>
-</div>
+ <h2 class="section_header">
+      <hr class="left visible-desktop">
+      <span>Featured <%= domain_suff %> Bikes</span>
+      <hr class="right visible-desktop">
+    </h2>
+    <div class="row">
+      <div class="span4 feature">
+        <%=  featured_image_left %>
+      </div>
+      <div class="span4 feature">
+      <%=  featured_image_middle %>
+      </div>
+      <div class="span4 feature">
+      <%=  featured_image_right %>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span4 feature">
+        <h3>
+          <i class="i_cloud"></i> 
+          <% if request.host.include? 'bike' %>
+          Bike
+          <% else %>
+          <%= domain_suff %>
+          <% end %>
+        </h3>
+        <p class="description">
+          Call Phil direct NOW on 0798 4412879 to check stock.
+                  </p>
+        <a href="#" class="btn btn-default">more</a>
+      </div>
+      <div class="span4 feature">
+
+        <h3>
+          <i class="i_chart"></i> All makes.
+        </h3>
+        <p class="description">
+          Call Phil direct NOW on 0798 4412879 to check stock.
+                  </p>
+        <a href="#" class="btn btn-default">more</a>
+      </div>
+      <div class="span4 feature">
+        <h3>
+          <i class="i_movil"></i> 
+          <% if request.host.include? 'bike' %>
+          Bike
+          <% else %>
+          <%= domain_suff %>
+          <% end %>
+        </h3>
+        <p class="description">
+          Call Phil direct NOW on 0798 4412879 to check stock.
+                  </p>
+        <a href="#" class="btn btn-default">more</a>
+      </div>
+    </div>
+    
 </div>
 </div>
 

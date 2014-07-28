@@ -6,6 +6,7 @@
   <div class="container">
     <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
        <p class="lead"></p>
+<%= link_to "Create Bike" , new_bike_path, :class => "btn btn-mini btn-success" %>
   </div>
 </header>
 
@@ -36,7 +37,12 @@
         <td><%= bike.mileage %></td>
         <td><%= bike.postcode %></td>
         <td><%= bike.value_wanted %></td>
-        <td><%= link_to "Edit" ,"#" ,:class => "btn btn-mini btn-primary" %></td>
+        <td>
+	<%= link_to "Show" , bike_path(bike) ,:class => "btn btn-mini" %>
+	<%= link_to "Edit" , edit_bike_path(bike) ,:class => "btn btn-mini btn-primary" %>
+
+	<%= link_to "Delete",bike, :confirm => "Are you sure to Delete?", :method => "delete", :class => "btn btn-mini btn-danger" %>
+	</td>
       </tr>
     <% end %>
   </tbody>

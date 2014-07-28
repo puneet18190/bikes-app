@@ -24,6 +24,7 @@ Backend::Application.routes.draw do
      post 'contact_us' => 'iwill#contact_us'
      get 'valuation' => 'iwill#valuation'
      get 'featured' => 'iwill#featured'
+     get 'random' => 'iwill#random'
      get 'create' => 'iwill#create'
      post 'create' => 'iwill#create' #controller only no page
      get 'faq' => 'iwill#faq'

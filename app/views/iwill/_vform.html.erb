@@ -1,4 +1,8 @@
-
+<script>
+$('document').ready(function(){
+	$('.attachinary-input').attachinary()
+})
+</script>
 <% recaptcha ||= false %>
 <%= simple_form_for :submission, url: '/create' ,:html=>{:multipart => true, class: 'form-horizontal' } do |submission_form|%>
     <%= submission_form.error_notification %>
@@ -38,7 +42,7 @@
           <%= submission_form.input :registration  %>
           <%= submission_form.input :mileage  %>
           <%= submission_form.input :postcode %>
-          <%= submission_form.input :other , as: :text, input_html: { rows: "4" }, :prompt => "Choose a Bike Make" %>
+          <%= submission_form.input :other , as: :text, input_html: { rows: "4" }, :prompt => "Choose a Bike Make", :hint => "Hint: Please provide any details that may help us with a valuation. e.g. Details of condition, mods, damage, extras, etc."  %>
           <%= submission_form.input :value_wanted %>
           <hr>
           <h3>Pictures</h3>
@@ -49,6 +53,7 @@
             <%= submission_form.input :photos, as: :file, input_html: { multiple: true } %>
             <%= submission_form.input :photos, as: :file, input_html: { multiple: true } %>
             <%= submission_form.input :photos, as: :file, input_html: { multiple: true } %>
+	    <%#= submission_form.input :photos, as: :file %>
           </div>
           </div>
         </div>
