@@ -84,8 +84,8 @@ class IwillController < ApplicationController
 
       Bike.create(:make => @submission.make,:model=> @submission.model,:registration=> @submission.registration, :mileage=> @submission.mileage, :postcode=> @submission.postcode, :other=> @submission.other, :value_wanted=> @submission.value_wanted,:submission_id=>@submission.id)
 
-      #Notifier.sub_received(request.host,@submission).deliver
-      #Notifier.sub_ack(request.host,@submission).deliver
+      Notifier.sub_received(request.host,@submission).deliver
+      Notifier.sub_ack(request.host,@submission).deliver
 
       logger.info "Acknowledgement sent to #{@submission.email}"
 
