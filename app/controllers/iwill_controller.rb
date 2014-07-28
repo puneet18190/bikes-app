@@ -158,6 +158,7 @@ private
     def submission_params
       params.require(:submission).permit(:first_name, :last_name, :email, :phone, :make, :model, :registration, :mileage, :postcode, :other, :value_wanted,:avatar ,photos:[])
 
+
     end
 
     def contact_params
