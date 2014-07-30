@@ -6,10 +6,19 @@ class IwillController < ApplicationController
 
   def index
     #flash[:notice] = 'Under development'
+	if request.host.include? 'bike'
+      @bikes = Bike.all
+    else
+      @bike_make = get_bike_make
+      @bikes = Bike.where(:make => @bike_make).all
+    end
   end
 
   def contact
 
+  end
+
+  def faq
   end
 
 def create
@@ -51,10 +60,15 @@ def create
       #Notifier.sub_received(request.host,@submission).deliver
       logger.info "Valuation submission sent to Phil"
 
-      Bike.create(:make => @submission.make,:model=> @submission.model,:registration=> @submission.registration, :mileage=> @submission.mileage, :postcode=> @submission.postcode, :other=> @submission.other, :value_wanted=> @submission.value_wanted,:submission_id=>@submission.id, :images => @submission.photos)
+      @bike = Bike.create(:make => @submission.make,:model=> @submission.model,:registration=> @submission.registration, :mileage=> @submission.mileage, :postcode=> @submission.postcode, :other=> @submission.other, :value_wanted=> @submission.value_wanted,:submission_id=>@submission.id)
+   
+     @bike.photos << @submission.photos
 
-      Notifier.sub_received(request.host,@submission).deliver
-      Notifier.sub_ack(request.host,@submission).deliver
+	Notifier.sub_received(request.host,@bike, @submission).deliver
+	Notifier.sub_ack(request.host,@bike, @submission).deliver	
+
+     # Notifier.sub_received(request.host,@submission).deliver
+     # Notifier.sub_ack(request.host,@submission).deliver
 
       logger.info "Acknowledgement sent to #{@submission.email}"
 
@@ -119,14 +133,20 @@ def create
   end
 
   def random
+	if request.host.include? 'bike'
+      @bikes = Bike.all
+    else
+      @bike_make = get_bike_make
+      @bikes = Bike.where(:make => @bike_make).all
+    end
   end
 
   def featured
 	if request.host.include? 'bike'
-      @bikes = Bike.order('RANDOM()')
+      @bikes = Bike.all
     else
       @bike_make = get_bike_make
-      @bikes = Bike.where(:make => @bike_make).order('RANDOM()')
+      @bikes = Bike.where(:make => @bike_make).all
     end
   end
 

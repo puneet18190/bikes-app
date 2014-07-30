@@ -4,16 +4,47 @@
       <span>Featured <%= domain_suff %> Bikes</span>
       <hr class="right visible-desktop">
     </h2>
-    <div class="row">
-      <div class="span4 feature">
-        <%=  featured_image_left %>
-      </div>
-      <div class="span4 feature">
-      <%=  featured_image_middle %>
-      </div>
-      <div class="span4 feature">
-      <%=  featured_image_right %>
-      </div>
+   <div class="row">
+	<% bike_photos = [] %>
+	<% @bikes.each do |bike| %> 
+		<% if bike.photos.count >=3 %>
+			<% bike_photos << bike.photos %>
+		<% end %>	
+	<% end %>
+	<% if bike_photos.count > 0 %>
+		<% bike_photos.each do |photo| %>
+			<% if !photo.blank? %>
+				<% if photo.length >= 3 %>	
+					<%photo.sample(3).each do |p|%>	
+			    			<div class="span4 feature">
+							<%= cl_image_tag("http://res.cloudinary.com/iwill/image/upload/#{p.path}", :width => 4000, :height => 5500, :crop => :fill) %>
+			      			</div>
+					<% end %>
+				<% else %>
+						<div class="span4 feature">
+				       			<%= featured_image_left %>
+				      		</div>
+						<div class="span4 feature">
+							<%= featured_image_middle %>
+						</div>
+						<div class="span4 feature">
+							<%= featured_image_right %>
+						</div>
+				<% end %>
+			
+			<% end %>
+		<% end %>
+	<% else %>
+		<div class="span4 feature">
+       			<%= featured_image_left %>
+      		</div>
+		<div class="span4 feature">
+		        <%= featured_image_middle %>
+		</div>
+		<div class="span4 feature">
+		        <%= featured_image_right %>
+		</div>
+	<% end %>
     </div>
     <div class="row">
       <div class="span4 feature">

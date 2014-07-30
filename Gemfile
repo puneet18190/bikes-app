@@ -125,3 +125,5 @@ gem 'rest-client'
 gem 'multimap'
 
 # gem 'esendex'
+
+gem 'devise'

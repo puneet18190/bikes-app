@@ -1,6 +1,7 @@
 require 'domain_constraint.rb'
 
 Backend::Application.routes.draw do
+  devise_for :users, :controllers => {:registrations => "registrations", :sessions => "sessions", :passwords => "passwords"}
   # added for attachinary
 
   mount Attachinary::Engine => "/attachinary"

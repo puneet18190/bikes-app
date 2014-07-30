@@ -9,6 +9,7 @@ Backend::Application.configure do
   # Log error messages when you accidentally call methods on nil.
   #config.whiny_nils = true  obsolete rails in rails 4
 
+ #config.action_mailer.default_url_options = { host: 'localhost:3000' }
   # rails 4
   config.eager_load = false
 

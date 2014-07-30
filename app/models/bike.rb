@@ -24,7 +24,7 @@ class Bike < ActiveRecord::Base
   #validates :name, :presence => true
   #3   validates :email, :presence => true
   attr_accessible :avatar,:photos, :sku
-  attr_accessible :make, :model,:registration, :mileage, :postcode, :other, :value_wanted,:submission_id, :stock, :actual_purchase_price, :amend_description, :selling_price
+  attr_accessible :make, :model,:registration, :mileage, :postcode, :other, :value_wanted,:submission_id, :stock, :actual_purchase_price, :amend_description, :selling_price, :sold
   belongs_to :submission
 
  has_attachments :photos, :maximum => 3 , accept: [:jpg, :png, :gif]
