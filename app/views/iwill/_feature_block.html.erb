@@ -9,10 +9,12 @@
 	<% bike_photo = [] %>
 	<% count = 0 %>
 	<% if request.host.include? 'bike'%>
+		<%= "Hi"%>
 		<% @bikes.each do |bike| %> 
 			<% bike_photos << bike.photos %>
 		<% end %>
 	<%else %>
+		<%= "Hello"%>
 		<% @bikes_make.each do |bike| %> 
 			<% bike_photos << bike.photos %>
 		<% end %>
