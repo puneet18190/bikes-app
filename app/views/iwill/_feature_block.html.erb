@@ -9,12 +9,10 @@
 	<% bike_photo = [] %>
 	<% count = 0 %>
 	<% if request.host.include? 'bike'%>
-		<%= "Hi"%>
 		<% @bikes.each do |bike| %> 
 			<% bike_photos << bike.photos %>
 		<% end %>
 	<%else %>
-		<%= "Hello"%>
 		<% @bikes_make.each do |bike| %> 
 			<% bike_photos << bike.photos %>
 		<% end %>
@@ -77,6 +75,12 @@
 		<% end %>
 	<% end %>
 	<% else %>
+		<div class="span4 feature" style="height:400px;">
+	       			<%= featured_image_left %>
+	      	</div>
+		<div class="span4 feature" style="height:400px;">
+	       			<%= featured_image_left %>
+	      	</div>
 		<div class="span4 feature" style="height:400px;">
 	       			<%= featured_image_left %>
 	      	</div>

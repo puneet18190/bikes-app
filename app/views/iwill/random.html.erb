@@ -42,6 +42,7 @@
 			<% bike_photo << "" %>
 		<% end %>
 	<% end %>
+	<% if bike_photos.count > 0 %>
 	<% bike_photo.sample(6).in_groups_of(3, false).each do |pic| %>
 		<% pic.each do |p|%>
 			<% if p != ""%>
@@ -78,6 +79,26 @@
 	      		</div>
 		<% end %>
 		<% end %>
+	<% end %>
+	<% else %>
+		<div class="span4 feature" style="height:400px;">
+	       			<%= featured_image_left %>
+	      	</div>
+		<div class="span4 feature" style="height:400px;">
+	       			<%= featured_image_left %>
+	      	</div>
+		<div class="span4 feature" style="height:400px;">
+	       			<%= featured_image_left %>
+	      	</div>
+		<div class="span4 feature" style="height:400px;">
+	       			<%= featured_image_left %>
+	      	</div>
+		<div class="span4 feature" style="height:400px;">
+	       			<%= featured_image_left %>
+	      	</div>
+		<div class="span4 feature" style="height:400px;">
+	       			<%= featured_image_left %>
+	      	</div>
 	<% end %>
     </div>
  
