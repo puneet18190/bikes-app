@@ -63,8 +63,8 @@ def create
      @bike.user = current_user if current_user.nil?
      @bike.photos << @submission.photos
 
-	#Notifier.sub_received(request.host,@bike, @submission).deliver
-	#Notifier.sub_ack(request.host,@bike, @submission).deliver	
+	Notifier.sub_received(request.host,@bike, @submission).deliver
+	Notifier.sub_ack(request.host,@bike, @submission).deliver	
 
      # Notifier.sub_received(request.host,@submission).deliver
      # Notifier.sub_ack(request.host,@submission).deliver
