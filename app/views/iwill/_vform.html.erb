@@ -48,6 +48,10 @@ $('document').ready(function(){
           <h3>Pictures</h3>
           <div class="social">
             <%#= attachinary_file_field_tag 'submission[avatar]', @submission, :avatar      %>
+		<%#= f.input :avatar, as: :attachinary %>
+
+		<%#= f.input :photos, as: :attachinary %>
+
             <%#= submission_form.input :avatar, as: :attachinary  %>
             <%#= submission_form.input :photos, as: :attachinary, input_html: { multiple: true } %>
             <%= submission_form.input :photos, as: :file, input_html: { multiple: true } %>

@@ -6,9 +6,9 @@
   <div class="container">
     <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
        <p class="lead"></p>
-<%# if current_user.try(:admin?) %>
+<% if current_user.try(:admin?) %>
 <%= link_to "Create Bike" , new_bike_path, :class => "btn btn-mini btn-success" %>
-<% #end %>
+<% end %>
   </div>
 </header>
 
@@ -46,16 +46,22 @@
         <td><%= bike.stock %></td>
         <td><%= bike.actual_purchase_price %></td>
         <td><%= bike.selling_price %></td>
-        <td><%= bike.sold %></td>
+        <td>
+		<% if bike.sold == false %>
+			<span style="color:green">Bike is Available</span>
+		<% else %>
+			<span style="color:red">Sold</span>
+		<% end %>
+	</td>
         <td>
 	<%= link_to "Show" , bike_path(bike) ,:class => "btn btn-mini" %>
-	<%#if current_user.try(:admin?) %>
+	<% if current_user.try(:admin?) %>
 	<%= link_to "Edit" , edit_bike_path(bike) ,:class => "btn btn-mini btn-primary" %>
 
 	<%= link_to "Delete",bike, :confirm => "Are you sure to Delete?", :method => "delete", :class => "btn btn-mini btn-danger" %><% end %>
 	</td>
       </tr>
-    <% #end %>
+    <% end %>
   </tbody>
 </table>
 <% else %>

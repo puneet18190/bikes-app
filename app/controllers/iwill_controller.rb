@@ -6,12 +6,9 @@ class IwillController < ApplicationController
 
   def index
     #flash[:notice] = 'Under development'
-	if request.host.include? 'bike'
-      @bikes = Bike.all
-    else
-      @bike_make = get_bike_make
-      @bikes = Bike.where(:make => @bike_make).all
-    end
+      		@bike_make = get_bike_make
+      		@bikes = Bike.all
+      		@bikes_make = Bike.where(:make => @bike_make).all
   end
 
   def contact
@@ -34,6 +31,7 @@ def create
     #  format.html # new.html.erb
     #  format.json { render json: @submission }
      @submission = Submission.new(submission_params)
+    @submission.user = current_user if current_user.nil?
     logger.debug "New post: #{@submission.attributes.inspect}"
 
       # @submission = @machine.submission.build(params[:submission])
@@ -62,10 +60,11 @@ def create
 
       @bike = Bike.create(:make => @submission.make,:model=> @submission.model,:registration=> @submission.registration, :mileage=> @submission.mileage, :postcode=> @submission.postcode, :other=> @submission.other, :value_wanted=> @submission.value_wanted,:submission_id=>@submission.id)
    
+     @bike.user = current_user if current_user.nil?
      @bike.photos << @submission.photos
 
-	Notifier.sub_received(request.host,@bike, @submission).deliver
-	Notifier.sub_ack(request.host,@bike, @submission).deliver	
+	#Notifier.sub_received(request.host,@bike, @submission).deliver
+	#Notifier.sub_ack(request.host,@bike, @submission).deliver	
 
      # Notifier.sub_received(request.host,@submission).deliver
      # Notifier.sub_ack(request.host,@submission).deliver
@@ -133,21 +132,15 @@ def create
   end
 
   def random
-	if request.host.include? 'bike'
-      @bikes = Bike.all
-    else
-      @bike_make = get_bike_make
-      @bikes = Bike.where(:make => @bike_make).all
-    end
+	      	@bike_make = get_bike_make
+      		@bikes = Bike.all
+      		@bikes_make = Bike.where(:make => @bike_make).all
   end
 
   def featured
-	if request.host.include? 'bike'
-      @bikes = Bike.all
-    else
-      @bike_make = get_bike_make
-      @bikes = Bike.where(:make => @bike_make).all
-    end
+	      	@bike_make = get_bike_make
+      		@bikes = Bike.all
+      		@bikes_make = Bike.where(:make => @bike_make).all
   end
 
  private
@@ -178,7 +171,7 @@ def create
 private
 
     def submission_params
-      params.require(:submission).permit(:first_name, :last_name, :email, :phone, :make, :model, :registration, :mileage, :postcode, :other, :value_wanted,:avatar ,photos:[])
+      params.require(:submission).permit(:first_name, :last_name, :email, :phone, :make, :model, :registration, :mileage, :postcode, :other, :value_wanted, :user_id,:avatar ,photos:[])
 
 
     end

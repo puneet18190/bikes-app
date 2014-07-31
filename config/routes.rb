@@ -4,6 +4,7 @@ Backend::Application.routes.draw do
   devise_for :users, :controllers => {:registrations => "registrations", :sessions => "sessions", :passwords => "passwords"}
   # added for attachinary
 
+	resources :users 
   mount Attachinary::Engine => "/attachinary"
 
      constraints (DomainConstraint.new('www.iwillbuyanybike.co.uk')) do

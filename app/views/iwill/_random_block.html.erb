@@ -9,92 +9,66 @@
     </h2>
  <div class="row">
 	<% bike_photos = [] %>
+	<% bike_photo = [] %>
+	<% count = 0 %>
 	<% @bikes.each do |bike| %> 
-		<% if bike.photos.count >=3 %>
+		<% if bike.make != @bike_make %>
 			<% bike_photos << bike.photos %>
 		<% end %>	
 	<% end %>
-	<% if bike_photos.count > 0 %>
 		<% bike_photos.each do |photo| %>
 			<% if !photo.blank? %>
-				<% if photo.length >= 3 %>	
-					<%photo.sample(3).each do |p|%>	
-			    			<div class="span4 feature">
-							<%= cl_image_tag("http://res.cloudinary.com/iwill/image/upload/#{p.path}", :width => 4000, :height => 5500, :crop => :fill) %>
-			      			</div>
+				<% if photo.length <= 3 %>	
+					<%photo.each do |p|%>	
+			    			<% bike_photo << p %>
 					<% end %>
-				<% else %>
-						<div class="span4 feature">
-				       			<%= featured_image_left %>
-				      		</div>
-						<div class="span4 feature">
-							<%= featured_image_middle %>
-						</div>
-						<div class="span4 feature">
-							<%= featured_image_right %>
-						</div>
 				<% end %>
-			
 			<% end %>
 		<% end %>
-	<% else %>
-		<div class="span4 feature">
-       			<%= featured_image_left %>
-      		</div>
-		<div class="span4 feature">
-		        <%= featured_image_middle %>
-		</div>
-		<div class="span4 feature">
-		        <%= featured_image_right %>
-		</div>
+		<%  case bike_photo.length%>
+			<% when 1 then count= count + 2 %>
+			<% when 2 then count= count + 1 %>
+			<% when 3 then count= count + 0 %>
+		<% end %>
+	
+	<% if bike_photo.length < 3 %>
+		<% for i in 0...count %>
+			<% bike_photo << "" %>
+		<% end %>
 	<% end %>
-    </div>
-    <!-- feature list -->
-    <div class="row">
-      <div class="span4 feature">
-      <%#=  random_image_left %>
-        <%#=cl_image_tag("/assets/busa002.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
-        <h3>
-          <i class="i_cloud"></i> 
-          <% if request.host.include? 'bike' %>
-          Bike
-          <% else %>
-          <%= domain_suff %>
-          <% end %>
-        </h3>
-        <p class="description">
-          Call Phil direct NOW on 0798 4412879 to check stock.
-                  </p>
-        <a href="#" class="btn btn-default">more</a>
-      </div>
-      <div class="span4 feature">
-      <%#=  random_image_middle %>
-        <%#=cl_image_tag("/assets/apriliarsv006.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
-
-        <h3>
-          <i class="i_chart"></i> All Makes.
-        </h3>
-        <p class="description">
-          Call Phil direct NOW on 0798 4412879 to check stock.
-        </p>
-        <a href="#" class="btn btn-default">more</a>
-      </div>
-      <div class="span4 feature">
-      <%#= random_image_right %>
-        <%#=cl_image_tag("/assets/tl1000_001.jpg", :width => 4000, :height => 5500, :crop => :fill)%>
-
-        <h3>
-          <i class="i_movil"></i> 
-          <% if request.host.include? 'bike' %>
-          Bike
-          <% else %>
-          <%= domain_suff %>
-          <% end %>
-        </h3>
-        <p class="description">
-          Call Phil direct NOW on 0798 4412879 to check stock.
-
-        </p>
-        <a href="#" class="btn btn-default">more</a>
-      </div>
+	<% bike_photo.sample(3).each do |p| %>
+		<% if p != ""%>
+			<div class="span4 feature" style="height:400px;">
+				<%= link_to cl_image_tag("http://res.cloudinary.com/iwill/image/upload/#{p.path}", :width => 4000, :height => 5500, :crop => :fill), bike_path(p.attachinariable_id) %>
+			        <h3> <i class="i_cloud"></i> 
+					<% if Bike.find(p.attachinariable_id).make.blank?%>
+						Bike
+					<% else %>
+	       					<%= Bike.find(p.attachinariable_id).make%>
+					<% end %>
+			        </h3>
+			        <p class="description">
+          				<strong>Description:</strong>
+						<% if !Bike.find(p.attachinariable_id).amend_description.blank?%>
+							<%= Bike.find(p.attachinariable_id).amend_description.truncate(10)%>
+						<% else %>
+	       						<%= "Nil" %>
+						<% end %>
+			        </p>
+				<p class="Price">
+          				<strong>Price:</strong>
+					<% if !Bike.find(p.attachinariable_id).selling_price.blank?%>
+						<%= Bike.find(p.attachinariable_id).selling_price%>
+					<% else %>
+       						<%= "Nil" %>
+					<% end %>
+        			</p>
+          				<%= link_to "More", bike_path(p.attachinariable_id), :class=>"btn btn-default" %>
+     			</div>
+		<% else %>
+			<div class="span4 feature" style="height:400px;">
+	       			<%= random_image_left %>
+	      		</div>
+		<% end %>
+<% end %>
     </div>

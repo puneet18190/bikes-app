@@ -1,4 +1,5 @@
 class BikesController < ApplicationController
+ #before_filter :authenticate, :except => [:index, :show]
   # GET /bikes
   # GET /bikes.json
   layout 'iwill'
@@ -46,6 +47,7 @@ class BikesController < ApplicationController
   # POST /bikes.json
   def create
     @bike = Bike.new(params[:bike])
+    @bike.user = current_user if current_user.nil?
 
     respond_to do |format|
       if @bike.save
@@ -104,7 +106,7 @@ puts params.inspect
 private
 
     def bike_params
-      params.require(:bike).permit(:make, :model,:registration, :mileage, :postcode, :other, :value_wanted, :submission_id, :stock, :actual_purchase_price, :amend_description, :selling_price, :avatar, photos:[])
+      params.require(:bike).permit(:make, :model,:registration, :mileage, :postcode, :other, :value_wanted, :submission_id, :stock, :actual_purchase_price, :amend_description, :selling_price, :user_id, :avatar, photos:[])
 
     end
 end

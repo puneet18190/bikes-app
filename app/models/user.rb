@@ -6,4 +6,6 @@ class User < ActiveRecord::Base
 
   has_many :submissions, dependent: :destroy
 
+  has_many :bikes, dependent: :destroy if self.try(:admin?)
+
 end

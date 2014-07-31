@@ -1,54 +1,59 @@
+<script type="text/javascript">
+	$('document').ready(function() {
+		$(".image").click(function() {
+		var image = $(this).html();
+		$('#image').hide();
+		$('#image').fadeIn('slow');
+		$('#image').html(image);
+		$('#image img').height(350).width(600);
+		return false;
+		});
+	});
+</script>
 <div class="container">
 <%- model_class = Bike -%>
 <div class="page-header">
   <h1><%=t '.title', :default => model_class.model_name.human %></h1>
 </div>
-<dl class="dl-horizontal">
-  <dt><strong><%= model_class.human_attribute_name(:make) %>:</strong></dt>
-  <dd><%= @bike.make %></dd><br/>
-  <dt><strong><%= model_class.human_attribute_name(:model) %>:</strong></dt>
-  <dd><%= @bike.model %></dd><br/>
-  <dt><strong><%= model_class.human_attribute_name(:mileage) %>:</strong></dt>
-  <dd><%= @bike.mileage %></dd><br/>
-  <dt><strong><%= model_class.human_attribute_name(:registration) %>:</strong></dt>
-  <dd><%= @bike.registration %></dd><br/>
-  <dt><strong><%= model_class.human_attribute_name(:postcode) %>:</strong></dt>
-  <dd><%= @bike.postcode %></dd><br/>
-  <dt><strong><%= model_class.human_attribute_name(:other) %>:</strong></dt>
-  <dd><%= @bike.other %></dd><br/>
-  <dt><strong><%= model_class.human_attribute_name(:value_wanted) %>:</strong></dt>
-  <dd><%= @bike.value_wanted %></dd><br/>
-  <dt><strong><%= model_class.human_attribute_name(:stock) %>:</strong></dt>
-  <dd><%= @bike.stock %></dd><br/>
-  <dt><strong><%= model_class.human_attribute_name(:sold) %>:</strong></dt>
-  <dd><%= @bike.sold %></dd><br/>
-  <dt><strong><%= model_class.human_attribute_name(:actual_purchase_price) %>:</strong></dt>
-  <dd><%= @bike.actual_purchase_price %></dd><br/>
-  <dt><strong><%= model_class.human_attribute_name(:amend_description) %>:</strong></dt>
-  <dd><%= @bike.amend_description %></dd><br/>
-  <dt><strong><%= model_class.human_attribute_name(:selling_price) %>:</strong></dt>
-  <dd><%= @bike.selling_price %></dd><br/>
-  <dt><strong><%= model_class.human_attribute_name(:photos) %>:</strong></dt>
-  <dd>
-	<% @submission = Submission.find_by_id(@bike.submission_id) %>
-	<% if !@submission.nil? %>	
-		<% if !@submission.photos.blank? %>
-		<% @submission.photos.each do |photo| %>
-		    <%= cl_image_tag(photo.path, { size: '125x125', crop: :fit }) %>
+<div class ="container">
+	<div class="span7">
+<div id="image"><%= cl_image_tag("http://res.cloudinary.com/iwill/image/upload/#{@bike.photos.first.path}", :width => 600, :height => 550, :crop => :fill, :class => "thumb") %></div>
+	<%@bike.photos.each do |photo|%>
+<a href="#" class="image"><%= cl_image_tag("http://res.cloudinary.com/iwill/image/upload/#{photo.path}", :width => 200, :height => 250, :crop => :fill, :class => "thumb") %></a>
+<% end %>	
+	</div>
+	<div class= "span4">
+		<table class="table table-striped">
+  		<tr class="success" style="border:1px solid #bbb"><td><strong>Description:</strong></td>
+  		<td><%= @bike.amend_description %></td></tr>
+		<tr style="border:1px solid #bbb"><td><strong><%= model_class.human_attribute_name(:make) %>:</strong></td>
+		<td><%= @bike.make %></td></tr>
+		<tr class="success" style="border:1px solid #bbb"><td><strong><%= model_class.human_attribute_name(:model) %>:</strong></td>
+		<td><%= @bike.model %></td></tr>
+		<tr style="border:1px solid #bbb"><td><strong><%= model_class.human_attribute_name(:mileage) %>:</strong></td>
+		<td><%= @bike.mileage %></td></tr>
+  		<tr class="success" style="border:1px solid #bbb"><td><strong><%= model_class.human_attribute_name(:registration) %>:</strong></td>
+  		<td><%= @bike.registration %></td></tr>
+		<tr style="border:1px solid #bbb"><td><strong><%= model_class.human_attribute_name(:value_wanted) %>:</strong></td>
+		<td><%= @bike.value_wanted %></td></tr>
+		<tr class="success" style="border:1px solid #bbb"><td><strong><%= model_class.human_attribute_name(:stock) %>:</strong></td>
+		<% if @bike.stock == true %>  		
+			<td><%= check_box_tag(:stock, @bike.stock, checked = true) %></td>
+		<%else%>
+			<td><%= check_box_tag(:sold, @bike.sold) %></td></tr>
 		<% end %>
-		<% end %>
-	<% end %>
-	<% if !@bike.photos.blank? %>
-		<% @bike.photos.each do |photo| %>
-		    <%= cl_image_tag(photo.path, { size: '125x125', crop: :fit }) %>
-		<% end %>
-	<% end %>
-  </dd>
-</dl>
+		<tr style="border:1px solid #bbb"><td><strong><%= model_class.human_attribute_name(:actual_purchase_price) %>:</strong></td>
+		<td><%= @bike.actual_purchase_price %></td></tr>
+		<tr class="success" style="border:1px solid #bbb"><td><strong><%= model_class.human_attribute_name(:selling_price) %>:</strong></td>
+		<td><%= @bike.selling_price %></td></tr>
+		</table>
+	</div>
+</div>
 
 <div class="form-actions">
   <%= link_to t('.back', :default => t("helpers.links.back")),
-              bikes_path, :class => 'btn'  %>
+              :back, :class => 'btn'  %>
+<% if current_user.try(:admin?) %>
   <%= link_to t('.edit', :default => t("helpers.links.edit")),
               edit_bike_path(@bike), :class => 'btn' %>
   <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
@@ -56,5 +61,6 @@
               method: :delete,
               :data => { :confirm => t('.confirm', :default => t("helpers.links.confirm", :default => 'Are you sure?')) },
               :class => 'btn btn-danger' %>
+<% end %>
 </div>
 </div>

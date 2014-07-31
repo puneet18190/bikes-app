@@ -13,7 +13,7 @@
 
 class Submission < ActiveRecord::Base
   attr_accessible :avatar,:photos, :sku
-  attr_accessible :first_name, :last_name, :email, :phone, :make, :model, :registration, :mileage, :postcode, :other, :value_wanted
+  attr_accessible :first_name, :last_name, :email, :phone, :make, :model, :registration, :mileage, :postcode, :other, :value_wanted, :user_id
   #  attr_accessible :first_name
 
   #has_attachment  :avatar , accept: [:jpg, :png, :gif]
