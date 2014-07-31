@@ -39,6 +39,7 @@
 			<% bike_photo << "" %>
 		<% end %>
 	<% end %>
+	<% if bike_photos.count > 0 %>
 	<% bike_photo.sample(3).each do |p| %>
 		<% if p != ""%>
 			<div class="span4 feature" style="height:400px;">
@@ -74,6 +75,11 @@
 	       			<%= featured_image_left %>
 	      		</div>
 		<% end %>
+	<% end %>
+	<% else %>
+		<div class="span4 feature" style="height:400px;">
+	       			<%= featured_image_left %>
+	      	</div>
 	<% end %>
     </div>
    
