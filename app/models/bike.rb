@@ -24,9 +24,10 @@ class Bike < ActiveRecord::Base
   #validates :name, :presence => true
   #3   validates :email, :presence => true
   attr_accessible :avatar,:photos, :sku
-  attr_accessible :make, :model,:registration, :mileage, :postcode, :other, :value_wanted,:submission_id, :stock, :actual_purchase_price, :amend_description, :selling_price, :sold, :user_id
+  attr_accessible :make, :model,:registration, :mileage, :postcode, :other, :value_wanted,:submission_id, :stock, :actual_purchase_price, :amend_description, :selling_price, :sold, :user_id, :bike_keywords
   belongs_to :submission
 
+  belongs_to :user
  has_attachments :photos, :maximum => 3 , accept: [:jpg, :png, :gif]
 
   has_many :attachinary_files, as: :attachinariable,foreign_key: :attachinariable_id, primary_key: :sku, conditions: { scope: 'photos' }

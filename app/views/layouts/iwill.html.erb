@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <%= cloudinary_js_config %>
-<%= javascript_include_tag "jquery" %>
 <script>
 //$.noConflict();
 // $( document ).ready(function() {
@@ -11,6 +9,7 @@
 
 </script>
 
+<%= javascript_include_tag "jquery" %>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <%
@@ -20,7 +19,9 @@
 
   %>
 <%= javascript_include_tag "jquery_ujs" %>
-  <%= display_meta_tags %>
+<%= cloudinary_js_config %>
+  <%#= display_meta_tags %>
+ <%= display_meta_tags :site => "iwillbuyanybike.co.uk", :description => Metatags::DESCRIPTION, :keywords => Metatags::KEYWORDS %>
   <!-- Bootstrap -->
   <%= stylesheet_link_tag "wrapbootstrap"%>
   <%= stylesheet_link_tag "wrapanimate"%>
@@ -31,6 +32,22 @@
   <%= analytics_init :local => Rails.env.development? %>
 
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript">
+	$('document').ready(function(){
+		$('.linkurl').click(function(){
+			var id = $(this).attr('id')
+			$.ajax({
+                		type: "POST",
+                		url: "/clicks",
+                		data: { id: id},
+                		success: function( data) {
+					//$("#data_display").html(data);
+                		}
+            		});
+		});
+	});
+</script>
 </head>
 <body>
 <a href="#" class="scrolltop">
@@ -76,6 +93,7 @@
             </a>
             <ul class="dropdown-menu">
             <li><a href="#">About us</a></li>
+           <!-- <li><%#= link_to "StatsMixCount" , stats_path %></li>-->
             <li><a href="/contact">Contact us</a></li>
             <li><%= link_to "Bikes" , bikes_path %></li>
              <!-- <li><a href="/featured">Features</a></li>
@@ -153,9 +171,10 @@
         <h3>Our Other Sites</h3>
         <% @sites = ALL_SITES %>
         <% @sites.each do  |k| %>
+		<% x= k.gsub('www.iwillbuyany', '').gsub(".co.uk", "")%>
         <%if request.host == k %>
         <% else %>
-        <%= link_to k , "http://#{k}" ,:target => "blank" ,:style => "color:white;" %><br/>
+        <%= link_to k , "http://#{k}" ,:target => "blank" ,:style => "color:white;", :id => "#{x}", :class => "linkurl" %><br/>
         <% end %>
         <% end %>
         <br/>

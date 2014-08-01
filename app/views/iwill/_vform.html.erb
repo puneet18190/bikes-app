@@ -1,8 +1,23 @@
+<head>
+<%- title "I will buy any bike" %>
+<% if request.host.include? "bike" %>
+	<% @bikes.each do |bike| %>
+	<%- description bike.amend_description + "," if !bike.amend_description.nil?%>
+	<%- keywords "bike" +", "+ bike.model + ", "+ bike.bike_keywords.to_s %>
+	<% end %>
+<% else %>
+	<% @bikes_make.each do |bike| %>
+	<%- description bike.amend_description %>
+	<%- keywords bike.make + ", "+ bike.model+ ", "+ bike.bike_keywords.to_s %>
+	<% end %>
+<% end %>
+  <%= display_meta_tags %>
 <script>
-$('document').ready(function(){
-	$('.attachinary-input').attachinary()
-})
+//$('document').ready(function(){
+//	$('.attachinary-input').attachinary()
+//})
 </script>
+</head>
 <% recaptcha ||= false %>
 <%= simple_form_for :submission, url: '/create' ,:html=>{:multipart => true, class: 'form-horizontal' } do |submission_form|%>
     <%= submission_form.error_notification %>

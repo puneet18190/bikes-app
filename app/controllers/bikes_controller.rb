@@ -3,6 +3,10 @@ class BikesController < ApplicationController
   # GET /bikes
   # GET /bikes.json
   layout 'iwill'
+
+  include Metatags
+  metatags :title => "bikes, Motorcycles, latest trends in bikes ", :description => :amend_description, :short_tag => :make, :keywords => :bike_keywords
+
   def index
     if request.host.include? 'bike'
       @bikes = Bike.all
@@ -106,7 +110,7 @@ puts params.inspect
 private
 
     def bike_params
-      params.require(:bike).permit(:make, :model,:registration, :mileage, :postcode, :other, :value_wanted, :submission_id, :stock, :actual_purchase_price, :amend_description, :selling_price, :user_id, :avatar, photos:[])
+      params.require(:bike).permit(:make, :model,:registration, :mileage, :postcode, :other, :value_wanted, :submission_id, :stock, :actual_purchase_price, :amend_description, :selling_price, :user_id, :bike_keywords, :avatar, photos:[])
 
     end
 end

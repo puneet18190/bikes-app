@@ -16,6 +16,7 @@
       <%= f.input :selling_price, :class => 'text_field' %>
       <%= f.input :other , as: :text, input_html: { rows: "4" }, :hint => "Hint: Please provide any details that may help us with a valuation. e.g. Details of condition, mods, damage, extras, etc."  %>
       <%= f.input :value_wanted %>
+	<%= f.input :bike_keywords, :class => 'text_field', input_html: { class: "span6", cols: "0", rows: "0" },  :label => "Meta Tags" %>
 	<% if controller.action_name == "new" %>
       <%= f.input :photos, as: :file, input_html: { multiple: true } %>
       <%= f.input :photos, as: :file, input_html: { multiple: true } %>

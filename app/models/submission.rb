@@ -12,8 +12,8 @@
 #
 
 class Submission < ActiveRecord::Base
-  attr_accessible :avatar,:photos, :sku
-  attr_accessible :first_name, :last_name, :email, :phone, :make, :model, :registration, :mileage, :postcode, :other, :value_wanted, :user_id
+  #attr_accessible :avatar,:photos, :sku
+  #attr_accessible :first_name, :last_name, :email, :phone, :make, :model, :registration, :mileage, :postcode, :other, :value_wanted, :user_id
   #  attr_accessible :first_name
 
   #has_attachment  :avatar , accept: [:jpg, :png, :gif]
@@ -26,6 +26,7 @@ class Submission < ActiveRecord::Base
   has_many :attachinary_files, as: :attachinariable,foreign_key: :attachinariable_id, primary_key: :sku,conditions: { scope: 'photos' }
   has_one :bike
 
+ belongs_to :user
 
 
 end

@@ -7,6 +7,8 @@ gem 'rake', '10.1.0'
 # Rails 4
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 
+gem 'jquery-rails'
+
 # heroku
 gem 'rails_on_heroku'
 gem 'rails_12factor', group: :production
@@ -85,7 +87,6 @@ end
   gem 'uglifier',  '>= 1.3.0'
 #end
 
-gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -126,4 +127,8 @@ gem 'multimap'
 
 # gem 'esendex'
 
+#authentication
 gem 'devise'
+
+#metrics calculation
+gem 'statsmix'

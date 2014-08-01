@@ -1,6 +1,11 @@
 class IwillController < ApplicationController
   require 'json'
   layout "iwill"
+
+skip_before_filter :verify_authenticity_token, :only => [:clicks]
+
+ include Metatags
+  metatags :title => "bikes, Motorcycles, latest trends in bikes ", :description => :amend_description, :short_tag => :make, :keywords => :bike_keywords, :canonical => :submission_url
  # resources :notifier
  # resources :submission
 
@@ -9,6 +14,7 @@ class IwillController < ApplicationController
       		@bike_make = get_bike_make
       		@bikes = Bike.all
       		@bikes_make = Bike.where(:make => @bike_make).all
+	 	StatsMix.track('Domain Recorded', 1, :meta => {"Domain" => @bike_make})
   end
 
   def contact
@@ -47,6 +53,8 @@ def create
     end
     
     if captcha && @submission.save
+
+	 StatsMix.track('Valuation Created', 1, :meta => {"Valuation" => @submission.make})
       logger.info "Valuation data stored in database"
       # index
       flash[:notice] = "Successfully updated feature."
@@ -60,7 +68,7 @@ def create
 
       @bike = Bike.create(:make => @submission.make,:model=> @submission.model,:registration=> @submission.registration, :mileage=> @submission.mileage, :postcode=> @submission.postcode, :other=> @submission.other, :value_wanted=> @submission.value_wanted,:submission_id=>@submission.id)
    
-     @bike.user = current_user if current_user.nil?
+     @bike.user = current_user if !current_user.nil?
      @bike.photos << @submission.photos
 
 	Notifier.sub_received(request.host,@bike, @submission).deliver
@@ -107,6 +115,18 @@ def create
 #
     end
 
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+#	def stats
+		
+#	end
+
+	def clicks
+		#render :text => params[:id] and return
+		@id = params[:id]
+	 	StatsMix.track('Domain Recorded', 1, :meta => {"Domain type" => @id})
+		  render :nothing => true
+	end
+#%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
   def contact_us
     @contact_us  = Contact.new(contact_params)

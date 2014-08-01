@@ -1,3 +1,18 @@
+<head>
+<%- title "I will buy any bike" %>
+<% if request.host.include? "bike" %>
+	<% @bikes.each do |bike| %>
+	<%- description bike.amend_description + "," if !bike.amend_description.nil?%>
+	<%- keywords "bike" +", "+ bike.model + ", "+ bike.bike_keywords.to_s %>
+	<% end %>
+<% else %>
+	<% @bikes_make.each do |bike| %>
+	<%- description bike.amend_description %>
+	<%- keywords bike.make + ", "+ bike.model+ ", "+ bike.bike_keywords.to_s %>
+	<% end %>
+<% end %>
+  <%= display_meta_tags %>
+</head>
 <h2 class="section_header">
       <hr class="left visible-desktop">
                 <span>

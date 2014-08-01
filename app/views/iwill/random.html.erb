@@ -1,3 +1,16 @@
+<%- title "I will buy any bike" %>
+<% if request.host.include? "bike" %>
+	<% @bikes.each do |bike| %>
+	<%- description bike.amend_description + "," if !bike.amend_description.nil?%>
+	<%- keywords "bike" +", "+ bike.model + ", "+ bike.bike_keywords.to_s %>
+	<% end %>
+<% else %>
+	<% @bikes_make.each do |bike| %>
+	<%- description bike.amend_description %>
+	<%- keywords bike.make + ", "+ bike.model+ ", "+ bike.bike_keywords.to_s %>
+	<% end %>
+<% end %>
+  <%= display_meta_tags %>
 <!-- feature list -->
 <div class="container">
 <div class="row">
