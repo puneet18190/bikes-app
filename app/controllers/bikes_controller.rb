@@ -8,12 +8,9 @@ class BikesController < ApplicationController
   metatags :title => "bikes, Motorcycles, latest trends in bikes ", :description => :amend_description, :short_tag => :make, :keywords => :bike_keywords
 
   def index
-    if request.host.include? 'bike'
-      @bikes = Bike.all
-    else
-      @bike_make = get_bike_make
-      @bikes = Bike.where(:make => @bike_make)
-    end 
+    		@bike_make = get_bike_make
+      		@bikes = Bike.all
+      		@bikes_make = Bike.where(:make => @bike_make).all
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @bikes }
