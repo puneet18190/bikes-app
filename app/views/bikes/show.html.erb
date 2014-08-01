@@ -1,15 +1,11 @@
 <head>
 <%- title "I will buy any bike" %>
 <% if request.host.include? "bike" %>
-	<% @bikes.each do |bike| %>
-	<%- description bike.amend_description + "," if !bike.amend_description.nil?%>
-	<%- keywords "bike" +", "+ bike.model + ", "+ bike.bike_keywords.to_s %>
-	<% end %>
+	<%- description @bike.amend_description + "," if !@bike.amend_description.nil?%>
+	<%- keywords "bike" +", "+ @bike.model + ", "+ @bike.bike_keywords.to_s %>
 <% else %>
-	<% @bikes_make.each do |bike| %>
-	<%- description bike.amend_description %>
-	<%- keywords bike.make + ", "+ bike.model+ ", "+ bike.bike_keywords.to_s %>
-	<% end %>
+	<%- description @bike.amend_description %>
+	<%- keywords @bike.make + ", "+ @bike.model+ ", "+ @bike.bike_keywords.to_s %>
 <% end %>
   <%= display_meta_tags %>
 </head>
