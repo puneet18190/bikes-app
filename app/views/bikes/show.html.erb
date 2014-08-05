@@ -28,7 +28,7 @@
 </div>
 <div class ="container">
 	<div class="span7">
-	<% bike = @bike.photos.first if !@bike.photos.first.nil? %>
+	<% bike = @bike.photos.first if !@bike.photos.nil? %>
 <div id="image"><%= cl_image_tag("http://res.cloudinary.com/iwill/image/upload/#{bike.path}", :width => 600, :height => 550, :crop => :fill, :class => "thumb") %></div>
 	<%@bike.photos.each do |photo|%>
 <a href="#" class="image"><%= cl_image_tag("http://res.cloudinary.com/iwill/image/upload/#{photo.path}", :width => 200, :height => 250, :crop => :fill, :class => "thumb") %></a>
