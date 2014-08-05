@@ -8,7 +8,7 @@ default :from => 'webapp <steve@bov.nu>'
     @submission = submission
 
   #  mail :to => "phil@bov.nu, steve@bov.nu" ,:subject => "Submission from #{dom}"
-  mail :to => "bikerman12@hotmail.com,bigbov99@gmail.com" ,:subject => "Submission from #{dom}"
+  mail :to => "bikerman12@hotmail.co.uk,bigbov99@gmail.com" ,:subject => "Submission from #{dom}"
   end
 
 def sub_ack(dom,bike,submission)
@@ -25,7 +25,7 @@ end
     @contact = contact
 
   #  mail :to => "phil@bov.nu, steve@bov.nu ,bikerman12@hotmail.com,bigbov99@gmail.com" ,:subject => "Submission from #{dom}"
-  mail :to => "bikerman12@hotmail.com,bigbov99@gmail.com" ,:subject => "Contact Request from #{dom}"
+  mail :to => "bikerman12@hotmail.co.uk,bigbov99@gmail.com" ,:subject => "Contact Request from #{dom}"
   end
 
 def feedback_ack(dom,contact)
