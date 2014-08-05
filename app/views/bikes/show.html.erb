@@ -32,10 +32,14 @@
 	<%#= bike.first.inspect%>
 	<% if !@bike.photos.first.blank? %>
 <div id="image"><%= cl_image_tag("http://res.cloudinary.com/iwill/image/upload/#{@bike.photos.first.path}", :width => 600, :height => 550, :crop => :fill, :class => "thumb") %></div>
+	<% else %>
+		<%= featured_image_left%>
 	<% end %>
 	<%@bike.photos.each do |photo|%>
 		<% if !photo.nil? %>
 <a href="#" class="image"><%= cl_image_tag("http://res.cloudinary.com/iwill/image/upload/#{photo.path}", :width => 200, :height => 250, :crop => :fill, :class => "thumb") %></a>
+		<% else %>
+			<%= featured_image_left%>
 		<% end %>
 <% end %>	
 	</div>
