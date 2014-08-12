@@ -5,6 +5,7 @@ module DomainHelper
     domain_suff = request.host
       logger.info "Domain #{domain_suff}"
     if domain_suff.include? 'localhost' then domain_suff = 'localhost' end
+    if domain_suff.include? '2wheels' then domain_suff = 'Motorcycle' end
     if domain_suff.include? 'bike' then domain_suff = '' end
     if domain_suff.include? 'honda' then domain_suff = 'Honda' end
     if domain_suff.include? 'ducati' then domain_suff = 'Ducati' end
