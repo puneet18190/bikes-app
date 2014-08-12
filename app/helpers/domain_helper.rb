@@ -38,6 +38,7 @@ module DomainHelper
     domain_suff1 = request.host
     logger.info "Image Make #{domain_suff1}"
    return cl_image_tag("/assets/VT750.png", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'bike'
+    return cl_image_tag("/assets/2009-Honda-InterceptorVFR800FIa-small.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? '2wheels'
    return cl_image_tag("/assets/honda_cbr_600rr_black_wide.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'honda'
    return cl_image_tag("/assets/ducati-1199-panigale-black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'ducati'
    return cl_image_tag("/assets/0808_hbkp_03_z+Harley-Davidson_Night_Rod_Special+Black.jpg", :width => 4000, :height => 5500, :crop => :fill) if domain_suff1.include? 'harley'
