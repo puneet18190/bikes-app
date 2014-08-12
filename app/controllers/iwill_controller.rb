@@ -15,6 +15,7 @@ skip_before_filter :verify_authenticity_token, :only => [:clicks]
       		@bikes = Bike.all
       		@bikes_make = Bike.where(:make => @bike_make).all
 	 	StatsMix.track('Domain Recorded', 1, :meta => {"Domain" => @bike_make})
+    StatsMix.track('Index Loads',1)
   end
 
   def contact
@@ -144,6 +145,7 @@ def create
       Notifier.feedback_received(request.host,@contact_us).deliver     
       Notifier.feedback_ack(request.host,@contact_us).deliver
       redirect_to :index, notice: "Thank you for your feedback. We will contact you soon !"
+      StatsMix.track('Contact Us',1)
     else
       flash[:alert] = 'Errors'
       render :action => 'contact'  ,   notice: "Its all fucked"

@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-  <data-source source="LOCAL" name="Rails backend: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="e2972727-798e-45e1-a89e-a03da63a340c">
-    <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-    <jdbc-url>jdbc:postgresql://127.0.0.1/app-dev</jdbc-url>
-    <user-name>user</user-name>
-    <libraries>
-      <library>
-        <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
-      </library>
-      <library>
-        <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.1-901.jdbc3.jar</url>
-      </library>
-    </libraries>
+  <data-source source="LOCAL" name="Rails backend: production" uuid="e2972727-798e-45e1-a89e-a03da63a340c">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails backend: development" uuid="7a7dbf68-72fb-4c17-b8df-a84b1cd2335e">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
 </component>
