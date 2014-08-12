@@ -29,6 +29,10 @@ module DomainHelper
     @rv = domain_suff
   end
 
+  def rel
+    @rv=release["name"]
+  end
+
   def make_image
     domain_suff1 = request.host
     logger.info "Image Make #{domain_suff1}"

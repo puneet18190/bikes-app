@@ -4,7 +4,7 @@ class IwillController < ApplicationController
 
 skip_before_filter :verify_authenticity_token, :only => [:clicks]
 
- include Metatags
+  include Metatags
   metatags :title => "bikes, Motorcycles, latest trends in bikes ", :description => :amend_description, :short_tag => :make, :keywords => :bike_keywords, :canonical => :submission_url
  # resources :notifier
  # resources :submission

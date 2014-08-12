@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a7ae94-1980-4195-acc7-b08df639e9fb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/domain_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/iwill_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/iwill_controller.rb" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +38,7 @@
       <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="39" selection-start="4236" selection-end="4236" vertical-scroll-proportion="-45.166668" vertical-offset="851" max-vertical-offset="2355">
+            <state line="17" column="82" selection-start="565" selection-end="565" vertical-scroll-proportion="0.625" vertical-offset="270" max-vertical-offset="2355">
               <folding />
             </state>
           </provider>
@@ -60,19 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iwill.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="iwill.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="8" selection-start="6653" selection-end="6653" vertical-scroll-proportion="0.69945353" vertical-offset="2676" max-vertical-offset="3360">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="statsmix.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/statsmix.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+            <state line="208" column="24" selection-start="6711" selection-end="6711" vertical-scroll-proportion="-18.5" vertical-offset="2676" max-vertical-offset="3360">
               <folding />
             </state>
           </provider>
@@ -81,7 +74,7 @@
       <file leaf-file-name="domain_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="95" selection-start="3235" selection-end="3235" vertical-scroll-proportion="0.0" vertical-offset="2007" max-vertical-offset="2625">
+            <state line="33" column="5" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2685">
               <folding />
             </state>
           </provider>
@@ -100,6 +93,15 @@
         <entry file="file://$PROJECT_DIR$/config/initializers/wrap_parameters.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iwill_controller.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/iwill_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="1" selection-start="149" selection-end="149" vertical-scroll-proportion="0.15706806" vertical-offset="0" max-vertical-offset="3180">
               <folding />
             </state>
           </provider>
@@ -151,19 +153,19 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/models/submission.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/views/iwill/_contact_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/iwill/_vform.html.erb" />
         <option value="$PROJECT_DIR$/app/views/iwill/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/iwill/_feature_block.html.erb" />
         <option value="$PROJECT_DIR$/app/views/iwill/faq.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/iwill_controller.rb" />
         <option value="$PROJECT_DIR$/config/initializers/bike_makers.rb" />
         <option value="$PROJECT_DIR$/app/views/iwill/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/initializers/heroku.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
+        <option value="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/iwill_controller.rb" />
       </list>
     </option>
   </component>
@@ -1155,16 +1157,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/iwill_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="47" selection-start="4193" selection-end="4193" vertical-scroll-proportion="0.0" vertical-offset="1846" max-vertical-offset="3180">
-          <folding>
-            <marker date="1407844023165" expanded="true" signature="-1:-1" placeholder=" ... end" />
-            <marker date="1407844023165" expanded="true" signature="-1:-1" placeholder="#..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/bikes/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="1365">
@@ -1255,21 +1247,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="39" selection-start="4236" selection-end="4236" vertical-scroll-proportion="-45.166668" vertical-offset="851" max-vertical-offset="2355">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="95" selection-start="3235" selection-end="3235" vertical-scroll-proportion="0.0" vertical-offset="2007" max-vertical-offset="2625">
+        <state line="17" column="82" selection-start="565" selection-end="565" vertical-scroll-proportion="0.625" vertical-offset="270" max-vertical-offset="2355">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="8" selection-start="6653" selection-end="6653" vertical-scroll-proportion="0.69945353" vertical-offset="2676" max-vertical-offset="3360">
+        <state line="208" column="24" selection-start="6711" selection-end="6711" vertical-scroll-proportion="-18.5" vertical-offset="2676" max-vertical-offset="3360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="5" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/iwill_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="149" selection-end="149" vertical-scroll-proportion="0.15706806" vertical-offset="0" max-vertical-offset="3180">
           <folding />
         </state>
       </provider>
