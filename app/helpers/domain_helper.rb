@@ -30,7 +30,7 @@ module DomainHelper
   end
 
   def rel
-    @rv=release["name"]
+    @rv = release["name"]
   end
 
   def make_image
