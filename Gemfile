@@ -12,6 +12,8 @@ gem 'jquery-rails'
 # heroku
 gem 'rails_on_heroku'
 gem 'rails_12factor', group: :production
+# heroku to get deployment info
+gem 'heroku-api'
 
 # SEO
 gem 'meta-tags', :require => 'meta_tags'
@@ -35,6 +37,10 @@ gem 'activerecord-deprecated_finders'
 gem 'json'
 
 gem 'newrelic_rpm'
+
+# Postcode lookup
+gem 'pat'
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

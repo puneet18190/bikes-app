@@ -260,6 +260,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activerecord (v4.0.8, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activerecord-deprecated_finders (v1.0.3, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v4.0.8, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="addressable (v2.3.6, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="annotate (v2.6.5, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v4.0.2, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="attachinary (v2.0.0@48c0e8, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
@@ -286,9 +287,11 @@
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.2.5, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="escape (v0.0.4, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="excon (v0.39.4, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.2.1, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="gherkin (v2.12.2, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="google-analytics-rails (v0.0.6, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="heroku-api (v0.3.19, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.11, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.1.1, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
@@ -310,8 +313,10 @@
     <orderEntry type="library" scope="PROVIDED" name="newrelic_rpm (v3.9.1.236, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.5.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="paperclip (v3.5.4, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pat (v0.2.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="pg (v0.17.1, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.5, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="promise (v0.3.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="protected_attributes (v1.0.8, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.5.2, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-test (v0.6.2, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
@@ -329,6 +334,7 @@
     <orderEntry type="library" scope="PROVIDED" name="sass (v3.2.19, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sass-rails (v4.0.3, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simple_form (v3.1.0.rc2@ed3de1, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simple_oauth (v0.2.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sitemap_generator (v5.0.4, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v2.11.0, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets-rails (v2.1.3, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
@@ -343,6 +349,7 @@
     <orderEntry type="library" scope="PROVIDED" name="uglifier (v2.5.3, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="validates_email_format_of (v1.5.3, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="warden (v1.2.3, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="weary (v1.1.3, RVM: ruby-2.0.0-p247 [global]) [gem]" level="application" />
   </component>
   <component name="RModuleSettingsStorage">
     <LOAD_PATH number="0" />
