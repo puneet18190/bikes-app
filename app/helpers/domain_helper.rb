@@ -30,7 +30,7 @@ module DomainHelper
   end
 
   def rel
-    @rv = release["name"]
+    @rel = ENV["HEROKU_RELEASE_NAME"]
   end
 
   def make_image

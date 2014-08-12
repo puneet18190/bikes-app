@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="99a7ae94-1980-4195-acc7-b08df639e9fb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/domain_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,8 +19,8 @@
     <SUITE FILE_PATH="coverage/backend@db_migrate__1_.coverage" NAME="db:migrate (1) Coverage Results" MODIFIED="1406626758504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="backend" />
     <SUITE FILE_PATH="coverage/backend@db_migrate__4_.coverage" NAME="db:migrate (4) Coverage Results" MODIFIED="1406626830216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="backend" />
     <SUITE FILE_PATH="coverage/backend@db_migrate__3_.coverage" NAME="db:migrate (3) Coverage Results" MODIFIED="1406626819447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="backend" />
+    <SUITE FILE_PATH="coverage/backend@Development__backend.coverage" NAME="Development: backend Coverage Results" MODIFIED="1407856393582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="backend" />
     <SUITE FILE_PATH="coverage/backend@db_migrate.coverage" NAME="db:migrate Coverage Results" MODIFIED="1406627102589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="backend" />
-    <SUITE FILE_PATH="coverage/backend@Development__backend.coverage" NAME="Development: backend Coverage Results" MODIFIED="1406627171045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="backend" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -54,7 +55,7 @@
       <file leaf-file-name="heroku.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/heroku.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+            <state line="7" column="29" selection-start="204" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -63,7 +64,7 @@
       <file leaf-file-name="iwill.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="12" selection-start="6665" selection-end="6665" vertical-scroll-proportion="0.61748636" vertical-offset="2721" max-vertical-offset="3360">
+            <state line="206" column="41" selection-start="6688" selection-end="6688" vertical-scroll-proportion="0.6721311" vertical-offset="2721" max-vertical-offset="3360">
               <folding />
             </state>
           </provider>
@@ -72,7 +73,7 @@
       <file leaf-file-name="domain_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="10" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2685">
+            <state line="34" column="39" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2685">
               <folding />
             </state>
           </provider>
@@ -161,9 +162,9 @@
         <option value="$PROJECT_DIR$/app/views/iwill/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/initializers/heroku.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/iwill_controller.rb" />
         <option value="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
       </list>
     </option>
   </component>
@@ -1236,23 +1237,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/heroku.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/iwill_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="1" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="10" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2685">
           <folding />
         </state>
       </provider>
@@ -1264,9 +1251,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/heroku.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="204" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="39" selection-start="1449" selection-end="1449" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="12" selection-start="6665" selection-end="6665" vertical-scroll-proportion="0.61748636" vertical-offset="2721" max-vertical-offset="3360">
+        <state line="206" column="41" selection-start="6688" selection-end="6688" vertical-scroll-proportion="0.6721311" vertical-offset="2721" max-vertical-offset="3360">
           <folding />
         </state>
       </provider>
