@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a7ae94-1980-4195-acc7-b08df639e9fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/iwill/_vform.html.erb" afterPath="$PROJECT_DIR$/app/views/iwill/_vform.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,15 +65,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="heroku.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/heroku.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="204" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="iwill.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
           <provider selected="true" editor-type-id="text-editor">
@@ -119,10 +110,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_vform.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_vform.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/iwill/_vform.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="49" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.37887067" vertical-offset="437" max-vertical-offset="1155">
+            <state line="43" column="49" selection-start="1645" selection-end="1645" vertical-scroll-proportion="-8.666667" vertical-offset="437" max-vertical-offset="1155">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.yml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/database.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="43" selection-start="613" selection-end="613" vertical-scroll-proportion="0.43515357" vertical-offset="135" max-vertical-offset="1005">
               <folding />
             </state>
           </provider>
@@ -165,7 +165,6 @@
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/app/models/submission.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/views/iwill/_contact_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/iwill/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/iwill/_feature_block.html.erb" />
@@ -180,6 +179,7 @@
         <option value="$PROJECT_DIR$/app/mailers/notifier.rb" />
         <option value="$PROJECT_DIR$/app/views/notifier/sub_received.html.erb" />
         <option value="$PROJECT_DIR$/app/views/iwill/_vform.html.erb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
       </list>
     </option>
   </component>
@@ -1159,13 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="1" selection-start="843" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="1005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
@@ -1308,7 +1301,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/iwill/_vform.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="49" selection-start="1645" selection-end="1645" vertical-scroll-proportion="0.37887067" vertical-offset="437" max-vertical-offset="1155">
+        <state line="43" column="49" selection-start="1645" selection-end="1645" vertical-scroll-proportion="-8.666667" vertical-offset="437" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="43" selection-start="613" selection-end="613" vertical-scroll-proportion="0.43515357" vertical-offset="135" max-vertical-offset="1005">
           <folding />
         </state>
       </provider>
