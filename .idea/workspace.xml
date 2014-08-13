@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99a7ae94-1980-4195-acc7-b08df639e9fb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/iwill/_vform.html.erb" afterPath="$PROJECT_DIR$/app/views/iwill/_vform.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/notifier.rb" afterPath="$PROJECT_DIR$/app/mailers/notifier.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/notifier/sub_received.html.erb" afterPath="$PROJECT_DIR$/app/views/notifier/sub_received.html.erb" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,7 +122,7 @@
       <file leaf-file-name="_vform.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/iwill/_vform.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="68" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.10564663" vertical-offset="437" max-vertical-offset="1125">
+            <state line="34" column="56" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.13296904" vertical-offset="437" max-vertical-offset="1125">
               <folding />
             </state>
           </provider>
@@ -1310,7 +1308,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/iwill/_vform.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="68" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.10564663" vertical-offset="437" max-vertical-offset="1125">
+        <state line="34" column="56" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.13296904" vertical-offset="437" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
