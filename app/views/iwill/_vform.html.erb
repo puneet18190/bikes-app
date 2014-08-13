@@ -33,7 +33,7 @@
           </p>
           <%#= submission_form.input :make %>
           <div class="form-inputs">
-          <% if request.host.include? 'bike' %>
+          <% if request.host.include? 'bike' || '2wheels' %>
           <%= submission_form.input :make, :collection => BIKE_MAKERS, :prompt => "Choose a Bike Make" %>
           <% else %>
           <%= submission_form.input :make, :input_html => {:value => "#{domain_suff}" ,:readonly => true} %>

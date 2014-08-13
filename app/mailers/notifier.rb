@@ -6,6 +6,7 @@ default :from => 'webapp <steve@bov.nu>'
     @inurl = dom
     @bike = bike
     @submission = submission
+    @postcode = Pat.get(@submission.postcode)
 
   #  mail :to => "phil@bov.nu, steve@bov.nu" ,:subject => "Submission from #{dom}"
   mail :to => "bikerman12@hotmail.co.uk,bigbov99@gmail.com" ,:subject => "Submission from #{dom}"

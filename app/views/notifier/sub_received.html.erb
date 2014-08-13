@@ -9,9 +9,9 @@
   Valuation request from <%= @submission.first_name %> <%= @submission.last_name %>
 </p>
 <p>Email: <%= @submission.email %></p>
-<p>Jelly Bone: <%= @submission.phone %><hr></p>
+<p>Telephone: <%= @submission.phone %><hr></p>
 
-<p>The rust bucket, chicken chaser, chinese shite is:-</P>
+<p>The bike submitted for valuation is:-</P>
 
   Make: <%= @submission.make %></br>
   Model: <%= @submission.model %></br>
@@ -20,6 +20,7 @@
 <p>
   Mileage: <%= @submission.mileage %></br>
   Postcode: <%= @submission.postcode %></p>
+<%= @postcode["administrative"] %>
 
 <p>  Information: <%= @submission.other %></br>
   Value: <%= @submission.value_wanted %></p>

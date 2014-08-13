@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a7ae94-1980-4195-acc7-b08df639e9fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/domain_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/iwill/_vform.html.erb" afterPath="$PROJECT_DIR$/app/views/iwill/_vform.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/notifier.rb" afterPath="$PROJECT_DIR$/app/mailers/notifier.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/notifier/sub_received.html.erb" afterPath="$PROJECT_DIR$/app/views/notifier/sub_received.html.erb" />
     </list>
     <ignored path="backend.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,16 +48,21 @@
         <entry file="file://$PROJECT_DIR$/app/views/bikes/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="23.75" vertical-offset="585" max-vertical-offset="1365">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="35" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2220">
-              <folding />
+              <folding>
+                <marker date="1407326251840" expanded="true" signature="511:571" placeholder="..." />
+                <marker date="1407326251840" expanded="true" signature="622:905" placeholder="..." />
+                <marker date="1407326251840" expanded="true" signature="648:895" placeholder="..." />
+                <marker date="1407326251840" expanded="true" signature="932:2321" placeholder="..." />
+                <marker date="1407326251840" expanded="true" signature="992:2262" placeholder="..." />
+                <marker date="1407326251840" expanded="true" signature="1002:1294" placeholder="..." />
+                <marker date="1407326251840" expanded="true" signature="1011:1283" placeholder="..." />
+                <marker date="1407326251840" expanded="true" signature="1304:2253" placeholder="..." />
+                <marker date="1407326251840" expanded="true" signature="1347:2228" placeholder="..." />
+                <marker date="1407326251840" expanded="true" signature="1717:1872" placeholder="..." />
+                <marker date="1407326251840" expanded="false" signature="1765:1776" placeholder="..." />
+                <marker date="1407326251840" expanded="false" signature="1832:1841" placeholder="..." />
+                <marker date="1407326251840" expanded="true" signature="1885:2216" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -78,46 +85,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="domain_helper.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="domain_helper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="159" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.57591623" vertical-offset="270" max-vertical-offset="2715">
+            <state line="40" column="159" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2715">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wrap_parameters.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/wrap_parameters.rb">
+      <file leaf-file-name="notifier.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/mailers/notifier.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+            <state line="9" column="25" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iwill_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/iwill_controller.rb">
+      <file leaf-file-name="sub_received.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/notifier/sub_received.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="1" selection-start="149" selection-end="149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3180">
+            <state line="24" column="34" selection-start="675" selection-end="675" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="735">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="metatags.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/metatags.rb">
+      <file leaf-file-name="valuation.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/iwill/valuation.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bike_makers.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/bike_makers.rb">
+      <file leaf-file-name="_vform.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/iwill/_vform.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="20" selection-start="111" selection-end="111" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="33" column="68" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.10564663" vertical-offset="437" max-vertical-offset="1125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sub_received.text.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/notifier/sub_received.text.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -153,7 +169,6 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/views/iwill/_contact_form.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/iwill/_vform.html.erb" />
         <option value="$PROJECT_DIR$/app/views/iwill/contact.html.erb" />
         <option value="$PROJECT_DIR$/app/views/iwill/_feature_block.html.erb" />
         <option value="$PROJECT_DIR$/app/views/iwill/faq.html.erb" />
@@ -164,6 +179,9 @@
         <option value="$PROJECT_DIR$/app/controllers/iwill_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
         <option value="$PROJECT_DIR$/app/helpers/domain_helper.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/notifier.rb" />
+        <option value="$PROJECT_DIR$/app/views/notifier/sub_received.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/iwill/_vform.html.erb" />
       </list>
     </option>
   </component>
@@ -345,6 +363,10 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notifier" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -387,6 +409,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="iwill" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dry-journey-5934" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -930,16 +970,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="675" selection-end="675" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="390" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/iwill/_contact_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="932" selection-end="932" vertical-scroll-proportion="-0.0" vertical-offset="390" max-vertical-offset="480" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
@@ -972,16 +1002,6 @@
     <entry file="file://$PROJECT_DIR$/db/migrate/20140722045337_create_attachinary_tables.attachinary.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="542" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/iwill/_vform.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="56" selection-start="1530" selection-end="1530" vertical-scroll-proportion="0.5979381" vertical-offset="78" max-vertical-offset="975" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/mailers/notifier.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="897" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/contact.rb">
@@ -1162,17 +1182,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/iwill/valuation.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
-          <folding>
-            <marker date="1406626244528" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1406626244528" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1406626244528" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/initializers/statsmix.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583">
@@ -1239,7 +1248,21 @@
     <entry file="file://$PROJECT_DIR$/app/views/bikes/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="23.75" vertical-offset="585" max-vertical-offset="1365">
-          <folding />
+          <folding>
+            <marker date="1407326251840" expanded="true" signature="511:571" placeholder="..." />
+            <marker date="1407326251840" expanded="true" signature="622:905" placeholder="..." />
+            <marker date="1407326251840" expanded="true" signature="648:895" placeholder="..." />
+            <marker date="1407326251840" expanded="true" signature="932:2321" placeholder="..." />
+            <marker date="1407326251840" expanded="true" signature="992:2262" placeholder="..." />
+            <marker date="1407326251840" expanded="true" signature="1002:1294" placeholder="..." />
+            <marker date="1407326251840" expanded="true" signature="1011:1283" placeholder="..." />
+            <marker date="1407326251840" expanded="true" signature="1304:2253" placeholder="..." />
+            <marker date="1407326251840" expanded="true" signature="1347:2228" placeholder="..." />
+            <marker date="1407326251840" expanded="true" signature="1717:1872" placeholder="..." />
+            <marker date="1407326251840" expanded="false" signature="1765:1776" placeholder="..." />
+            <marker date="1407326251840" expanded="false" signature="1832:1841" placeholder="..." />
+            <marker date="1407326251840" expanded="true" signature="1885:2216" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1252,7 +1275,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/domain_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="159" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.57591623" vertical-offset="270" max-vertical-offset="2715">
+        <state line="40" column="159" selection-start="1892" selection-end="1892" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="2715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/notifier/sub_received.text.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/notifier.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/notifier/sub_received.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="34" selection-start="675" selection-end="675" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/iwill/valuation.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="586">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/iwill/_vform.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="68" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.10564663" vertical-offset="437" max-vertical-offset="1125">
           <folding />
         </state>
       </provider>
