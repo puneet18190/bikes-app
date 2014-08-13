@@ -36,7 +36,7 @@ gem 'activerecord-deprecated_finders'
 
 gem 'json'
 
-gem 'newrelic_rpm'
+#gem 'newrelic_rpm'
 
 # Postcode lookup
 gem 'pat'
