@@ -22,6 +22,7 @@ gem 'sitemap_generator'
 # analyptics
 gem 'mixpanel'
 gem 'google-analytics-rails'
+gem 'informant-rails'
 
 # Email validation
 gem 'validates_email_format_of'
