@@ -26,6 +26,7 @@ skip_before_filter :verify_authenticity_token, :only => [:clicks]
   end
 
 def create
+  StatsMix.track('Valuation Loads',1)
 
     Rails.logger.info "My info message"
     Rails.logger.debug "My info message"
@@ -49,6 +50,7 @@ def create
     if !Rails.env.test?
       captcha = verify_recaptcha
       flash[:error] = "Incorrect captcha" unless captcha
+      StatsMix.track('Valuation failed captcha',1)
     else
       captcha = true
     end
