@@ -35,6 +35,8 @@ gem 'actionpack-page_caching'
 gem 'actionpack-action_caching'
 gem 'activerecord-deprecated_finders'
 
+gem 'social-share-button'
+
 gem 'json'
 
 #gem 'newrelic_rpm'

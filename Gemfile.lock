@@ -209,6 +209,9 @@ GEM
     simple_oauth (0.2.0)
     sitemap_generator (5.0.4)
       builder
+    social-share-button (0.1.6)
+      coffee-rails
+      sass-rails
     sprockets (2.11.0)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -302,6 +305,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.0.rc1)
   simple_form!
   sitemap_generator
+  social-share-button
   sprockets-rails
   statsmix
   therubyracer
