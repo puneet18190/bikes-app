@@ -31,6 +31,7 @@ Backend::Application.routes.draw do
      post 'create' => 'iwill#create' #controller only no page
      get 'faq' => 'iwill#faq'
      #get 'stats' => 'iwill#stats'
+     get 'test' => 'iwill#test'
      post 'clicks' => 'iwill#clicks'
  #   constraints (DomainConstraint.new(['site.com', 'www.site.com'])) do
  #     root to: 'desktop#index'
