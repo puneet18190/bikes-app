@@ -2,7 +2,7 @@ class BikesController < ApplicationController
  #before_filter :authenticate, :except => [:index, :show]
   # GET /bikes
   # GET /bikes.json
- # layout 'iwill'
+  layout 'iwill'
 
   include Metatags
   metatags :title => "bikes, Motorcycles, latest trends in bikes ", :description => :amend_description, :short_tag => :make, :keywords => :bike_keywords
