@@ -100,4 +100,6 @@ Backend::Application.configure do
 
   # replace this with your production tracker code
   GA.tracker = "UA-42269146-1"
+
+  config.log_tags = [ :subdomain, :uuid, lambda { |request| request.user_agent } ]
 end
