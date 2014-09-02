@@ -29,8 +29,8 @@ def create
   StatsMix.track('Valuation Loads',1)
 
     Rails.logger.info "My info message"
-    Rails.logger.debug "My info message"
-    Rails.logger.warn "My info message"
+   # Rails.logger.debug "My info message"
+   # Rails.logger.warn "My info message"
 
     #@submission = Submission.new
 
@@ -50,7 +50,7 @@ def create
     if !Rails.env.test?
       captcha = verify_recaptcha
       flash[:error] = "Incorrect captcha" unless captcha
-      StatsMix.track('Valuation failed captcha',1)
+      StatsMix.track('Valuation failed captcha',1)   unless captcha
     else
       captcha = true
     end
