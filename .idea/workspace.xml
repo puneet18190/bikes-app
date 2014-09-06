@@ -95,7 +95,7 @@
       <file leaf-file-name="iwill.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="47" selection-start="6129" selection-end="6129" vertical-scroll-proportion="0.75" vertical-offset="1935" max-vertical-offset="3405">
+            <state line="168" column="39" selection-start="6040" selection-end="6040" vertical-scroll-proportion="0.6802326" vertical-offset="1935" max-vertical-offset="3405">
               <folding />
             </state>
           </provider>
@@ -1535,7 +1535,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="47" selection-start="6129" selection-end="6129" vertical-scroll-proportion="0.75" vertical-offset="1935" max-vertical-offset="3405">
+        <state line="168" column="39" selection-start="6040" selection-end="6040" vertical-scroll-proportion="0.6802326" vertical-offset="1935" max-vertical-offset="3405">
           <folding />
         </state>
       </provider>
