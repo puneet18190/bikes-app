@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99a7ae94-1980-4195-acc7-b08df639e9fb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/iwill/index.html.erb" afterPath="$PROJECT_DIR$/app/views/iwill/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
     </list>
     <ignored path="backend.iws" />
@@ -103,19 +102,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="iwill.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="iwill.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="60" selection-start="4792" selection-end="4792" vertical-scroll-proportion="0.625" vertical-offset="1935" max-vertical-offset="3375">
+            <state line="144" column="97" selection-start="5129" selection-end="5129" vertical-scroll-proportion="0.2616279" vertical-offset="1935" max-vertical-offset="3390">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="109" selection-start="4201" selection-end="4201" vertical-scroll-proportion="0.48453608" vertical-offset="1482" max-vertical-offset="2355">
+            <state line="130" column="113" selection-start="4257" selection-end="4350" vertical-scroll-proportion="-21.375" vertical-offset="1437" max-vertical-offset="2355">
               <folding />
             </state>
           </provider>
@@ -185,8 +184,8 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/unicorn.rb" />
         <option value="$PROJECT_DIR$/app/Procfile" />
-        <option value="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
         <option value="$PROJECT_DIR$/app/views/iwill/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/iwill.html.erb" />
       </list>
     </option>
   </component>
@@ -1455,16 +1454,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="128" column="60" selection-start="4792" selection-end="4792" vertical-scroll-proportion="0.625" vertical-offset="1935" max-vertical-offset="3375">
+        <state line="130" column="113" selection-start="4257" selection-end="4350" vertical-scroll-proportion="-21.375" vertical-offset="1437" max-vertical-offset="2355">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/iwill/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/iwill.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="109" selection-start="4201" selection-end="4201" vertical-scroll-proportion="0.48453608" vertical-offset="1482" max-vertical-offset="2355">
+        <state line="144" column="97" selection-start="5129" selection-end="5129" vertical-scroll-proportion="0.2616279" vertical-offset="1935" max-vertical-offset="3390">
           <folding />
         </state>
       </provider>
