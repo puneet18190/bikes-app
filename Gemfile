@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.0.0"
+#ruby "2.0.0"
 
 gem 'rails', '>= 4.0.0'
 gem 'rake', '10.1.0'
@@ -50,7 +50,6 @@ gem 'pat'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql2'
 # gem 'nokogiri'
 gem 'pg'
 
@@ -76,6 +75,7 @@ group :development do
   # Capistrano stuff
 #  gem 'capistrano'
 #  gem 'capistrano-unicorn', :git => 'https://github.com/sosedoff/capistrano-unicorn.git', :branch => 'master', :require => false
+	gem 'debugger'
 end
 
 
@@ -125,9 +125,6 @@ gem "better_errors"
 
 # annotate models with db schema in header - basic use cd /path/to/app then annotate
 gem "annotate"
-
-# To use debugger
-gem 'debugger'
 
 gem "cucumber"
 
