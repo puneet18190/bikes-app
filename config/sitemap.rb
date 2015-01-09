@@ -24,4 +24,14 @@ SitemapGenerator::Sitemap.create do
   #   Article.find_each do |article|
   #     add article_path(article), :lastmod => article.updated_at
   #   end
+  add '/', :changefreq => 'daily', :priority => 1
+  add '/submission', :changefreq => 'daily'
+  add '/iwill', :changefreq => 'daily', :priority => 0.9
+  add '/contact', :changefreq => 'weekly'
+  add '/valuation', :changefreq => 'daily'
+  add '/featured', :changefreq => 'daily'
+  add '/random', :changefreq => 'daily'
+  add '/faq', :changefreq => 'weekly'
+  add '/bikes', :changefreq => 'daily', :priority => 0.9
 end
+
