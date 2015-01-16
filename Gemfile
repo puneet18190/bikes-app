@@ -75,7 +75,7 @@ group :development do
   # Capistrano stuff
 #  gem 'capistrano'
 #  gem 'capistrano-unicorn', :git => 'https://github.com/sosedoff/capistrano-unicorn.git', :branch => 'master', :require => false
-	gem 'debugger'
+	#gem 'debugger'
 end
 
 
@@ -142,3 +142,4 @@ gem 'devise'
 
 #metrics calculation
 gem 'statsmix'
+gem 'puma'
