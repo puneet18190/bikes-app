@@ -110,7 +110,6 @@ end
 group :production do
 # Use unicorn as the app server
 # gem 'unicorn'
-
 end
 
 # Deploy with Capistrano
@@ -142,4 +141,4 @@ gem 'devise'
 
 #metrics calculation
 gem 'statsmix'
-gem 'puma'
+gem 'thin'
