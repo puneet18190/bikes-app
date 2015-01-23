@@ -19,6 +19,8 @@
 
   %>
 <%= javascript_include_tag "jquery_ujs" %>
+<%= javascript_include_tag "jquery.ui.widget", "jquery.iframe-transport", 
+                           "jquery.fileupload", "cloudinary/jquery.cloudinary" %>
 <%= cloudinary_js_config %>
   <%#= display_meta_tags %>
  <%= display_meta_tags :site => "iwillbuyanybike.co.uk", :description => Metatags::DESCRIPTION, :keywords => Metatags::KEYWORDS %>
@@ -33,21 +35,21 @@
 
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 
-<script type="text/javascript">
-	$('document').ready(function(){
-		$('.linkurl').click(function(){
-			var id = $(this).attr('id')
-			$.ajax({
-                		type: "POST",
-                		url: "/clicks",
-                		data: { id: id},
-                		success: function( data) {
-					//$("#data_display").html(data);
-                		}
-            		});
-		});
-	});
-</script>
+ <!--<script type="text/javascript">
+// 	$('document').ready(function(){
+// 		$('.linkurl').click(function(){
+// 			var id = $(this).attr('id')
+// 			$.ajax({
+//                 		type: "POST",
+//                 		url: "/clicks",
+//                 		data: { id: id},
+//                 		success: function( data) {
+// 					//$("#data_display").html(data);
+//                 		}
+//             		});
+// 		});
+// 	});
+ </script>-->
 </head>
 <body>
 <a href="#" class="scrolltop">
@@ -150,7 +152,8 @@
           <div class="row">
             <div class="span2">
               <a href="#">
-                <img src="/assets/historic-counties-small.gif" alt="post image" class="img-circle" />
+                <!-- <img src="/assets/historic-counties-small.gif" alt="post image" class="img-circle" /> -->
+                <%= cl_image_tag("historic-counties-small.gif", :alt=>"post image", :class=>"img-circle") %>
               </a>
             </div>
             <div class="span4">
