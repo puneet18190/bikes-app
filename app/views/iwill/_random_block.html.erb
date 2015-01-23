@@ -55,7 +55,7 @@
 	<% bike_photo.sample(3).each do |p| %>
 		<% if p != ""%>
 			<div class="span4 feature" style="height:400px;">
-				<%= link_to cl_image_tag("http://res.cloudinary.com/iwill/image/upload/#{p.path}", :width => 4000, :height => 5500, :crop => :fill), bike_path(p.attachinariable_id) %>
+				<%= link_to cl_image_tag("http://res.cloudinary.com/iwill/image/upload/#{p.path}", :width => 4000, :height => 5500, :crop => :fill, :style=>"height:275px"), bike_path(p.attachinariable_id) %>
 			        <h3> <i class="i_cloud"></i> 
 					<% if Bike.find(p.attachinariable_id).make.blank?%>
 						Bike
